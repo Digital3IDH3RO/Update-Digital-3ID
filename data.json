@@ -1,1 +1,1602 @@
-{"updated": "2026-10-22", "materi": [{"id": "mpp", "s": "MPP 30 Paket", "t": "Update Mekanisme Multiple Package (MPP): maksimal 30 paket", "d": "Berlaku mulai 14 Okt 2026", "sum": "Batas paket aktif (Voice, SMS, Data) naik dari 10 menjadi 30 paket pada Subscribed Products. Benefit tiap paket berdiri sendiri; paket dengan masa berlaku terpendek dipakai lebih dulu.", "src": "RENA Update Implementasi Mekanisme MPP"}, {"id": "rea", "s": "Starterpack Reaktivasi", "t": "Standard Starterpack Reaktivasi Nomor Prabayar di 3Store", "d": "Berlaku mulai 21 Okt 2026", "sum": "Reaktivasi memakai Perdana Happy 10GB 30 hari + benefit Anti Spam/Scam, OTT & AI, total Rp50.000, tanpa inject paket data tambahan (sebelumnya Rp82.000).", "src": "RENA Update Implementasi Standard Starterpack Reaktivasi (IOM 0186/PECD/SVC/26)"}, {"id": "mas", "s": "Masa Aktif Reload", "t": "Ketentuan Penambahan Masa Aktif Kartu pada Reload Pulsa", "d": "Ketentuan berlaku saat ini", "sum": "Reload menambah masa aktif sesuai validity denom, dengan batas total maksimal 365 hari.", "src": "RENA Ketentuan Penambahan Masa Aktif Kartu pada Transaksi Reload Pulsa"}, {"id": "unr", "s": "Not Registered 4443", "t": "Penanganan Keluhan Tidak Dapat Menggunakan Layanan Tri karena Status Not Registered", "d": "Ketentuan berlaku saat ini", "sum": "Nomor IM3/Tri Prabayar berstatus Not Registered / Unpaired eKTP (Offer ID 4443) tidak bisa telpon, SMS, dan internet. Solusi: registrasi prabayar di registrasi.ioh.co.id.", "src": "RENA Penanganan Keluhan Tidak Dapat Menggunakan Layanan Tri karena Status Not Registered"}, {"id": "jrn", "s": "Unreg & Cek Nomor", "t": "Update Proses Pembatalan Registrasi (Unreg) dan Pengecekan Nomor Terdaftar via Website Registrasi Prabayar", "d": "Berlaku mulai 28 Sep 2026", "sum": "Unreg dan Cek Nomor Terdaftar di registrasi.ioh.co.id kini memakai verifikasi biometrik: wajah pelanggan (>17 tahun) atau wajah Kepala Keluarga (<17 tahun).", "src": "RENA Informasi Update Journey Unreg dan Cek Nomor Terdaftar"}, {"id": "sph", "s": "SP Happy", "t": "Update Produk Starter Pack Happy di Digital Distribution dan SP Happy Khusus Reaktivasi di 3Store", "d": "Berlaku mulai 8 Okt 2026", "sum": "SP Happy 7GB 28D (Rp42.000) dan 5GB 14D (Rp30.000) hadir di Digital Distribution tanpa auto-renewal. SP Happy 10GB 30D (Rp50.000) khusus reaktivasi di 3Store, berlaku auto-renewal.", "src": "RENA Update Produk Starter Pack Happy pada Channel Digital Distribution dan Produk Starter Pack Happy Khusus Reaktivasi di 3Store"}, {"id": "dar", "s": "Deduction Darurat", "t": "Perubahan Skema Deduction Pembayaran Kuota & Flexi Darurat", "d": "Berlaku mulai 9 Okt 2026", "sum": "Seluruh skema pemotongan hutang Kuota/Flexi Darurat diseragamkan menjadi 100% dari nilai transaksi. Recovery STV (Dual Recovery) naik dari maksimal 70% menjadi 100%.", "src": "RENA Perubahan Skema Deduction Pembayaran Kuota & Flexi Darurat"}, {"id": "vas", "s": "Penutupan VAS SMS", "t": "Informasi & Penanganan Penutupan Beberapa Layanan VAS Service", "d": "Efektif 30 Sep 2026, tidak dapat diakses mulai 1 Okt 2026", "sum": "Layanan VAS berupa Konten SMS Premium yang tidak berbasis aplikasi (hanya SMS/URL) ditutup. VAS berbasis aplikasi seperti Vidio, Viu, Spotify tetap tersedia. Mulai 1 Okt 2026 tidak ada biaya berlangganan untuk layanan yang ditutup.", "src": "RENA Informasi & Penanganan Penutupan Beberapa Layanan VAS Service"}, {"id": "bic", "s": "B# Number BICP", "t": "Panduan Pengecekan Query B# Number melalui Menu BICP pada Aplikasi MOBO (IM3 dan Tri)", "d": "Panduan terbaru", "sum": "Pengecekan B# Number di menu BICP MOBO wajib dilakukan 2 kali, memakai awalan 628xxx dan 08xxx, lalu hasilnya dibandingkan sebelum disampaikan ke Outlet/Mitra.", "src": "RENA Panduan Pengecekan Query B# Number Melalui Menu BICP Pada Aplikasi MOBO (IM3 dan TRI)"}, {"id": "mmvif7qjp", "s": "SP Happy Digital Dist.", "t": "Update Produk Starter Pack (SP) Happy di Channel Digital Distribution", "d": "Berlaku mulai 8 Okt 2026", "sum": "Mulai 8 Oktober 2026 dilakukan penambahan dan perluasan channel distribusi Digital Distribution untuk SP Happy 5GB (masa aktif 14 hari) dan SP Happy 7GB (masa aktif 28 hari). Tidak ada perubahan benefit, mekanisme kuota Regional, maupun tarif dasar.", "src": "RENA + Update Produk Stater Pack (SP) Happy di Channel Digital Distribution", "ic": "📦", "c": "#0B3D6B"}], "entri": [{"m": "mpp", "k": "Perubahan", "t": "Batas MPP naik dari 10 ke 30 paket", "b": "Sebelum 14 Okt 2026: pelanggan dapat memiliki maksimal 10 paket (Voice, SMS, Data), tipe sama maupun berbeda.\nMulai 14 Okt 2026: maksimal 30 paket aktif (Voice, SMS, Data), tipe sama maupun berbeda.", "id": "e001"}, {"m": "mpp", "k": "Detail", "t": "Ketentuan inti MPP", "b": "1. Maksimal 30 paket aktif pada menu Subscribed Products, tipe sama maupun berbeda.\n2. Paket bertipe sama tercatat sebagai baris (line) terpisah.\n3. Benefit dan masa berlaku mengikuti masing-masing paket, tidak digabung.\n4. Prioritas pemakaian: paket dengan masa berlaku paling pendek lebih dulu.\n5. Jika sudah 30 paket aktif, pembelian paket tambahan tidak bisa dilakukan sampai jumlah paket aktif kurang dari 30. Pelanggan dapat menonaktifkan salah satu paket sendiri lewat aplikasi Bima+; Agent Tier 1 dapat membantu setelah ada persetujuan pelanggan atas paket yang dinonaktifkan.\n6. Paket yang masa berlakunya sudah berakhir tidak dihitung dalam batas 30 paket.", "id": "e002"}, {"m": "mpp", "k": "FAQ", "t": "Berapa jumlah maksimal paket yang dapat dimiliki pelanggan Tri?", "b": "Maksimal 30 paket aktif pada menu Subscribed Products, tipe sama maupun berbeda, termasuk Voice, SMS, dan Data.", "id": "e003"}, {"m": "mpp", "k": "FAQ", "t": "Apakah pelanggan dapat memiliki beberapa paket dengan tipe yang sama?", "b": "Ya. Setiap paket tercatat sebagai line terpisah pada menu Subscribed Products.", "id": "e004"}, {"m": "mpp", "k": "FAQ", "t": "Apakah benefit beberapa paket bertipe sama akan digabungkan?", "b": "Tidak. Benefit tidak diakumulasikan, masing-masing paket berdiri sendiri sesuai pembelian.", "id": "e005"}, {"m": "mpp", "k": "FAQ", "t": "Paket mana yang digunakan lebih dulu jika tipenya sama?", "b": "Paket dengan masa berlaku paling pendek.\nContoh: AON 18GB 365D (aktif 3 hari lalu), Happy 11GB 30D (2 hari lalu), Paket Pasti Murah 66GB 28D (1 hari lalu). Sistem memakai Pasti Murah 66GB 28D lebih dulu karena masa berlakunya paling pendek (28 hari).", "id": "e006"}, {"m": "mpp", "k": "FAQ", "t": "Apakah pelanggan bisa membeli paket baru jika sudah punya 30 paket aktif?", "b": "Tidak, sampai jumlah paket aktif kurang dari 30. Pelanggan bisa menonaktifkan salah satu paket lewat Bima+. Agent Tier 1 dapat membantu setelah mendapat persetujuan pelanggan terkait paket yang akan dinonaktifkan.", "id": "e007"}, {"m": "mpp", "k": "Penanganan", "t": "Kasus: \"Punya paket yang sama, kenapa benefitnya tidak digabung?\"", "b": "Probing:\na. Nama Pelanggan\nb. MSISDN Pelanggan\nc. Kendala yang dikeluhkan\n\nPengecekan: cek menu Subscribed Products, apakah pelanggan punya paket yang sama dengan waktu aktivasi/pembelian berbeda.\n\nPenanganan: edukasi pelanggan dengan standard jawaban di bawah.", "id": "e008"}, {"m": "mpp", "k": "Script", "t": "Standard jawaban: benefit paket sama tidak digabung", "b": "Bapak/Ibu/Kak [Nama Pelanggan], mohon maaf atas ketidaknyamanannya.\nTerkait Paket yang Bapak/Ibu/Kakak miliki, saat ini terdapat penyesuaian ketentuan pembelian paket. Apabila Bapak/Ibu/Kakak membeli Paket yang sama saat paket sebelumnya masih aktif, paket yang baru dibeli akan tercatat sebagai paket terpisah.\nDengan demikian, masa berlaku dan benefit dari masing-masing paket tidak digabungkan atau diakumulasikan. Paket sebelumnya akan tetap dapat digunakan hingga masa berlakunya berakhir, sedangkan paket yang baru dibeli memiliki masa berlaku dan benefit tersendiri sesuai dengan ketentuan paket tersebut.\nDemikian informasi yang dapat kami sampaikan. Terima kasih atas pengertian dan kepercayaan Bapak/Ibu/Kakak kepada Layanan Tri.", "id": "e009"}, {"m": "mpp", "k": "Penanganan", "t": "Kasus: Pelanggan tidak bisa membeli paket karena sudah memiliki 30 paket aktif", "b": "Pengecekan: cek menu Subscribed Products, berapa total paket aktif pelanggan saat ini.\n\nPenanganan: jika sudah 30 paket aktif, edukasi dengan standard jawaban di bawah.\n\nCatatan saat membantu penonaktifan:\n- Prioritaskan paket yang kuotanya sudah habis tetapi masa berlakunya masih panjang, atau paket yang sudah tidak dibutuhkan pelanggan. Pastikan paket yang dinonaktifkan sudah dikonfirmasi dan disetujui pelanggan.\n- Pastikan nomor yang mengajukan penonaktifan sama dengan nomor yang dipakai menghubungi Contact Center.", "id": "e010"}, {"m": "mpp", "k": "Script", "t": "Standard jawaban: sudah 30 paket aktif", "b": "Bapak/Ibu/Kak [Nama Pelanggan], mohon maaf atas ketidaknyamanannya.\nBerdasarkan pengecekan pada sistem, saat ini Bapak/Ibu/Kakak memiliki 30 paket aktif yang masih dapat digunakan.\nTerkait pembelian paket terbaru, saat ini terdapat ketentuan bahwa pelanggan dapat memiliki maksimal 30 paket aktif pada saat yang bersamaan. Apabila Bapak/Ibu/Kakak tetap ingin menggunakan paket terbaru yang telah dibeli, kami dapat membantu menonaktifkan salah satu paket aktif yang dimiliki agar paket terbaru tersebut dapat digunakan.\nPenonaktifan paket hanya dapat dilakukan atas permintaan Bapak/Ibu/Kakak. Mohon informasikan apabila Bapak/Ibu/Kakak bersedia untuk menonaktifkan salah satu paket yang masih aktif.\nDemikian informasi yang dapat kami sampaikan. Terima kasih atas pengertian dan kepercayaan Bapak/Ibu/Kakak kepada Layanan Tri.", "n": "Catatan: teks asli di RENA menulis \"maksimal 10 paket aktif\". Di sini disesuaikan menjadi 30 karena ketentuan terbaru 30 paket. Mohon konfirmasi ke pembuat materi.", "id": "e011"}, {"m": "mpp", "k": "Pencatatan", "t": "Pencatatan interaksi MPP", "b": "Intent: Inquiry\nActivity Code: 2104180002 - product tariff & benefit\nNote: MPP", "id": "e012"}, {"m": "rea", "k": "Perubahan", "t": "Starterpack reaktivasi: dari Rp82.000 menjadi Rp50.000", "b": "Sebelum 21 Okt 2026: Perdana Happy 7GB 28 hari Rp42.000 + inject Kuota Data 7GB 28 hari Rp40.000 = Rp82.000. Keyword: HP7GB28DTS (SP), RH7GB30DTS0926 (Paket Data).\nMulai 21 Okt 2026: Perdana Happy 10GB 30 hari + benefit Anti Spam/Scam, OTT & AI = Rp50.000, tanpa inject paket data tambahan. Keyword: HP10GB30DTS0926.", "id": "e013"}, {"m": "rea", "k": "Detail", "t": "Informasi biaya dan benefit reaktivasi", "b": "Biaya reaktivasi Rp50.000, termasuk kuota 10 GB, ekstra nelpon 5000 menit Onnet & 50 menit Offnet (berlaku 30 hari), serta benefit tambahan Adobe Express, Anti Spam/Scam (90 hari), dan Vidio Lite + VIU/WeTV/iQIYI.", "id": "e014"}, {"m": "rea", "k": "Detail", "t": "Pemisahan transaksi dan bukti pembayaran", "b": "Jika ada transaksi lain, proses reaktivasi dan bukti pembayaran transaksi lainnya harus dipisahkan agar tidak tercampur dengan pengajuan reaktivasi nomor.", "id": "e015"}, {"m": "rea", "k": "Script", "t": "Standard jawaban Agent 3Store sebelum memproses reaktivasi", "b": "\"Nomor 3 Prabayar Bapak/Ibu dapat direaktivasi dengan total pembayaran Rp50.000. Harga tersebut sudah termasuk kuota data 10 GB dengan masa aktif 30 hari. Apakah proses reaktivasi dapat kami lanjutkan?\"", "n": "Agent wajib menyampaikan harga dan benefit secara jelas serta memperoleh persetujuan pelanggan sebelum transaksi diproses.", "id": "e016"}, {"m": "rea", "k": "Do", "t": "Yang harus dilakukan", "b": "1. Pastikan pelanggan memenuhi seluruh persyaratan pengajuan reaktivasi.\n2. Pastikan pelanggan lolos validasi.\n3. Sampaikan ketentuan starterpack beserta benefit yang diterima.\n4. Sampaikan total biaya Rp50.000.\n5. Lakukan reaktivasi mengikuti proses yang berlaku.\n6. Pastikan reaktivasi berhasil serta layanan dan benefit diterima pelanggan.\n7. Catat interaksi untuk permintaan reaktivasi yang diterima.", "id": "e017"}, {"m": "rea", "k": "Dont", "t": "Yang tidak perlu dilakukan", "b": "1. Jangan reaktivasi jika pelanggan tidak memenuhi syarat dan validasi.\n2. Jangan proses sebelum pelanggan memahami dan menyetujui biaya.\n3. Jangan menutup layanan sebelum reaktivasi berhasil dan benefit diterima pelanggan.\n4. Jangan tidak mencatat interaksi untuk permintaan reaktivasi yang diterima.", "id": "e018"}, {"m": "rea", "k": "FAQ", "t": "Berapa biaya yang diinformasikan untuk reaktivasi nomor prabayar?", "b": "Rp50.000 sesuai ketentuan harga starterpack yang berlaku.", "id": "e019"}, {"m": "rea", "k": "FAQ", "t": "Apa saja benefit yang didapat pelanggan dari reaktivasi?", "b": "Kuota 10 GB, ekstra nelpon 5000 menit Onnet & 50 menit Offnet (30 hari), Adobe Express, Anti Spam/Scam (90 hari), dan Vidio Lite + VIU/WeTV/iQIYI.", "id": "e020"}, {"m": "rea", "k": "FAQ", "t": "Boleh menawarkan paket data add-on kepada pelanggan yang reaktivasi?", "b": "Boleh, selama disepakati kedua belah pihak. Transaksi add-on harus diproses terpisah dari pengajuan reaktivasi, termasuk bukti pembayarannya.", "id": "e021"}, {"m": "rea", "k": "FAQ", "t": "Apakah reaktivasi dapat digabung dengan transaksi lain?", "b": "Tidak. Proses dan bukti pembayaran masing-masing transaksi harus terpisah.", "id": "e022"}, {"m": "rea", "k": "FAQ", "t": "Apakah starterpack 10GB 30 hari boleh ditawarkan ke pelanggan baru?", "b": "Tidak. Hanya untuk pelanggan yang mengajukan reaktivasi nomor Tri.", "id": "e023"}, {"m": "rea", "k": "FAQ", "t": "Apakah starterpack reaktivasi menerapkan auto-renewal?", "b": "Ya, auto-renewal berlaku untuk benefit kuota pada starterpack tersebut selama pulsa pelanggan mencukupi.", "id": "e024"}, {"m": "rea", "k": "FAQ", "t": "Permintaan reaktivasi diterima sebelum 21 Okt 2026: pakai ketentuan lama atau baru?", "b": "- Diterima sebelum 21 Okt 2026 dan proses belum selesai pada 21 Okt 2026: pakai ketentuan lama (Happy 7GB 28 hari Rp42.000 + kuota data 7GB 28 hari Rp40.000, total Rp82.000).\n- Diterima pada 21 Okt 2026: wajib ketentuan baru (starterpack 10GB 30 hari, total Rp50.000).", "id": "e025"}, {"m": "mas", "k": "Detail", "t": "Mekanisme penambahan masa aktif", "b": "Pembelian pulsa sesuai denominasi yang berlaku menambah masa aktif kartu sesuai validity denom. Total masa aktif maksimal 365 hari. Jika sisa masa aktif kurang dari validity denom, penambahan hanya sampai batas 365 hari.\nContoh: masa aktif 360 hari, beli pulsa validity 100 hari, masa aktif hanya bertambah 5 hari menjadi 365 hari.", "id": "e026"}, {"m": "mas", "k": "Detail", "t": "Tabel denom pulsa dan validity (hari)", "b": "5.000, 8.000, 10.000, 12.000, 15.000, 20.000, 25.000, 30.000 = 30 hari\n35.000 = 35 | 40.000 = 40 | 45.000 = 45 | 50.000 = 50 | 55.000 = 55 | 60.000 = 60\n65.000 = 65 | 70.000 = 70 | 75.000 = 75 | 80.000 = 80 | 85.000 = 85 | 90.000 = 90 | 100.000 = 100\n105.000 = 105 | 125.000 = 125 | 150.000 = 150 | 200.000 = 200 | 250.000 = 250 | 300.000 = 300\n500.000 = 365", "id": "e027"}, {"m": "mas", "k": "Detail", "t": "Matrix penambahan masa aktif", "b": "1. Masa aktif sudah 365 hari: tidak bertambah (sudah batas maksimal).\n2. Masa aktif 30 hari, beli validity 100 hari: bertambah 100 hari, dihitung dari tanggal transaksi reload.\n3. Masa aktif 360 hari, beli validity 100 hari: bertambah 5 hari sampai batas 365 hari.", "id": "e028"}, {"m": "mas", "k": "Penanganan", "t": "Kasus: Masa aktif tidak bertambah padahal sudah beli pulsa", "b": "Probing:\na. Nama Pelanggan\nb. MSISDN Pelanggan\nc. Kendala yang dikeluhkan\n\nHasil pengecekan: masa aktif kartu sudah mencapai batas maksimal 365 hari.\nPenanganan: edukasi bahwa masa aktif memiliki batas maksimal 365 hari; jika sudah 365 hari, pembelian pulsa tidak menambah masa aktif.", "id": "e029"}, {"m": "mas", "k": "Script", "t": "Standard jawaban: masa aktif sudah 365 hari", "b": "Bapak/Ibu/Kak [Nama Pelanggan], mohon maaf atas ketidaknyamanannya. Terkait masa aktif kartu, penambahan masa aktif dari pembelian pulsa mengikuti validity denom pulsa yang dibeli, dengan batas maksimal masa aktif kartu hingga 365 hari. Karena masa aktif kartu Bapak/Ibu/Kak sudah mencapai batas maksimal tersebut, maka pembelian pulsa tidak menambah masa aktif kartu. Terima kasih atas pengertiannya.", "id": "e030"}, {"m": "mas", "k": "Penanganan", "t": "Kasus: Masa aktif tinggal 5 hari, beli pulsa Rp100.000 (validity 100 hari), apakah bertambah 100 hari?", "b": "Hasil pengecekan: masa aktif belum mencapai 365 hari dan validity denom 100 hari.\nPenanganan: edukasi bahwa masa aktif bertambah sesuai validity denom selama total tidak melebihi 365 hari.", "id": "e031"}, {"m": "mas", "k": "Script", "t": "Standard jawaban: masa aktif belum mencapai 365 hari", "b": "Bapak/Ibu/Kak [Nama Pelanggan], kami informasikan bahwa masa aktif kartu akan bertambah sesuai validity dari denom pulsa yang dibeli. Jika masa aktif saat ini tersisa 5 hari dan Bapak/Ibu/Kak melakukan pembelian pulsa dengan validity 100 hari, maka masa aktif kartu akan bertambah 100 hari dari masa aktif yang tersedia saat transaksi dilakukan.", "id": "e032"}, {"m": "mas", "k": "Penanganan", "t": "Kasus: Masa aktif 360 hari, beli pulsa Rp100.000, apakah jadi 460 hari?", "b": "Hasil pengecekan: masa aktif 360 hari, validity 100 hari, batas maksimal 365 hari.\nPenanganan: edukasi bahwa penambahan mengikuti validity denom namun dibatasi maksimal 365 hari.", "id": "e033"}, {"m": "mas", "k": "Script", "t": "Standard jawaban: masa aktif mendekati 365 hari", "b": "Bapak/Ibu/Kak [Nama Pelanggan], mohon diinformasikan bahwa masa aktif kartu memiliki batas maksimal 365 hari. Jika masa aktif saat ini sudah 360 hari dan Bapak/Ibu/Kak membeli pulsa dengan validity 100 hari, maka masa aktif kartu hanya akan bertambah 5 hari hingga mencapai batas maksimal 365 hari. Terima kasih atas pengertiannya.", "id": "e034"}, {"m": "mas", "k": "FAQ", "t": "Apakah pembelian pulsa dapat menambah masa aktif kartu?", "b": "Ya, sesuai validity denom pulsa yang dibeli, dengan batas maksimal 365 hari.", "id": "e035"}, {"m": "mas", "k": "FAQ", "t": "Jika masa aktif sudah 365 hari, apakah pembelian pulsa menambah masa aktif?", "b": "Tidak. Masa aktif tetap mengikuti batas maksimal 365 hari.", "id": "e036"}, {"m": "mas", "k": "FAQ", "t": "Jika belum 365 hari, berapa lama masa aktif bertambah setelah beli pulsa?", "b": "Sesuai validity denom pulsa yang dibeli, selama total masa aktif tidak melebihi 365 hari.", "id": "e037"}, {"m": "mas", "k": "FAQ", "t": "Bagaimana jika validity pulsa lebih besar dari sisa masa aktif menuju 365 hari?", "b": "Penambahan hanya sampai batas maksimal 365 hari. Contoh: masa aktif 360 hari + validity 100 hari = bertambah 5 hari.", "id": "e038"}, {"m": "mas", "k": "Pencatatan", "t": "Pencatatan interaksi masa aktif", "b": "Gunakan activity code 2105260001 Check Active Period (inquiry).", "id": "e039"}, {"m": "unr", "k": "Detail", "t": "Latar belakang dan identifikasi di Siebel", "b": "Keluhan: nomor IM3/Tri Prabayar tidak bisa dipakai (telpon, SMS, internet, dan layanan lain) karena status Not registered / Unpaired eKTP (nomor tidak teregistrasi).\nLakukan identifikasi sebelum memberi solusi:\n1. Status nomor Not registered / Unpaired eKTP (menu Assets, kolom Registration Status).\n2. Offer ID 4443.", "id": "e040"}, {"m": "unr", "k": "Detail", "t": "Cara cek Offer ID 4443 di Siebel", "b": "A. Melalui menu Asset:\n1. Klik menu Asset.\n2. Masuk ke menu Prepaid, scroll ke bawah.\n3. Klik Offer Information, lihat Offer ID (4443).\n\nB. Melalui menu Other Prepaid Functions:\n1. Klik Other Prepaid Functions.\n2. Klik Manual Offer Info.\n3. Input MSISDN pada Service Number, lihat Offer ID (4443).", "id": "e041"}, {"m": "unr", "k": "Penanganan", "t": "Alur penanganan di Customer Service", "b": "1. Probing:\na. Nama Pelanggan\nb. Nomor Tri yang mengalami kendala\nc. Waktu nomor Tri tidak bisa digunakan\nd. Isi notifikasi yang diterima\n\n2. Cek aplikasi CRM dan pastikan status nomor Not registered / Unpaired eKTP dan Offer ID 4443.\n\n3. Berikan solusi sesuai status nomor (lihat penanganan di bawah).", "id": "e042"}, {"m": "unr", "k": "Penanganan", "t": "Status Unregistered (Offer ID 4443)", "b": "- Pastikan status nomor masih aktif (tidak dalam masa tenggang / inactive).\n- Sarankan pelanggan melakukan registrasi prabayar melalui registrasi.ioh.co.id.\n- Edukasi langkah registrasi prabayar melalui website (jika diperlukan).", "id": "e043"}, {"m": "unr", "k": "Penanganan", "t": "Status nomor sudah registered", "b": "Penanganan mengacu prosedur yang berlaku (existing process).\n- Dapat ditangani langsung (FCR): interaksi closed, tidak eskalasi ke Tier2.\n- Tidak dapat ditangani langsung / butuh penanganan lebih lanjut (Non FCR): eskalasi ke Tier2 sesuai ketentuan.", "id": "e044"}, {"m": "unr", "k": "Penanganan", "t": "Butuh penanganan khusus (potensi viral, ancam blow up media/social media/CEO/YLKI)", "b": "Jika pelanggan sudah diberi standar informasi oleh Tier1 namun tidak berkenan / butuh penanganan khusus, eskalasi ke Tier2 melalui trouble ticket. Cantumkan lengkap: keluhan pelanggan, hasil pengecekan, informasi yang sudah disampaikan, alasan eskalasi, dan informasi lainnya.\n\nCatatan penting:\n- Tim Tier2 dapat menghubungi pelanggan untuk edukasi dan penjelasan lebih lanjut.\n- Jika pelanggan tidak dapat diedukasi / tidak menerima penjelasan Tier2 dan butuh penanganan khusus (potensi viral, ancam blow up media/social media/CEO/YLKI, dll), case dapat dieskalasikan ke Tim Special Service sesuai ketentuan.\n- Penanganan mengacu prosedur Special Case yang berlaku.", "id": "e045"}, {"m": "unr", "k": "Script", "t": "Standard jawaban: nomor belum teregistrasi", "b": "Bapak/Ibu/Kak [Nama Pelanggan], mohon maaf atas ketidaknyamanannya.\nBerdasarkan hasil pengecekan nomor Bapak/Ibu/Kakak belum teregistrasi.\nUntuk kembali menggunakan layanan Tri, silakan melakukan registrasi Prabayar melalui registrasi.ioh.co.id.\nSetelah registrasi berhasil, pelanggan dapat kembali menggunakan layanan Tri sesuai status nomor dan benefit yang dimiliki.\nTerima kasih telah menggunakan layanan Tri.", "id": "e046"}, {"m": "unr", "k": "Pencatatan", "t": "Pencatatan interaksi Not Registered 4443", "b": "Wajib dicatat di CRM. Input hashtag di awal kalimat pada field Tier1 Agent Comment (Aplikasi SF).\n\n1. Activity code 2105170001 - Prepaid reg/unreg info\nDipakai jika pelanggan menanyakan edukasi registrasi prabayar, termasuk pelanggan berstatus UNREG yang perlu registrasi kembali.\nHashtag: #UNREG_4443\n\n2. Activity code 2405180001 - Prepaid reg/unreg issue\nDipakai untuk eskalasi saat pelanggan sudah diberi standar informasi namun tidak berkenan dan butuh eskalasi ke Tier2.\nHashtag: #UNREG_4443", "id": "e047"}, {"m": "unr", "k": "Detail", "t": "Tahapan registrasi mandiri via website (validasi biometrik)", "b": "1. Akses https://registrasi.ioh.co.id, pilih Registrasi IM3 & Tri Prabayar.\n2. Input MSISDN.\n3. Validasi nomor: SMS OTP (dari INDOSAT OTP) atau 4 digit terakhir ICCID, lalu klik Lanjut.\n4. Input NIK, setelah validasi data berhasil klik Lanjut.\n5. Ambil foto selfie sesuai pemilik NIK, pastikan izin akses kamera aktif.\n6. Pastikan pengambilan foto sesuai ketentuan.\n7. Setelah validasi face recognition berhasil, permintaan diproses.\n8. Tunggu notifikasi registrasi berhasil.", "id": "e048"}, {"m": "unr", "k": "FAQ", "t": "Mengapa nomor saya tidak bisa digunakan untuk akses data?", "b": "Bapak/Ibu/Kak [Nama Pelanggan], mohon maaf atas ketidaknyamanannya.\nBerdasarkan hasil pengecekan status nomor Bapak/Ibu/Kakak saat ini belum teregistrasi.\nUntuk kembali menggunakan layanan Tri, silakan melakukan registrasi Prabayar melalui https://registrasi.ioh.co.id/\nSetelah registrasi berhasil, pelanggan dapat kembali menggunakan layanan Tri sesuai status nomor dan benefit yang dimiliki.\nTerima kasih telah menggunakan layanan IM3 / Tri (sesuai brand).", "id": "e049"}, {"m": "unr", "k": "FAQ", "t": "Bagaimana cara registrasi prabayar?", "b": "Akses https://registrasi.ioh.co.id/\n1. Pilih menu Registrasi IM3 & Tri Prabayar.\n2. Input MSISDN yang akan diregistrasi.\n3. Validasi nomor dengan SMS OTP atau 4 digit terakhir ICCID.\n4. Input NIK sesuai identitas.\n5. Ambil foto selfie untuk validasi biometrik.\n6. Tunggu notifikasi bahwa registrasi berhasil.", "id": "e050"}, {"m": "unr", "k": "FAQ", "t": "Apakah saya tetap bisa menggunakan nomor saya setelah registrasi?", "b": "Ya. Selama kartu masih aktif dan memiliki benefit, layanan dapat digunakan setelah registrasi berhasil.", "id": "e051"}, {"m": "unr", "k": "FAQ", "t": "Apakah saya perlu membeli kartu SIM baru?", "b": "Tidak. Cukup registrasi prabayar melalui registrasi.ioh.co.id menggunakan nomor yang saat ini masih aktif.", "id": "e052"}, {"m": "unr", "k": "FAQ", "t": "Saya sudah mencoba registrasi tapi gagal, apa yang harus saya lakukan?", "b": "Lakukan probing detail terhadap kendala pelanggan dan pastikan cara registrasi sudah sesuai. Jika masih belum berhasil, eskalasi sesuai ketentuan yang berlaku.", "id": "e053"}, {"m": "unr", "k": "FAQ", "t": "Sebelumnya saya sudah registrasi. Mengapa tiba-tiba menjadi tidak teregistrasi?", "b": "Bapak/Ibu/Kak [Nama Pelanggan], mohon maaf atas ketidaknyamanannya. Tidak perlu khawatir, agar layanan Tri tetap dapat digunakan seperti biasa, silakan lakukan registrasi kembali melalui registrasi.ioh.co.id dengan menyiapkan NIK/Nomor KTP.\nTerkait notifikasi registrasi ulang yang Bapak/Ibu/Kak terima, hal ini juga akan kami eskalasikan ke tim terkait untuk investigasi lebih lanjut.\n\nCatatan penanganan khusus:\na. Jika pelanggan tidak dapat diedukasi dan butuh penanganan khusus (ancam blow up media/CEO/YLKI/lembaga konsumen lain atau potensi viral), eskalasi ke Tier2 via trouble ticket dan percepatan melalui email/WAG sesuai prosedur.\nb. Jika tidak dapat diselesaikan Tier2, eskalasi ke Tim Special Service mengacu prosedur special case yang berlaku.", "id": "e054"}, {"m": "jrn", "k": "Perubahan", "t": "Unreg dan Cek Nomor Terdaftar kini memakai biometrik (mulai 28 Sep 2026)", "b": "1. Flow proses: sebelum 28 Sep 2026 tanpa verifikasi biometrik; mulai 28 Sep 2026 memakai verifikasi biometrik.\n2. Pelanggan >17 tahun: sebelumnya dilakukan pelanggan selama NIK sesuai, tanpa biometrik; sekarang verifikasi dengan wajah pelanggan.\n3. Pelanggan <17 tahun: sebelumnya tanpa biometrik; sekarang verifikasi dengan wajah Kepala Keluarga yang terdaftar dalam Kartu Keluarga yang sama.\n4. Tampilan halaman: sebelumnya harus memilih brand IM3 atau Tri lalu diarahkan ke website masing-masing brand; sekarang proses dalam satu halaman yang sama tanpa pindah halaman brand.", "id": "e055"}, {"m": "jrn", "k": "Detail", "t": "Informasi singkat perubahan journey", "b": "- Per 28 September 2026, journey Pembatalan Registrasi (Unreg) dan Cek Nomor Terdaftar berubah.\n- Kedua proses dilakukan melalui website registrasi.ioh.co.id dan memakai verifikasi biometrik.\n- Pelanggan >17 tahun: wajah pelanggan.\n- Pelanggan <17 tahun: wajah Kepala Keluarga yang terdaftar.", "id": "e056"}, {"m": "jrn", "k": "Detail", "t": "Tampilan di Siebel: history unreg dan jumlah nomor terdaftar", "b": "Cek history Pembatalan Registrasi di iCare Siebel: menu Notes > Shared Notes > pilih Note Type UNREG_NIK.\n\nCek jumlah nomor terdaftar di iCare Siebel: menu MSISDN Registration > input NIK yang dicek > pilih Filter Brand > Enter. Jumlah nomor terdaftar muncul pada Query Result.", "id": "e057"}, {"m": "jrn", "k": "Detail", "t": "Flow Unreg pelanggan >17 tahun", "b": "1. Akses registrasi.ioh.co.id, pilih menu Batalkan Registrasi (Unreg), input nomor yang dibatalkan, klik Lanjutkan.\n2. Klik Hapus Nomor.\n3. Ikuti petunjuk.\n4. Posisikan wajah pemilik NIK dalam bingkai oval, diam hingga bingkai terkunci dan foto diambil.\n5. Pastikan pencahayaan baik dan wajah jelas, tekan Kirim Foto.\n6. Tunggu validasi wajah, jangan tutup halaman.\n7. Muncul Memproses pembatalan registrasi, tunggu tanpa menutup halaman.\n8. Muncul pesan Pembatalan registrasi berhasil. Nomor terlepas dari NIK pemilik. Cek notifikasi unreg berhasil via SMS dari 4444.", "id": "e058"}, {"m": "jrn", "k": "Detail", "t": "Flow Unreg pelanggan <17 tahun", "b": "1. Akses registrasi.ioh.co.id, pilih Batalkan Registrasi (Unreg), input nomor, klik Lanjutkan.\n2. Klik Hapus Nomor.\n3. Masukkan NIK Kepala Keluarga, klik Lanjut.\n4. Pilih cara verifikasi:\n   a. Bagikan Link Kartu Restu: layar Tinggal satu restu dari Kepala Keluarga tampil dengan status Menunggu persetujuan Kepala Keluarga. Atau\n   b. Unduh dan Kirim QR Code: tekan Bagikan atau Unduh kartu. Jika Kepala Keluarga datang, tekan Mulai verifikasi di perangkat ini.\n5. Klik Lanjut.\n6. Konfirmasi data NIK dan nomor yang dihapus, tekan Lanjut, lalu Mulai Pengambilan Selfie.\n7. Posisikan wajah Kepala Keluarga (bukan anak) dalam bingkai oval, diam hingga foto diambil.\n8. Tinjau dan kirim, pastikan pencahayaan baik, tekan Kirim Foto.\n9. Tunggu validasi wajah, jangan tutup halaman.\n10. Muncul Pembatalan registrasi berhasil. Cek notifikasi unreg berhasil via SMS dari 4444.", "id": "e059"}, {"m": "jrn", "k": "Detail", "t": "Flow Cek Nomor Terdaftar (>17 dan <17 tahun)", "b": ">17 tahun:\n1. Akses registrasi.ioh.co.id, pilih Cek Nomor Terdaftar, input nomor dan NIK terdaftar, pilih Cek Nomor.\n2. Ikuti petunjuk.\n3. Posisikan wajah pemilik NIK dalam bingkai oval, diam hingga foto diambil.\n4. Tinjau dan kirim, pastikan pencahayaan baik, tekan Kirim Foto.\n5. Tunggu validasi wajah, jangan tutup halaman.\n6. Baca hasil pada halaman Hasil Pengecekan.\n\n<17 tahun:\n1. Sama seperti langkah 1 di atas.\n2. Masukkan NIK Kepala Keluarga dalam Kartu Keluarga yang sama, tekan Lanjut.\n3. Ikuti petunjuk.\n4. Posisikan wajah KEPALA KELUARGA (bukan anak) dalam bingkai oval.\n5. Tinjau dan kirim, tekan Kirim Foto.\n6. Tunggu validasi, jangan tutup halaman.\n7. Baca hasil pada halaman Hasil Pengecekan.", "n": "Hasil cek nomor terdaftar di web maksimal menampilkan 3 nomor, meskipun pelanggan memiliki lebih dari 3 nomor terdaftar.", "id": "e060"}, {"m": "jrn", "k": "Penanganan", "t": "Probing dan validasi data pelanggan", "b": "a. Nama pelanggan\nb. Nomor yang dipakai untuk Unreg / Cek Nomor Terdaftar\nc. Detail kebutuhan / keluhan pelanggan\nd. Notifikasi yang muncul (jika ada)\ne. Masih memiliki akses ke nomor yang akan di-unreg atau tidak (jika dibutuhkan)\nf. Nomor alternatif (jika dibutuhkan eskalasi)\n\nLalu cek aplikasi dan data pendukung sesuai ketentuan.", "id": "e061"}, {"m": "jrn", "k": "Penanganan", "t": "Kasus 1: Informasi unreg dan cek nomor terdaftar via website", "b": "Informasikan ke pelanggan cara unreg dan cek nomor terdaftar melalui website dengan validasi biometrik sesuai kebutuhan.", "id": "e062"}, {"m": "jrn", "k": "Penanganan", "t": "Kasus 2: Pelanggan kendala saat Unreg via website", "b": "1. Pastikan cara, nomor, NIK dan pengambilan foto sudah sesuai, sarankan coba unreg kembali.\n2. Jika pelanggan masih bisa unreg mandiri, arahkan ke channel lain:\n   - UMB: dial *4444#, tekan Call, pilih Unreg.\n   - SMS: kirim SMS ke 4444 dengan mengetik UNREG#NIK KTP yang terdaftar#\n3. Jika tidak bisa unreg mandiri (nomor hilang/rusak) atau pelanggan bersikeras dibantu CS:\n   - Validasi data dan pastikan data registrasi sesuai.\n   - Jika sesuai, CS dapat membantu Unreg sesuai privilege yang berlaku.\n   - Jika NIK yang akan di-unreg tidak sesuai, sarankan mutasi kepemilikan sesuai prosedur.\n4. Jika sudah dicoba cara lain masih gagal: create trouble ticket ke L2, cantumkan detail masalah dan solusi yang sudah disampaikan L1, lampirkan bukti (capture error jika ada) dan nomor alternatif yang bisa dihubungi.", "n": "Untuk stabilitas layanan, semua masalah unreg via website tetap dieskalasi lewat trouble ticket, meskipun pelanggan bersedia diarahkan ke channel lain. Di L2: eskalasi ke Enterprise Helpdesk dan PIC terkait (Artho Hasudungan, Artho.Hasudungan@ioh.co.id), close TT dan input note sesuai ketentuan (tidak perlu update ke pelanggan).", "id": "e063"}, {"m": "jrn", "k": "Penanganan", "t": "Kasus 3: Pelanggan kendala saat cek nomor terdaftar via website", "b": "1. Pastikan cara, nomor, NIK dan pengambilan foto sudah sesuai, sarankan coba kembali.\n2. Jika masih gagal: create trouble ticket ke L2, cantumkan detail masalah dan solusi yang sudah disampaikan L1, lampirkan bukti (capture error jika ada) dan nomor alternatif yang bisa dihubungi.", "id": "e064"}, {"m": "jrn", "k": "Penanganan", "t": "Kasus 4: Pelanggan ingin cek seluruh nomor yang terdaftar dengan NIK miliknya", "b": "1. Contact Center: arahkan pelanggan datang ke 3Store terdekat.\n2. 3Store: validasi data, pastikan data sesuai, dan informasikan nomor terdaftar sesuai kebutuhan pelanggan.", "id": "e065"}, {"m": "jrn", "k": "Penanganan", "t": "Kasus 5: Masalah sistem lain (mis. unreg berhasil tapi Offer ID 4443 tidak muncul / status masih registered, data tidak sesuai)", "b": "1. L1: create trouble ticket ke L2 melalui Service Request, cantumkan detail masalah dan solusi yang sudah disampaikan L1, lampirkan bukti (capture error jika ada) dan nomor alternatif.\n2. L2: eskalasi ke Enterprise Helpdesk dan PIC terkait (Artho Hasudungan, Artho.Hasudungan@ioh.co.id).", "id": "e066"}, {"m": "jrn", "k": "Pencatatan", "t": "Pencatatan interaksi Unreg dan Cek NIK", "b": "Activity code:\n- Inquiry: 2105170001 - prepaid reg/unreg info\n- Complaint: 2405180003 - prepaid unregistration issue\n\nL1 Comment:\n- #Unreg : informasi / keluhan terkait pembatalan registrasi (unreg)\n- #Cek_NIK : informasi / keluhan terkait cek NIK terdaftar", "n": "Untuk keluhan Not Registered 4443 memakai kode berbeda (2405180001, hashtag #UNREG_4443). Lihat materi Not Registered 4443.", "id": "e067"}, {"m": "sph", "k": "Perubahan", "t": "Penambahan channel SP Happy dan produk reaktivasi 3Store (mulai 8 Okt 2026)", "b": "Mulai 8 Okt 2026:\n- SP Happy 5GB (14 hari) dan SP Happy 7GB (28 hari) ditambah channel Digital Distribution (eCommerce, Modern Retail, Perdana Online).\n- Ada produk baru SP Happy 10GB 30D khusus Reaktivasi di 3Store.", "id": "e068"}, {"m": "sph", "k": "Detail", "t": "SP Happy pada channel Digital Distribution", "b": "SP Happy 7GB 28D, Rp42.000:\n- Kuota Nasional 7GB, 28 hari\n- Ekstra nelpon ke sesama Tri & IM3 5000 menit, 28 hari\n- Ekstra nelpon ke semua operator 50 menit, 28 hari\n- Anti Spam Plus+ / Adobe Express\n- Benefit OTT (Vidio Lite/VIU/WeTV/iQIYI)\n\nSP Happy 5GB 14D, Rp30.000:\n- Kuota Nasional 5GB, 14 hari\n- Ekstra nelpon ke sesama Tri & IM3 1000 menit, 14 hari\n- Ekstra nelpon ke semua operator 10 menit, 14 hari\n- Anti Spam Plus+ / Adobe Express\n- Benefit OTT (Vidio Lite/VIU/WeTV/iQIYI)\n\nChannel: 3Store, DVM, Perdana Online, Modern Channel Aggregator, Modern Channel Direct, Modern Channel (eSIM), 3ID Official Store eCommerce, 3ID Official Store (eSIM) eCommerce, Bank (eSIM).", "id": "e069"}, {"m": "sph", "k": "Detail", "t": "Ketentuan SP Happy 7GB 28D dan 5GB 14D", "b": "- Tidak ada perubahan benefit.\n- Tidak ada perubahan mekanisme penggunaan kuota (masih Regional).\n- Tidak ada perubahan tarif dasar, mengikuti tarif yang berlaku saat ini.\n- Tidak berlaku auto-renewal. Jika masa aktif habis, tidak ada perpanjangan otomatis.", "id": "e070"}, {"m": "sph", "k": "Detail", "t": "SP Happy 10GB 30D khusus Reaktivasi di 3Store", "b": "Harga Rp50.000, channel 3Store, berlaku auto-renewal.\nBenefit:\n- Kuota Nasional 10GB, 30 hari\n- Ekstra nelpon ke sesama Tri & IM3 5000 menit, 28 hari\n- Ekstra nelpon ke semua operator 50 menit, 28 hari\n- Anti Spam Plus+ / Adobe Express\n- Benefit OTT (Vidio Lite/VIU/WeTV/iQIYI)\n\nKetentuan: khusus reaktivasi di 3Store; mekanisme kuota Regional; tarif dasar mengikuti tarif yang berlaku.", "n": "Di RENA ini masa berlaku ekstra nelpon tertulis 28 hari, sedangkan di materi Starterpack Reaktivasi tertulis 30 hari. Mohon konfirmasi ke pembuat materi.", "id": "e071"}, {"m": "sph", "k": "Detail", "t": "Tanggal launch per channel", "b": "- Trade dan 3Store: sudah live sejak migrasi DMP.\n- Perdana Online: 8 Okt 2026\n- eCommerce: 12 Okt 2026\n- Modern: 23 Okt 2026", "id": "e072"}, {"m": "sph", "k": "FAQ", "t": "Apa yang baru dari Tri per 8 Oktober 2026?", "b": "Produk baru SP 7GB 28D dan SP 5GB 14D untuk channel Digital Distribution, serta SP 10GB 30D untuk reaktivasi di channel 3Store.", "id": "e073"}, {"m": "sph", "k": "FAQ", "t": "Apa bedanya SP 7GB 28D / 5GB 14D dengan SP 10GB 30D 3Store?", "b": "SP 7GB 28D dan SP 5GB 14D adalah SP Regular. SP 10GB 30D adalah SP khusus reaktivasi.", "id": "e074"}, {"m": "sph", "k": "FAQ", "t": "Apakah berlaku renewal untuk ketiga SP ini?", "b": "SP 7GB 28D dan SP 5GB 14D tidak berlaku renewal. SP 10GB 30D berlaku renewal.", "id": "e075"}, {"m": "sph", "k": "FAQ", "t": "Apa saja channel yang saat ini menjual SP 7GB 28D dan SP 5GB 14D?", "b": "Channel Digital Distribution (3Store, Perdana Online, eCommerce, Modern Retail dan Trade).", "id": "e076"}, {"m": "sph", "k": "FAQ", "t": "Apakah ada detail tanggal launch-nya?", "b": "Trade dan 3Store sudah live sejak migrasi DMP. Perdana Online 8 Okt 2026, eCommerce 12 Okt 2026, Modern 23 Okt 2026.", "id": "e077"}, {"m": "dar", "k": "Perubahan", "t": "Recovery STV naik dari maksimal 70% menjadi 100% (mulai 9 Okt 2026)", "b": "Sebelum 9 Okt 2026: pelanggan yang masih punya hutang Pulsa Darurat (kondisi peminjaman sebelum implementasi penutupan) dan dalam 30 hari tidak top up pulsa, saat membeli paket recovery dihitung dari kuota (MB) yang dikonversikan ke Rupiah, dengan recovery maksimal 70% sesuai mekanisme Dual Recovery/STV.\nMulai 9 Okt 2026: mekanisme sama, recovery maksimal 100%.\n\nTidak berubah: deduction hutang non STV Recovery (tetap 100% dari nominal transaksi), channel layanan Loan Balance, dan tipe Loan Balance.", "id": "e078"}, {"m": "dar", "k": "Detail", "t": "Latar belakang, channel, dan tipe Loan Balance", "b": "Mulai 9 Okt 2026 seluruh skema pemotongan hutang kuota darurat diseragamkan menjadi 100% untuk konsistensi penerapan pada semua skema (sebelumnya ada perbedaan persentase, termasuk STV Recovery 70%).\n\nChannel Loan Balance (tidak berubah): USSD *805#, aplikasi bima+, Facebook, Instagram, SMS 805.\nTipe Loan Balance (tidak berubah): Kuota Darurat dan Flexi Darurat.\nSkema deduction dilakukan otomatis berdasarkan nilai transaksi yang memenuhi syarat (eligible).", "id": "e079"}, {"m": "dar", "k": "Detail", "t": "Mekanisme pelunasan (recovery)", "b": "a. Pelunasan dilakukan melalui pemotongan 100% dari nilai transaksi pengisian ulang pulsa atau pembelian kuota, dengan memperhatikan sisa pinjaman yang masih outstanding.\nb. Jika nilai transaksi tidak cukup melunasi seluruh sisa pinjaman, pemotongan sebesar nilai transaksi yang tersedia, dan sisa pinjaman dilanjutkan pada transaksi top up atau pembelian kuota berikutnya sampai lunas.", "id": "e080"}, {"m": "dar", "k": "Detail", "t": "Matrix recovery pinjaman (semua 100%)", "b": "1. Paket Darurat, Top Up Pulsa (IDR to IDR): recovery 100% dari nilai pulsa yang tersedia, sesuai jumlah pinjaman yang harus dibayar.\n2. Paket Darurat, Top Up Paket Data (MB to IDR): kuota yang dibeli dikonversikan ke Rupiah, dapat dipakai recovery hingga 100%.\n3. Flexi Darurat, Top Up Pulsa (IDR to IDR): recovery 100% dari nilai pulsa yang tersedia, sesuai jumlah loan.\n4. Flexi Darurat, Top Up Paket Data (MB to IDR): berasal dari pembelian paket/kuota, dapat dipakai recovery hingga 100%.", "id": "e081"}, {"m": "dar", "k": "Penanganan", "t": "Kasus: kuota/pulsa berkurang setelah isi paket/pulsa dan menanyakan jumlah konversi kuota yang dipotong", "b": "Probing:\na. Nama Pelanggan\nb. MSISDN\nc. Pastikan pelanggan memiliki pinjaman paket darurat\nd. Pastikan pelanggan mendapat notifikasi SMS deduction kuota karena pinjaman paket darurat\n\nPengecekan di iCare Siebel:\n1. Cek status dan jumlah paket darurat\n2. Cek jumlah kuota yang dideduct\n\nPenanganan:\n1. Hasil sudah sesuai: informasikan bahwa pemotongan kuota dilakukan untuk pembayaran pinjaman kuota darurat.\n2. Hasil tidak sesuai: edukasi pelanggan untuk menunggu karena akan ditindaklanjuti ke tim terkait.\n   - L1: create trouble ticket ke L2\n   - L2: validasi keluhan, eskalasi ke tim terkait memakai format eskalasi sesuai ketentuan, lampirkan bukti notifikasi kuota telah dideduct untuk pembayaran pinjaman kuota darurat.", "id": "e082"}, {"m": "dar", "k": "Pencatatan", "t": "Pencatatan interaksi Paket Darurat", "b": "Inquiry: 2121070002 - Paket Darurat Balance\nComplaint: 2421020001 - Paket Darurat Issue", "id": "e083"}, {"m": "dar", "k": "FAQ", "t": "Berapa persen pemotongan hutang kuota/Flexi Darurat sekarang?", "b": "100% dari nilai transaksi untuk seluruh skema, termasuk STV Recovery (sebelumnya maksimal 70%), mulai 9 Okt 2026.", "id": "e084"}, {"m": "dar", "k": "FAQ", "t": "Bagaimana jika nilai transaksi tidak cukup melunasi seluruh pinjaman?", "b": "Dipotong sebesar nilai transaksi yang tersedia. Sisa pinjaman dilanjutkan pada top up atau pembelian kuota berikutnya sampai lunas.", "id": "e085"}, {"m": "vas", "k": "Perubahan", "t": "Penutupan layanan VAS Konten SMS Premium non-aplikasi", "b": "Efektif 30 Sep 2026, Indosat menutup beberapa layanan VAS berupa Konten SMS Premium yang tidak berbasis aplikasi (hanya SMS/URL), sejalan dengan transformasi digital dan fokus pada layanan bisnis digital.\n\nDampak ke pelanggan:\na. Mulai 1 Okt 2026, layanan tersebut tidak lagi dapat diakses.\nb. Mulai 1 Okt 2026, pelanggan tidak lagi dikenakan biaya berlangganan layanan yang ditutup.\nc. VAS berbasis aplikasi seperti Vidio, Viu, Spotify tetap tersedia.", "id": "e086"}, {"m": "vas", "k": "Detail", "t": "Notifikasi ke pelanggan", "b": "SMS notifikasi sudah dikirim ke pelanggan terdampak dengan sender IM3Penting dan 3Penting.\n\nIsi SMS: “Pelanggan YTH, mulai 1 Okt 2026, Layanan Konten SMS Premium tidak lagi tersedia. Cek layanan yang aktif di nomormu di bima-3.co/useractivepacks, Info:132”", "id": "e087"}, {"m": "vas", "k": "Penanganan", "t": "Probing dan pengecekan", "b": "Probing:\na. Nama Pelanggan\nb. MSISDN\nc. Detail informasi yang dibutuhkan / kendala yang dikeluhkan\nd. Waktu kejadian\n\nPengecekan:\na. Periksa Call History, cari transaksi dengan waktu sesuai informasi pelanggan.\nb. Pastikan Traffic Type transaksi adalah VAS.\nc. Periksa PO ID dan pastikan ada nama vendor/partner pada transaksi.\nd. Cek di SDP Tool untuk status layanan VAS di nomor pelanggan (active/deactivate).\ne. Periksa list layanan VAS Konten SMS Premium yang ditutup.", "id": "e088"}, {"m": "vas", "k": "Penanganan", "t": "Kasus: pelanggan menanyakan informasi penutupan layanan VAS", "b": "Informasikan kepada pelanggan terkait penutupan layanan VAS yang berlaku.", "id": "e089"}, {"m": "vas", "k": "Penanganan", "t": "Kasus: pelanggan gagal registrasi layanan VAS", "b": "Edukasi pelanggan dengan standard jawaban di bawah.", "id": "e090"}, {"m": "vas", "k": "Script", "t": "Standard jawaban: gagal registrasi layanan VAS yang sudah ditutup", "b": "Bapak/Ibu/Kak [Nama Pelanggan], mohon maaf atas ketidaknyamanan yang dialami.\nLayanan VAS yang Bapak/Ibu/Kakak coba registrasikan merupakan layanan Konten SMS Premium yang sudah dihentikan efektif 1 Oktober 2026. Oleh karena itu, registrasi layanan tersebut sudah tidak dapat dilakukan.\nSebagai alternatif, Bapak/Ibu/Kakak masih dapat menikmati layanan VAS lainnya yang berbasis aplikasi. Terima kasih atas pengertian dan kepercayaan Bapak/Ibu/Kakak dalam menggunakan layanan Tri.", "id": "e091"}, {"m": "vas", "k": "Penanganan", "t": "Kasus: pelanggan mengeluhkan pemotongan pulsa/dana dari VAS yang sudah ditutup dan minta refund", "b": "- Tier 1 eskalasi ke Tier 2 untuk penanganan lebih lanjut.\n- Tier 2 eskalasi ke Tim VAS.\n  To: AllDivisiContent&VAS@ioh.co.id\n  CC: liya.aini@ioh.co.id", "id": "e092"}, {"m": "vas", "k": "Pencatatan", "t": "Pencatatan interaksi VAS sunset", "b": "Intent: Inquiry/Complaint\nActivity Code:\n- 2405350002 - VAS Registration Issue\n- 2105010001 - Vas Registration info\nHashtag: #VAS_SUNSET", "id": "e093"}, {"m": "vas", "k": "FAQ", "t": "Layanan VAS apa yang ditutup dan sejak kapan?", "b": "Layanan konten SMS premium yang tidak berbasis aplikasi, efektif 30 September 2026.", "id": "e094"}, {"m": "vas", "k": "FAQ", "t": "Bagaimana benefit VAS yang sudah diregistrasi sebelum ditutup? Apakah masih dikenakan biaya?", "b": "Pelanggan tidak dapat mengakses benefit setelah 30 September; sebelumnya masih bisa menikmati benefit. Pada 1 Oktober 2026 pelanggan tidak dikenakan biaya setelah layanan ditutup.", "id": "e095"}, {"m": "vas", "k": "FAQ", "t": "Bagaimana cara mengetahui pelanggan masih berlangganan layanan konten?", "b": "- Pelanggan IM3: myIM3, https://myim3.co/useractivepacks\n- Pelanggan Tri: bima+, bima-3.co/useractivepacks", "id": "e096"}, {"m": "vas", "k": "FAQ", "t": "Pelanggan merasa tidak pernah registrasi VAS, apakah pulsa bisa dikembalikan?", "b": "Bisa, dengan email ke AllDivisiContent&VAS@ioh.co.id.", "id": "e097"}, {"m": "vas", "k": "FAQ", "t": "Apakah pelanggan masih bisa registrasi VAS dari IOH? Apakah penutupan berlaku untuk semua pelanggan?", "b": "Masih tersedia untuk layanan VAS berbasis aplikasi. Penutupan hanya berlaku bagi pelanggan yang berlangganan layanan yang belum berbasis aplikasi.", "id": "e098"}, {"m": "vas", "k": "FAQ", "t": "Apakah layanan konten bisa dibuka kembali? Bagaimana jika masih menerima SMS promosi?", "b": "Untuk saat ini Indosat fokus pada layanan berbasis aplikasi. SMS promosi layanan konten tetap ada khusus untuk layanan berbasis aplikasi.", "id": "e099"}, {"m": "vas", "k": "FAQ", "t": "Apakah aplikasi pengecekan CS tool masih bisa mengecek konten layanan?", "b": "Ya, CS tool tetap dioperasikan untuk mengecek layanan kerja sama dari partner yang masih aktif.", "id": "e100"}, {"m": "bic", "k": "Perubahan", "t": "Pengecekan B# Number wajib 2 kali (628xxx dan 08xxx)", "b": "Update panduan: Agent wajib melakukan 2 kali pengecekan B# Number di menu BICP MOBO, memakai awalan 628xxx dan 08xxx, lalu membandingkan hasilnya untuk memastikan data valid sebelum disampaikan ke pelanggan.", "id": "e101"}, {"m": "bic", "k": "Detail", "t": "Cara pengecekan di aplikasi MOBO", "b": "1. Klik menu Reports di aplikasi MOBO.\n2. Klik tanda Search di menu Reports.\n3. Klik folder Sales and Operations, pilih folder Indosat.\n4. Klik menu Transaction Detail Report.\n5. Sistem menampilkan menu BICP, masukkan tanggal transaksi.\n6. Masukkan tanggal berakhir transaksi.\n7. Masukkan B# dengan awalan 628xxx. Setelah data muncul, wajib cek ulang dengan awalan 08xxx pada nomor yang sama.\n8. Sistem menampilkan data transaksi yang dilakukan outlet/modern channel ke B#.", "id": "e102"}, {"m": "bic", "k": "Penanganan", "t": "Kasus: Outlet/Mitra butuh info hasil transaksi ke B# (berhasil atau tidak)", "b": "Probing:\na. Nama Outlet\nb. Nomor transaksi A# dan B# number\nc. Layanan/transaksi yang dikeluhkan\nd. Tanggal transaksi\ne. Bukti transaksi\n\nPengecekan: cek dengan 628xxx lalu bandingkan dengan 08xxx untuk memastikan data valid.\n\nPenanganan:\na. Jika kedua format menemukan transaksi ke B# yang dikeluhkan: agent L1 beri penanganan sesuai ketentuan berlaku.\nb. Jika kedua format tidak menemukan transaksi: L1 eskalasi ke L2.\n   - L1: create trouble ticket ke L2 via Service Request, cantumkan detail masalah dan solusi yang sudah disampaikan. Lampirkan bukti transaksi Outlet/Mitra, hasil cek format 628xxx dan 08xxx, capture notifikasi error, serta nomor alternatif yang bisa dihubungi.\n   - L2: eskalasi ke PIC terkait: AllSALDOMOBOSupport@ioh.co.id; yusuf.hibaturrahman@ioh.co.id; M.Rasyad@ioh.co.id; mohamad.bawono@ioh.co.id; mihsaanramadhan@h-partners.com", "id": "e103"}, {"m": "bic", "k": "Pencatatan", "t": "Pencatatan interaksi B# Number", "b": "Catat interaksi menggunakan activity code sesuai ketentuan yang berlaku.", "n": "RENA tidak menyebut activity code spesifik untuk materi ini.", "id": "e104"}, {"m": "bic", "k": "FAQ", "t": "Mengapa pengecekan B# Number perlu dilakukan 2 kali?", "b": "Karena ada perbedaan hasil pengecekan antara format nomor 628xxx dan 08xxx.", "id": "e105"}, {"m": "bic", "k": "FAQ", "t": "Apa yang dilakukan setelah hasil dengan awalan 628xxx muncul?", "b": "Cek ulang dengan awalan 08xxx pada nomor yang sama, lalu bandingkan hasilnya.", "id": "e106"}, {"m": "bic", "k": "FAQ", "t": "Bagaimana jika hasil 628xxx dan 08xxx berbeda?", "b": "a. Jika dari hasil pengecekan terdapat transaksi ke B# yang dikeluhkan: L1 beri penanganan sesuai ketentuan.\nb. Jika tidak terdapat transaksi: L1 eskalasi ke L2, lalu L2 eskalasi ke PIC terkait untuk ditindaklanjuti.", "id": "e107"}, {"m": "bic", "k": "FAQ", "t": "Data mana yang disampaikan kepada pelanggan?", "b": "Sampaikan berdasarkan hasil pengecekan di kedua format. Jika ditemukan, beri penanganan sesuai ketentuan. Jika tidak ditemukan di keduanya tetapi bukti transaksi valid, L1 eskalasi ke L2, lalu L2 ke PIC terkait.", "id": "e108"}, {"m": "mmvif7qjp", "k": "Perubahan", "t": "Penambahan dan perluasan channel distribusi SP Happy", "b": "Sebelum: -\nSesudah: Efektif per 8 Oktober 2026, dilakukan penambahan dan perluasan channel distribusi untuk produk Starter Pack (SP) Happy 5GB (masa aktif 14 hari) dan SP Happy 7GB (masa aktif 28 hari) melalui channel Digital Distribution.", "n": "Dokumen tidak menjelaskan kondisi channel sebelum perubahan.", "id": "e109"}, {"m": "mmvif7qjp", "k": "Detail", "t": "Daftar produk SP Happy pada Channel Digital Distribution", "b": "1. SP Happy 7GB 28D, harga Rp 42.000\n2. SP Happy 5GB 14D, harga Rp 30.000", "id": "e110"}, {"m": "mmvif7qjp", "k": "Detail", "t": "Channel Digital Distribution yang menjual SP Happy", "b": "1. 3Store\n2. DVM\n3. Perdana Online\n4. Modern Channel Aggregator\n5. Modern Channel Direct\n6. Modern Channel (ESIM)\n7. 3ID Official Store – eCommerce\n8. 3ID Official Store (ESIM) – eCommerce\n9. Bank (ESIM)", "n": "Dokumen menampilkan daftar channel dalam satu kolom untuk kedua produk.", "id": "e111"}, {"m": "mmvif7qjp", "k": "Detail", "t": "Harga SP Happy 7GB 28D", "b": "Rp 42.000", "id": "e112"}, {"m": "mmvif7qjp", "k": "Detail", "t": "Harga SP Happy 5GB 14D", "b": "Rp 30.000", "id": "e113"}, {"m": "mmvif7qjp", "k": "Detail", "t": "Benefit SP Happy 7GB 28D", "b": "1. Kuota Nasional 7GB, berlaku 28 hari\n2. Ekstra Nelpon ke sesama Tri & IM3 5000 menit, berlaku 28 hari\n3. Ekstra Nelpon ke semua Operator 50 menit, berlaku 28 hari\n4. Anti Spam Plus+, berlaku 90 hari\n5. Bonus berlangganan Vidio Lite, berlaku 30 hari\n6. Bonus berlangganan Viu Premium, berlaku 30 hari\n7. Bonus akses Google Gemini, berlaku 180 hari\n8. Bonus akses Adobe Express, berlaku 180 hari", "id": "e114"}, {"m": "mmvif7qjp", "k": "Detail", "t": "Benefit SP Happy 5GB 14D", "b": "1. Kuota Nasional 5GB, berlaku 14 hari\n2. Ekstra Nelpon ke sesama Tri & IM3 1000 menit, berlaku 14 hari\n3. Ekstra Nelpon ke semua Operator 10 menit, berlaku 14 hari\n4. Anti Spam Plus+, berlaku 90 hari\n5. Bonus berlangganan Vidio Lite, berlaku 30 hari\n6. Bonus berlangganan Viu Premium, berlaku 30 hari\n7. Bonus akses Google Gemini, berlaku 180 hari\n8. Bonus akses Adobe Express, berlaku 180 hari", "id": "e115"}, {"m": "mmvif7qjp", "k": "Detail", "t": "Masa aktif produk", "b": "SP Happy 5GB: masa aktif 14 hari.\nSP Happy 7GB: masa aktif 28 hari.", "id": "e116"}, {"m": "mmvif7qjp", "k": "Detail", "t": "Catatan: benefit tidak berubah", "b": "Tidak ada perubahan benefit.", "id": "e117"}, {"m": "mmvif7qjp", "k": "Detail", "t": "Catatan: mekanisme penggunaan kuota", "b": "Tidak ada perubahan terkait mekanisme penggunaan kuota, yaitu masih berlaku Regional.", "id": "e118"}, {"m": "mmvif7qjp", "k": "Detail", "t": "Catatan: tarif dasar", "b": "Tidak ada perubahan tarif dasar. Tarif dasar paket mengikuti tarif yang berlaku saat ini.", "id": "e119"}, {"m": "mmvif7qjp", "k": "Detail", "t": "Catatan: Auto-Renewal", "b": "Tidak berlaku Auto-Renewal. Jika masa aktif berlaku habis, maka tidak akan ada perpanjangan otomatis.", "id": "e120"}, {"m": "mmvif7qjp", "k": "FAQ", "t": "Sejak kapan SP Happy 5GB dan 7GB tersedia di channel Digital Distribution?", "b": "Efektif per 8 Oktober 2026 dilakukan penambahan dan perluasan channel distribusi untuk SP Happy 5GB (14 hari) dan SP Happy 7GB (28 hari) melalui channel Digital Distribution.", "id": "e121"}, {"m": "mmvif7qjp", "k": "FAQ", "t": "Berapa harga SP Happy 7GB dan 5GB di Digital Distribution?", "b": "SP Happy 7GB 28D Rp 42.000 dan SP Happy 5GB 14D Rp 30.000.", "id": "e122"}, {"m": "mmvif7qjp", "k": "FAQ", "t": "Apakah ada perubahan benefit pada SP Happy?", "b": "Tidak ada perubahan benefit.", "id": "e123"}, {"m": "mmvif7qjp", "k": "FAQ", "t": "Apakah kuota SP Happy masih berlaku Regional?", "b": "Ya, tidak ada perubahan mekanisme penggunaan kuota, masih berlaku Regional.", "id": "e124"}, {"m": "mmvif7qjp", "k": "FAQ", "t": "Apakah SP Happy diperpanjang otomatis saat masa aktif habis?", "b": "Tidak. SP Happy tidak berlaku Auto-Renewal, sehingga tidak ada perpanjangan otomatis ketika masa aktif berlaku habis.", "id": "e125"}, {"m": "mmvif7qjp", "k": "FAQ", "t": "Apakah tarif dasar berubah?", "b": "Tidak ada perubahan tarif dasar. Tarif dasar paket mengikuti tarif yang berlaku saat ini.", "id": "e126"}]}
+{
+ "updated": "2026-10-22",
+ "materi": [
+  {
+   "id": "mpp",
+   "s": "MPP 30 Paket",
+   "t": "Update Mekanisme Multiple Package (MPP): maksimal 30 paket",
+   "d": "Berlaku mulai 14 Okt 2026",
+   "sum": "Batas paket aktif (Voice, SMS, Data) naik dari 10 menjadi 30 paket pada Subscribed Products. Benefit tiap paket berdiri sendiri; paket dengan masa berlaku terpendek dipakai lebih dulu.",
+   "src": "RENA Update Implementasi Mekanisme MPP",
+   "c": "#0d9488",
+   "ic": "📦",
+   "o": 0
+  },
+  {
+   "id": "rea",
+   "s": "Starterpack Reaktivasi",
+   "t": "Standard Starterpack Reaktivasi Nomor Prabayar di 3Store",
+   "d": "Berlaku mulai 21 Okt 2026",
+   "sum": "Reaktivasi memakai Perdana Happy 10GB 30 hari + benefit Anti Spam/Scam, OTT & AI, total Rp50.000, tanpa inject paket data tambahan (sebelumnya Rp82.000).",
+   "src": "RENA Update Implementasi Standard Starterpack Reaktivasi (IOM 0186/PECD/SVC/26)",
+   "c": "#c026d3",
+   "ic": "🔄",
+   "o": 1
+  },
+  {
+   "id": "mas",
+   "s": "Masa Aktif Reload",
+   "t": "Ketentuan Penambahan Masa Aktif Kartu pada Reload Pulsa",
+   "d": "Ketentuan berlaku saat ini",
+   "sum": "Reload menambah masa aktif sesuai validity denom, dengan batas total maksimal 365 hari.",
+   "src": "RENA Ketentuan Penambahan Masa Aktif Kartu pada Transaksi Reload Pulsa",
+   "c": "#ea580c",
+   "ic": "⏳",
+   "o": 2
+  },
+  {
+   "id": "unr",
+   "s": "Not Registered 4443",
+   "t": "Penanganan Keluhan Tidak Dapat Menggunakan Layanan Tri karena Status Not Registered",
+   "d": "Ketentuan berlaku saat ini",
+   "sum": "Nomor IM3/Tri Prabayar berstatus Not Registered / Unpaired eKTP (Offer ID 4443) tidak bisa telpon, SMS, dan internet. Solusi: registrasi prabayar di registrasi.ioh.co.id.",
+   "src": "RENA Penanganan Keluhan Tidak Dapat Menggunakan Layanan Tri karena Status Not Registered",
+   "c": "#dc2626",
+   "ic": "📵",
+   "o": 3
+  },
+  {
+   "id": "jrn",
+   "s": "Unreg & Cek Nomor",
+   "t": "Update Proses Pembatalan Registrasi (Unreg) dan Pengecekan Nomor Terdaftar via Website Registrasi Prabayar",
+   "d": "Berlaku mulai 28 Sep 2026",
+   "sum": "Unreg dan Cek Nomor Terdaftar di registrasi.ioh.co.id kini memakai verifikasi biometrik: wajah pelanggan (>17 tahun) atau wajah Kepala Keluarga (<17 tahun).",
+   "src": "RENA Informasi Update Journey Unreg dan Cek Nomor Terdaftar",
+   "c": "#2563eb",
+   "ic": "🪪",
+   "o": 4
+  },
+  {
+   "id": "sph",
+   "s": "SP Happy",
+   "t": "Update Produk Starter Pack Happy di Digital Distribution dan SP Happy Khusus Reaktivasi di 3Store",
+   "d": "Berlaku mulai 8 Okt 2026",
+   "sum": "SP Happy 7GB 28D (Rp42.000) dan 5GB 14D (Rp30.000) hadir di Digital Distribution tanpa auto-renewal. SP Happy 10GB 30D (Rp50.000) khusus reaktivasi di 3Store, berlaku auto-renewal.",
+   "src": "RENA Update Produk Starter Pack Happy pada Channel Digital Distribution dan Produk Starter Pack Happy Khusus Reaktivasi di 3Store; RENA Update Produk Stater Pack (SP) Happy di Channel Digital Distribution",
+   "c": "#16a34a",
+   "ic": "🎁",
+   "o": 5
+  },
+  {
+   "id": "dar",
+   "s": "Deduction Darurat",
+   "t": "Perubahan Skema Deduction Pembayaran Kuota & Flexi Darurat",
+   "d": "Berlaku mulai 9 Okt 2026",
+   "sum": "Seluruh skema pemotongan hutang Kuota/Flexi Darurat diseragamkan menjadi 100% dari nilai transaksi. Recovery STV (Dual Recovery) naik dari maksimal 70% menjadi 100%.",
+   "src": "RENA Perubahan Skema Deduction Pembayaran Kuota & Flexi Darurat",
+   "c": "#b45309",
+   "ic": "🆘",
+   "o": 6
+  },
+  {
+   "id": "vas",
+   "s": "Penutupan VAS SMS",
+   "t": "Informasi & Penanganan Penutupan Beberapa Layanan VAS Service",
+   "d": "Efektif 30 Sep 2026, tidak dapat diakses mulai 1 Okt 2026",
+   "sum": "Layanan VAS berupa Konten SMS Premium yang tidak berbasis aplikasi (hanya SMS/URL) ditutup. VAS berbasis aplikasi seperti Vidio, Viu, Spotify tetap tersedia. Mulai 1 Okt 2026 tidak ada biaya berlangganan untuk layanan yang ditutup.",
+   "src": "RENA Informasi & Penanganan Penutupan Beberapa Layanan VAS Service",
+   "c": "#7c3aed",
+   "ic": "📴",
+   "o": 7
+  },
+  {
+   "id": "bic",
+   "s": "B# Number BICP",
+   "t": "Panduan Pengecekan Query B# Number melalui Menu BICP pada Aplikasi MOBO (IM3 dan Tri)",
+   "d": "Panduan terbaru",
+   "sum": "Pengecekan B# Number di menu BICP MOBO wajib dilakukan 2 kali, memakai awalan 628xxx dan 08xxx, lalu hasilnya dibandingkan sebelum disampaikan ke Outlet/Mitra.",
+   "src": "RENA Panduan Pengecekan Query B# Number Melalui Menu BICP Pada Aplikasi MOBO (IM3 dan TRI)",
+   "c": "#0369a1",
+   "ic": "🔍",
+   "o": 8
+  },
+  {
+   "id": "gnt",
+   "s": "Biaya Ganti Kartu",
+   "t": "Update Biaya Layanan Ganti Kartu Fisik Nomor Prabayar di Gerai IM3 / 3Store",
+   "d": "Berlaku mulai 1 Okt 2026",
+   "sum": "Biaya ganti kartu fisik nomor prabayar naik dari Rp10.000 menjadi Rp20.000 per transaksi. SIM ke eSIM, eSIM ke eSIM, Postpaid, dan nomor Karyawan/Operasional tetap gratis.",
+   "src": "RENA Update Biaya Layanan Ganti Kartu SIM Nomor Prabayar IM3 & Tri di Gerai / 3Store (IOM No. 0171/PECD/SVC/26)",
+   "c": "#0891b2",
+   "ic": "💳",
+   "o": 9
+  },
+  {
+   "id": "tlf",
+   "s": "Telco Loan Flexi",
+   "t": "Program Telco Loan Flexi dan Free Screen Crack Protection (IM3 dan Tri)",
+   "d": "Berlaku mulai 1 Okt 2026",
+   "sum": "Pelanggan IM3 dan Tri yang mengambil Flexi Loan tertentu otomatis mendapat Screen Crack Protection gratis dari Zurich. Tidak ada perubahan harga pinjaman maupun cara pengembalian.",
+   "src": "RENA Program Telco Loan Flexi and Free Insurance (PO: Albert Wijaya)",
+   "c": "#e11d48",
+   "ic": "📱",
+   "o": 10
+  },
+  {
+   "id": "seg",
+   "s": "Segmentasi 3ID",
+   "t": "Segmentasi Baru Pelanggan 3ID",
+   "d": "Berlaku mulai 12 Sep 2026",
+   "sum": "Segmentasi pelanggan 3ID Prabayar diselaraskan dengan IM3: NVC, LVC, MVC, HVC, dan HVC Istimewa menggantikan Silver, Gold, Platinum, dan Premium. Jadwal semula 11 Sep 2026 diundur menjadi 12 Sep 2026.",
+   "src": "RENA Segmentasi Baru Pelanggan 3ID (Berlaku mulai 12 September 2026)",
+   "c": "#4f46e5",
+   "ic": "🏷️",
+   "o": 11
+  },
+  {
+   "id": "van",
+   "s": "Vanity Number DMP",
+   "t": "Ketentuan Vanity Number bagi Pelanggan 3ID Pasca Migrasi DMP",
+   "d": "Berlaku pasca migrasi DMP",
+   "sum": "Paket Elite Gold/Elite Platinum diganti SP 7GB 28 Hari Gold (Rp150.000) dan Platinum (Rp250.000). Add On Cinta Gold/Platinum diganti Happy 80GB dan Happy 200GB yang berlaku auto renewal.",
+   "src": "RENA Ketentuan Vanity Number bagi Pelanggan 3ID Pasca Migrasi DMP",
+   "c": "#be185d",
+   "ic": "⭐",
+   "o": 12
+  }
+ ],
+ "entri": [
+  {
+   "m": "mpp",
+   "k": "Perubahan",
+   "t": "Batas MPP naik dari 10 ke 30 paket",
+   "b": "Sebelum 14 Okt 2026: pelanggan dapat memiliki maksimal 10 paket (Voice, SMS, Data), tipe sama maupun berbeda.\nMulai 14 Okt 2026: maksimal 30 paket aktif (Voice, SMS, Data), tipe sama maupun berbeda.",
+   "id": "e001",
+   "o": 0
+  },
+  {
+   "m": "mpp",
+   "k": "Detail",
+   "t": "Ketentuan inti MPP",
+   "b": "1. Maksimal 30 paket aktif pada menu Subscribed Products, tipe sama maupun berbeda.\n2. Paket bertipe sama tercatat sebagai baris (line) terpisah.\n3. Benefit dan masa berlaku mengikuti masing-masing paket, tidak digabung.\n4. Prioritas pemakaian: paket dengan masa berlaku paling pendek lebih dulu.\n5. Jika sudah 30 paket aktif, pembelian paket tambahan tidak bisa dilakukan sampai jumlah paket aktif kurang dari 30. Pelanggan dapat menonaktifkan salah satu paket sendiri lewat aplikasi Bima+; Agent Tier 1 dapat membantu setelah ada persetujuan pelanggan atas paket yang dinonaktifkan.\n6. Paket yang masa berlakunya sudah berakhir tidak dihitung dalam batas 30 paket.",
+   "id": "e002",
+   "o": 1
+  },
+  {
+   "m": "mpp",
+   "k": "FAQ",
+   "t": "Berapa jumlah maksimal paket yang dapat dimiliki pelanggan Tri?",
+   "b": "Maksimal 30 paket aktif pada menu Subscribed Products, tipe sama maupun berbeda, termasuk Voice, SMS, dan Data.",
+   "id": "e003",
+   "o": 2
+  },
+  {
+   "m": "mpp",
+   "k": "FAQ",
+   "t": "Apakah pelanggan dapat memiliki beberapa paket dengan tipe yang sama?",
+   "b": "Ya. Setiap paket tercatat sebagai line terpisah pada menu Subscribed Products.",
+   "id": "e004",
+   "o": 3
+  },
+  {
+   "m": "mpp",
+   "k": "FAQ",
+   "t": "Apakah benefit beberapa paket bertipe sama akan digabungkan?",
+   "b": "Tidak. Benefit tidak diakumulasikan, masing-masing paket berdiri sendiri sesuai pembelian.",
+   "id": "e005",
+   "o": 4
+  },
+  {
+   "m": "mpp",
+   "k": "FAQ",
+   "t": "Paket mana yang digunakan lebih dulu jika tipenya sama?",
+   "b": "Paket dengan masa berlaku paling pendek.\nContoh: AON 18GB 365D (aktif 3 hari lalu), Happy 11GB 30D (2 hari lalu), Paket Pasti Murah 66GB 28D (1 hari lalu). Sistem memakai Pasti Murah 66GB 28D lebih dulu karena masa berlakunya paling pendek (28 hari).",
+   "id": "e006",
+   "o": 5
+  },
+  {
+   "m": "mpp",
+   "k": "FAQ",
+   "t": "Apakah pelanggan bisa membeli paket baru jika sudah punya 30 paket aktif?",
+   "b": "Tidak, sampai jumlah paket aktif kurang dari 30. Pelanggan bisa menonaktifkan salah satu paket lewat Bima+. Agent Tier 1 dapat membantu setelah mendapat persetujuan pelanggan terkait paket yang akan dinonaktifkan.",
+   "id": "e007",
+   "o": 6
+  },
+  {
+   "m": "mpp",
+   "k": "Penanganan",
+   "t": "Kasus: \"Punya paket yang sama, kenapa benefitnya tidak digabung?\"",
+   "b": "Probing:\na. Nama Pelanggan\nb. MSISDN Pelanggan\nc. Kendala yang dikeluhkan\n\nPengecekan: cek menu Subscribed Products, apakah pelanggan punya paket yang sama dengan waktu aktivasi/pembelian berbeda.\n\nPenanganan: edukasi pelanggan dengan standard jawaban di bawah.",
+   "id": "e008",
+   "o": 7
+  },
+  {
+   "m": "mpp",
+   "k": "Script",
+   "t": "Standard jawaban: benefit paket sama tidak digabung",
+   "b": "Bapak/Ibu/Kak [Nama Pelanggan], mohon maaf atas ketidaknyamanannya.\nTerkait Paket yang Bapak/Ibu/Kakak miliki, saat ini terdapat penyesuaian ketentuan pembelian paket. Apabila Bapak/Ibu/Kakak membeli Paket yang sama saat paket sebelumnya masih aktif, paket yang baru dibeli akan tercatat sebagai paket terpisah.\nDengan demikian, masa berlaku dan benefit dari masing-masing paket tidak digabungkan atau diakumulasikan. Paket sebelumnya akan tetap dapat digunakan hingga masa berlakunya berakhir, sedangkan paket yang baru dibeli memiliki masa berlaku dan benefit tersendiri sesuai dengan ketentuan paket tersebut.\nDemikian informasi yang dapat kami sampaikan. Terima kasih atas pengertian dan kepercayaan Bapak/Ibu/Kakak kepada Layanan Tri.",
+   "id": "e009",
+   "o": 8
+  },
+  {
+   "m": "mpp",
+   "k": "Penanganan",
+   "t": "Kasus: Pelanggan tidak bisa membeli paket karena sudah memiliki 30 paket aktif",
+   "b": "Pengecekan: cek menu Subscribed Products, berapa total paket aktif pelanggan saat ini.\n\nPenanganan: jika sudah 30 paket aktif, edukasi dengan standard jawaban di bawah.\n\nCatatan saat membantu penonaktifan:\n- Prioritaskan paket yang kuotanya sudah habis tetapi masa berlakunya masih panjang, atau paket yang sudah tidak dibutuhkan pelanggan. Pastikan paket yang dinonaktifkan sudah dikonfirmasi dan disetujui pelanggan.\n- Pastikan nomor yang mengajukan penonaktifan sama dengan nomor yang dipakai menghubungi Contact Center.",
+   "id": "e010",
+   "o": 9
+  },
+  {
+   "m": "mpp",
+   "k": "Script",
+   "t": "Standard jawaban: sudah 30 paket aktif",
+   "b": "Bapak/Ibu/Kak [Nama Pelanggan], mohon maaf atas ketidaknyamanannya.\nBerdasarkan pengecekan pada sistem, saat ini Bapak/Ibu/Kakak memiliki 30 paket aktif yang masih dapat digunakan.\nTerkait pembelian paket terbaru, saat ini terdapat ketentuan bahwa pelanggan dapat memiliki maksimal 30 paket aktif pada saat yang bersamaan. Apabila Bapak/Ibu/Kakak tetap ingin menggunakan paket terbaru yang telah dibeli, kami dapat membantu menonaktifkan salah satu paket aktif yang dimiliki agar paket terbaru tersebut dapat digunakan.\nPenonaktifan paket hanya dapat dilakukan atas permintaan Bapak/Ibu/Kakak. Mohon informasikan apabila Bapak/Ibu/Kakak bersedia untuk menonaktifkan salah satu paket yang masih aktif.\nDemikian informasi yang dapat kami sampaikan. Terima kasih atas pengertian dan kepercayaan Bapak/Ibu/Kakak kepada Layanan Tri.",
+   "n": "Catatan: teks asli di RENA menulis \"maksimal 10 paket aktif\". Di sini disesuaikan menjadi 30 karena ketentuan terbaru 30 paket. Mohon konfirmasi ke pembuat materi.",
+   "id": "e011",
+   "o": 10
+  },
+  {
+   "m": "mpp",
+   "k": "Pencatatan",
+   "t": "Pencatatan interaksi MPP",
+   "b": "Intent: Inquiry\nActivity Code: 2104180002 - product tariff & benefit\nNote: MPP",
+   "id": "e012",
+   "o": 11
+  },
+  {
+   "m": "rea",
+   "k": "Perubahan",
+   "t": "Starterpack reaktivasi: dari Rp82.000 menjadi Rp50.000",
+   "b": "Sebelum 21 Okt 2026: Perdana Happy 7GB 28 hari Rp42.000 + inject Kuota Data 7GB 28 hari Rp40.000 = Rp82.000. Keyword: HP7GB28DTS (SP), RH7GB30DTS0926 (Paket Data).\nMulai 21 Okt 2026: Perdana Happy 10GB 30 hari + benefit Anti Spam/Scam, OTT & AI = Rp50.000, tanpa inject paket data tambahan. Keyword: HP10GB30DTS0926.",
+   "id": "e013",
+   "o": 12
+  },
+  {
+   "m": "rea",
+   "k": "Detail",
+   "t": "Informasi biaya dan benefit reaktivasi",
+   "b": "Biaya reaktivasi Rp50.000, termasuk kuota 10 GB, ekstra nelpon 5000 menit Onnet & 50 menit Offnet (berlaku 30 hari), serta benefit tambahan Adobe Express, Anti Spam/Scam (90 hari), dan Vidio Lite + VIU/WeTV/iQIYI.",
+   "id": "e014",
+   "o": 13
+  },
+  {
+   "m": "rea",
+   "k": "Detail",
+   "t": "Pemisahan transaksi dan bukti pembayaran",
+   "b": "Jika ada transaksi lain, proses reaktivasi dan bukti pembayaran transaksi lainnya harus dipisahkan agar tidak tercampur dengan pengajuan reaktivasi nomor.",
+   "id": "e015",
+   "o": 14
+  },
+  {
+   "m": "rea",
+   "k": "Script",
+   "t": "Standard jawaban Agent 3Store sebelum memproses reaktivasi",
+   "b": "\"Nomor 3 Prabayar Bapak/Ibu dapat direaktivasi dengan total pembayaran Rp50.000. Harga tersebut sudah termasuk kuota data 10 GB dengan masa aktif 30 hari. Apakah proses reaktivasi dapat kami lanjutkan?\"",
+   "n": "Agent wajib menyampaikan harga dan benefit secara jelas serta memperoleh persetujuan pelanggan sebelum transaksi diproses.",
+   "id": "e016",
+   "o": 15
+  },
+  {
+   "m": "rea",
+   "k": "Do",
+   "t": "Yang harus dilakukan",
+   "b": "1. Pastikan pelanggan memenuhi seluruh persyaratan pengajuan reaktivasi.\n2. Pastikan pelanggan lolos validasi.\n3. Sampaikan ketentuan starterpack beserta benefit yang diterima.\n4. Sampaikan total biaya Rp50.000.\n5. Lakukan reaktivasi mengikuti proses yang berlaku.\n6. Pastikan reaktivasi berhasil serta layanan dan benefit diterima pelanggan.\n7. Catat interaksi untuk permintaan reaktivasi yang diterima.",
+   "id": "e017",
+   "o": 16
+  },
+  {
+   "m": "rea",
+   "k": "Dont",
+   "t": "Yang tidak perlu dilakukan",
+   "b": "1. Jangan reaktivasi jika pelanggan tidak memenuhi syarat dan validasi.\n2. Jangan proses sebelum pelanggan memahami dan menyetujui biaya.\n3. Jangan menutup layanan sebelum reaktivasi berhasil dan benefit diterima pelanggan.\n4. Jangan tidak mencatat interaksi untuk permintaan reaktivasi yang diterima.",
+   "id": "e018",
+   "o": 17
+  },
+  {
+   "m": "rea",
+   "k": "FAQ",
+   "t": "Berapa biaya yang diinformasikan untuk reaktivasi nomor prabayar?",
+   "b": "Rp50.000 sesuai ketentuan harga starterpack yang berlaku.",
+   "id": "e019",
+   "o": 18
+  },
+  {
+   "m": "rea",
+   "k": "FAQ",
+   "t": "Apa saja benefit yang didapat pelanggan dari reaktivasi?",
+   "b": "Kuota 10 GB, ekstra nelpon 5000 menit Onnet & 50 menit Offnet (30 hari), Adobe Express, Anti Spam/Scam (90 hari), dan Vidio Lite + VIU/WeTV/iQIYI.",
+   "id": "e020",
+   "o": 19
+  },
+  {
+   "m": "rea",
+   "k": "FAQ",
+   "t": "Boleh menawarkan paket data add-on kepada pelanggan yang reaktivasi?",
+   "b": "Boleh, selama disepakati kedua belah pihak. Transaksi add-on harus diproses terpisah dari pengajuan reaktivasi, termasuk bukti pembayarannya.",
+   "id": "e021",
+   "o": 20
+  },
+  {
+   "m": "rea",
+   "k": "FAQ",
+   "t": "Apakah reaktivasi dapat digabung dengan transaksi lain?",
+   "b": "Tidak. Proses dan bukti pembayaran masing-masing transaksi harus terpisah.",
+   "id": "e022",
+   "o": 21
+  },
+  {
+   "m": "rea",
+   "k": "FAQ",
+   "t": "Apakah starterpack 10GB 30 hari boleh ditawarkan ke pelanggan baru?",
+   "b": "Tidak. Hanya untuk pelanggan yang mengajukan reaktivasi nomor Tri.",
+   "id": "e023",
+   "o": 22
+  },
+  {
+   "m": "rea",
+   "k": "FAQ",
+   "t": "Apakah starterpack reaktivasi menerapkan auto-renewal?",
+   "b": "Ya, auto-renewal berlaku untuk benefit kuota pada starterpack tersebut selama pulsa pelanggan mencukupi.",
+   "id": "e024",
+   "o": 23
+  },
+  {
+   "m": "rea",
+   "k": "FAQ",
+   "t": "Permintaan reaktivasi diterima sebelum 21 Okt 2026: pakai ketentuan lama atau baru?",
+   "b": "- Diterima sebelum 21 Okt 2026 dan proses belum selesai pada 21 Okt 2026: pakai ketentuan lama (Happy 7GB 28 hari Rp42.000 + kuota data 7GB 28 hari Rp40.000, total Rp82.000).\n- Diterima pada 21 Okt 2026: wajib ketentuan baru (starterpack 10GB 30 hari, total Rp50.000).",
+   "id": "e025",
+   "o": 24
+  },
+  {
+   "m": "mas",
+   "k": "Detail",
+   "t": "Mekanisme penambahan masa aktif",
+   "b": "Pembelian pulsa sesuai denominasi yang berlaku menambah masa aktif kartu sesuai validity denom. Total masa aktif maksimal 365 hari. Jika sisa masa aktif kurang dari validity denom, penambahan hanya sampai batas 365 hari.\nContoh: masa aktif 360 hari, beli pulsa validity 100 hari, masa aktif hanya bertambah 5 hari menjadi 365 hari.",
+   "id": "e026",
+   "o": 25
+  },
+  {
+   "m": "mas",
+   "k": "Detail",
+   "t": "Tabel denom pulsa dan validity (hari)",
+   "b": "5.000, 8.000, 10.000, 12.000, 15.000, 20.000, 25.000, 30.000 = 30 hari\n35.000 = 35 | 40.000 = 40 | 45.000 = 45 | 50.000 = 50 | 55.000 = 55 | 60.000 = 60\n65.000 = 65 | 70.000 = 70 | 75.000 = 75 | 80.000 = 80 | 85.000 = 85 | 90.000 = 90 | 100.000 = 100\n105.000 = 105 | 125.000 = 125 | 150.000 = 150 | 200.000 = 200 | 250.000 = 250 | 300.000 = 300\n500.000 = 365",
+   "id": "e027",
+   "o": 26
+  },
+  {
+   "m": "mas",
+   "k": "Detail",
+   "t": "Matrix penambahan masa aktif",
+   "b": "1. Masa aktif sudah 365 hari: tidak bertambah (sudah batas maksimal).\n2. Masa aktif 30 hari, beli validity 100 hari: bertambah 100 hari, dihitung dari tanggal transaksi reload.\n3. Masa aktif 360 hari, beli validity 100 hari: bertambah 5 hari sampai batas 365 hari.",
+   "id": "e028",
+   "o": 27
+  },
+  {
+   "m": "mas",
+   "k": "Penanganan",
+   "t": "Kasus: Masa aktif tidak bertambah padahal sudah beli pulsa",
+   "b": "Probing:\na. Nama Pelanggan\nb. MSISDN Pelanggan\nc. Kendala yang dikeluhkan\n\nHasil pengecekan: masa aktif kartu sudah mencapai batas maksimal 365 hari.\nPenanganan: edukasi bahwa masa aktif memiliki batas maksimal 365 hari; jika sudah 365 hari, pembelian pulsa tidak menambah masa aktif.",
+   "id": "e029",
+   "o": 28
+  },
+  {
+   "m": "mas",
+   "k": "Script",
+   "t": "Standard jawaban: masa aktif sudah 365 hari",
+   "b": "Bapak/Ibu/Kak [Nama Pelanggan], mohon maaf atas ketidaknyamanannya. Terkait masa aktif kartu, penambahan masa aktif dari pembelian pulsa mengikuti validity denom pulsa yang dibeli, dengan batas maksimal masa aktif kartu hingga 365 hari. Karena masa aktif kartu Bapak/Ibu/Kak sudah mencapai batas maksimal tersebut, maka pembelian pulsa tidak menambah masa aktif kartu. Terima kasih atas pengertiannya.",
+   "id": "e030",
+   "o": 29
+  },
+  {
+   "m": "mas",
+   "k": "Penanganan",
+   "t": "Kasus: Masa aktif tinggal 5 hari, beli pulsa Rp100.000 (validity 100 hari), apakah bertambah 100 hari?",
+   "b": "Hasil pengecekan: masa aktif belum mencapai 365 hari dan validity denom 100 hari.\nPenanganan: edukasi bahwa masa aktif bertambah sesuai validity denom selama total tidak melebihi 365 hari.",
+   "id": "e031",
+   "o": 30
+  },
+  {
+   "m": "mas",
+   "k": "Script",
+   "t": "Standard jawaban: masa aktif belum mencapai 365 hari",
+   "b": "Bapak/Ibu/Kak [Nama Pelanggan], kami informasikan bahwa masa aktif kartu akan bertambah sesuai validity dari denom pulsa yang dibeli. Jika masa aktif saat ini tersisa 5 hari dan Bapak/Ibu/Kak melakukan pembelian pulsa dengan validity 100 hari, maka masa aktif kartu akan bertambah 100 hari dari masa aktif yang tersedia saat transaksi dilakukan.",
+   "id": "e032",
+   "o": 31
+  },
+  {
+   "m": "mas",
+   "k": "Penanganan",
+   "t": "Kasus: Masa aktif 360 hari, beli pulsa Rp100.000, apakah jadi 460 hari?",
+   "b": "Hasil pengecekan: masa aktif 360 hari, validity 100 hari, batas maksimal 365 hari.\nPenanganan: edukasi bahwa penambahan mengikuti validity denom namun dibatasi maksimal 365 hari.",
+   "id": "e033",
+   "o": 32
+  },
+  {
+   "m": "mas",
+   "k": "Script",
+   "t": "Standard jawaban: masa aktif mendekati 365 hari",
+   "b": "Bapak/Ibu/Kak [Nama Pelanggan], mohon diinformasikan bahwa masa aktif kartu memiliki batas maksimal 365 hari. Jika masa aktif saat ini sudah 360 hari dan Bapak/Ibu/Kak membeli pulsa dengan validity 100 hari, maka masa aktif kartu hanya akan bertambah 5 hari hingga mencapai batas maksimal 365 hari. Terima kasih atas pengertiannya.",
+   "id": "e034",
+   "o": 33
+  },
+  {
+   "m": "mas",
+   "k": "FAQ",
+   "t": "Apakah pembelian pulsa dapat menambah masa aktif kartu?",
+   "b": "Ya, sesuai validity denom pulsa yang dibeli, dengan batas maksimal 365 hari.",
+   "id": "e035",
+   "o": 34
+  },
+  {
+   "m": "mas",
+   "k": "FAQ",
+   "t": "Jika masa aktif sudah 365 hari, apakah pembelian pulsa menambah masa aktif?",
+   "b": "Tidak. Masa aktif tetap mengikuti batas maksimal 365 hari.",
+   "id": "e036",
+   "o": 35
+  },
+  {
+   "m": "mas",
+   "k": "FAQ",
+   "t": "Jika belum 365 hari, berapa lama masa aktif bertambah setelah beli pulsa?",
+   "b": "Sesuai validity denom pulsa yang dibeli, selama total masa aktif tidak melebihi 365 hari.",
+   "id": "e037",
+   "o": 36
+  },
+  {
+   "m": "mas",
+   "k": "FAQ",
+   "t": "Bagaimana jika validity pulsa lebih besar dari sisa masa aktif menuju 365 hari?",
+   "b": "Penambahan hanya sampai batas maksimal 365 hari. Contoh: masa aktif 360 hari + validity 100 hari = bertambah 5 hari.",
+   "id": "e038",
+   "o": 37
+  },
+  {
+   "m": "mas",
+   "k": "Pencatatan",
+   "t": "Pencatatan interaksi masa aktif",
+   "b": "Gunakan activity code 2105260001 Check Active Period (inquiry).",
+   "id": "e039",
+   "o": 38
+  },
+  {
+   "m": "unr",
+   "k": "Detail",
+   "t": "Latar belakang dan identifikasi di Siebel",
+   "b": "Keluhan: nomor IM3/Tri Prabayar tidak bisa dipakai (telpon, SMS, internet, dan layanan lain) karena status Not registered / Unpaired eKTP (nomor tidak teregistrasi).\nLakukan identifikasi sebelum memberi solusi:\n1. Status nomor Not registered / Unpaired eKTP (menu Assets, kolom Registration Status).\n2. Offer ID 4443.",
+   "id": "e040",
+   "o": 39
+  },
+  {
+   "m": "unr",
+   "k": "Detail",
+   "t": "Cara cek Offer ID 4443 di Siebel",
+   "b": "A. Melalui menu Asset:\n1. Klik menu Asset.\n2. Masuk ke menu Prepaid, scroll ke bawah.\n3. Klik Offer Information, lihat Offer ID (4443).\n\nB. Melalui menu Other Prepaid Functions:\n1. Klik Other Prepaid Functions.\n2. Klik Manual Offer Info.\n3. Input MSISDN pada Service Number, lihat Offer ID (4443).",
+   "id": "e041",
+   "o": 40
+  },
+  {
+   "m": "unr",
+   "k": "Penanganan",
+   "t": "Alur penanganan di Customer Service",
+   "b": "1. Probing:\na. Nama Pelanggan\nb. Nomor Tri yang mengalami kendala\nc. Waktu nomor Tri tidak bisa digunakan\nd. Isi notifikasi yang diterima\n\n2. Cek aplikasi CRM dan pastikan status nomor Not registered / Unpaired eKTP dan Offer ID 4443.\n\n3. Berikan solusi sesuai status nomor (lihat penanganan di bawah).",
+   "id": "e042",
+   "o": 41
+  },
+  {
+   "m": "unr",
+   "k": "Penanganan",
+   "t": "Status Unregistered (Offer ID 4443)",
+   "b": "- Pastikan status nomor masih aktif (tidak dalam masa tenggang / inactive).\n- Sarankan pelanggan melakukan registrasi prabayar melalui registrasi.ioh.co.id.\n- Edukasi langkah registrasi prabayar melalui website (jika diperlukan).",
+   "id": "e043",
+   "o": 42
+  },
+  {
+   "m": "unr",
+   "k": "Penanganan",
+   "t": "Status nomor sudah registered",
+   "b": "Penanganan mengacu prosedur yang berlaku (existing process).\n- Dapat ditangani langsung (FCR): interaksi closed, tidak eskalasi ke Tier2.\n- Tidak dapat ditangani langsung / butuh penanganan lebih lanjut (Non FCR): eskalasi ke Tier2 sesuai ketentuan.",
+   "id": "e044",
+   "o": 43
+  },
+  {
+   "m": "unr",
+   "k": "Penanganan",
+   "t": "Butuh penanganan khusus (potensi viral, ancam blow up media/social media/CEO/YLKI)",
+   "b": "Jika pelanggan sudah diberi standar informasi oleh Tier1 namun tidak berkenan / butuh penanganan khusus, eskalasi ke Tier2 melalui trouble ticket. Cantumkan lengkap: keluhan pelanggan, hasil pengecekan, informasi yang sudah disampaikan, alasan eskalasi, dan informasi lainnya.\n\nCatatan penting:\n- Tim Tier2 dapat menghubungi pelanggan untuk edukasi dan penjelasan lebih lanjut.\n- Jika pelanggan tidak dapat diedukasi / tidak menerima penjelasan Tier2 dan butuh penanganan khusus (potensi viral, ancam blow up media/social media/CEO/YLKI, dll), case dapat dieskalasikan ke Tim Special Service sesuai ketentuan.\n- Penanganan mengacu prosedur Special Case yang berlaku.",
+   "id": "e045",
+   "o": 44
+  },
+  {
+   "m": "unr",
+   "k": "Script",
+   "t": "Standard jawaban: nomor belum teregistrasi",
+   "b": "Bapak/Ibu/Kak [Nama Pelanggan], mohon maaf atas ketidaknyamanannya.\nBerdasarkan hasil pengecekan nomor Bapak/Ibu/Kakak belum teregistrasi.\nUntuk kembali menggunakan layanan Tri, silakan melakukan registrasi Prabayar melalui registrasi.ioh.co.id.\nSetelah registrasi berhasil, pelanggan dapat kembali menggunakan layanan Tri sesuai status nomor dan benefit yang dimiliki.\nTerima kasih telah menggunakan layanan Tri.",
+   "id": "e046",
+   "o": 45
+  },
+  {
+   "m": "unr",
+   "k": "Pencatatan",
+   "t": "Pencatatan interaksi Not Registered 4443",
+   "b": "Wajib dicatat di CRM. Input hashtag di awal kalimat pada field Tier1 Agent Comment (Aplikasi SF).\n\n1. Activity code 2105170001 - Prepaid reg/unreg info\nDipakai jika pelanggan menanyakan edukasi registrasi prabayar, termasuk pelanggan berstatus UNREG yang perlu registrasi kembali.\nHashtag: #UNREG_4443\n\n2. Activity code 2405180001 - Prepaid reg/unreg issue\nDipakai untuk eskalasi saat pelanggan sudah diberi standar informasi namun tidak berkenan dan butuh eskalasi ke Tier2.\nHashtag: #UNREG_4443",
+   "id": "e047",
+   "o": 46
+  },
+  {
+   "m": "unr",
+   "k": "Detail",
+   "t": "Tahapan registrasi mandiri via website (validasi biometrik)",
+   "b": "1. Akses https://registrasi.ioh.co.id, pilih Registrasi IM3 & Tri Prabayar.\n2. Input MSISDN.\n3. Validasi nomor: SMS OTP (dari INDOSAT OTP) atau 4 digit terakhir ICCID, lalu klik Lanjut.\n4. Input NIK, setelah validasi data berhasil klik Lanjut.\n5. Ambil foto selfie sesuai pemilik NIK, pastikan izin akses kamera aktif.\n6. Pastikan pengambilan foto sesuai ketentuan.\n7. Setelah validasi face recognition berhasil, permintaan diproses.\n8. Tunggu notifikasi registrasi berhasil.",
+   "id": "e048",
+   "o": 47
+  },
+  {
+   "m": "unr",
+   "k": "FAQ",
+   "t": "Mengapa nomor saya tidak bisa digunakan untuk akses data?",
+   "b": "Bapak/Ibu/Kak [Nama Pelanggan], mohon maaf atas ketidaknyamanannya.\nBerdasarkan hasil pengecekan status nomor Bapak/Ibu/Kakak saat ini belum teregistrasi.\nUntuk kembali menggunakan layanan Tri, silakan melakukan registrasi Prabayar melalui https://registrasi.ioh.co.id/\nSetelah registrasi berhasil, pelanggan dapat kembali menggunakan layanan Tri sesuai status nomor dan benefit yang dimiliki.\nTerima kasih telah menggunakan layanan IM3 / Tri (sesuai brand).",
+   "id": "e049",
+   "o": 48
+  },
+  {
+   "m": "unr",
+   "k": "FAQ",
+   "t": "Bagaimana cara registrasi prabayar?",
+   "b": "Akses https://registrasi.ioh.co.id/\n1. Pilih menu Registrasi IM3 & Tri Prabayar.\n2. Input MSISDN yang akan diregistrasi.\n3. Validasi nomor dengan SMS OTP atau 4 digit terakhir ICCID.\n4. Input NIK sesuai identitas.\n5. Ambil foto selfie untuk validasi biometrik.\n6. Tunggu notifikasi bahwa registrasi berhasil.",
+   "id": "e050",
+   "o": 49
+  },
+  {
+   "m": "unr",
+   "k": "FAQ",
+   "t": "Apakah saya tetap bisa menggunakan nomor saya setelah registrasi?",
+   "b": "Ya. Selama kartu masih aktif dan memiliki benefit, layanan dapat digunakan setelah registrasi berhasil.",
+   "id": "e051",
+   "o": 50
+  },
+  {
+   "m": "unr",
+   "k": "FAQ",
+   "t": "Apakah saya perlu membeli kartu SIM baru?",
+   "b": "Tidak. Cukup registrasi prabayar melalui registrasi.ioh.co.id menggunakan nomor yang saat ini masih aktif.",
+   "id": "e052",
+   "o": 51
+  },
+  {
+   "m": "unr",
+   "k": "FAQ",
+   "t": "Saya sudah mencoba registrasi tapi gagal, apa yang harus saya lakukan?",
+   "b": "Lakukan probing detail terhadap kendala pelanggan dan pastikan cara registrasi sudah sesuai. Jika masih belum berhasil, eskalasi sesuai ketentuan yang berlaku.",
+   "id": "e053",
+   "o": 52
+  },
+  {
+   "m": "unr",
+   "k": "FAQ",
+   "t": "Sebelumnya saya sudah registrasi. Mengapa tiba-tiba menjadi tidak teregistrasi?",
+   "b": "Bapak/Ibu/Kak [Nama Pelanggan], mohon maaf atas ketidaknyamanannya. Tidak perlu khawatir, agar layanan Tri tetap dapat digunakan seperti biasa, silakan lakukan registrasi kembali melalui registrasi.ioh.co.id dengan menyiapkan NIK/Nomor KTP.\nTerkait notifikasi registrasi ulang yang Bapak/Ibu/Kak terima, hal ini juga akan kami eskalasikan ke tim terkait untuk investigasi lebih lanjut.\n\nCatatan penanganan khusus:\na. Jika pelanggan tidak dapat diedukasi dan butuh penanganan khusus (ancam blow up media/CEO/YLKI/lembaga konsumen lain atau potensi viral), eskalasi ke Tier2 via trouble ticket dan percepatan melalui email/WAG sesuai prosedur.\nb. Jika tidak dapat diselesaikan Tier2, eskalasi ke Tim Special Service mengacu prosedur special case yang berlaku.",
+   "id": "e054",
+   "o": 53
+  },
+  {
+   "m": "jrn",
+   "k": "Perubahan",
+   "t": "Unreg dan Cek Nomor Terdaftar kini memakai biometrik (mulai 28 Sep 2026)",
+   "b": "1. Flow proses: sebelum 28 Sep 2026 tanpa verifikasi biometrik; mulai 28 Sep 2026 memakai verifikasi biometrik.\n2. Pelanggan >17 tahun: sebelumnya dilakukan pelanggan selama NIK sesuai, tanpa biometrik; sekarang verifikasi dengan wajah pelanggan.\n3. Pelanggan <17 tahun: sebelumnya tanpa biometrik; sekarang verifikasi dengan wajah Kepala Keluarga yang terdaftar dalam Kartu Keluarga yang sama.\n4. Tampilan halaman: sebelumnya harus memilih brand IM3 atau Tri lalu diarahkan ke website masing-masing brand; sekarang proses dalam satu halaman yang sama tanpa pindah halaman brand.",
+   "id": "e055",
+   "o": 54
+  },
+  {
+   "m": "jrn",
+   "k": "Detail",
+   "t": "Informasi singkat perubahan journey",
+   "b": "- Per 28 September 2026, journey Pembatalan Registrasi (Unreg) dan Cek Nomor Terdaftar berubah.\n- Kedua proses dilakukan melalui website registrasi.ioh.co.id dan memakai verifikasi biometrik.\n- Pelanggan >17 tahun: wajah pelanggan.\n- Pelanggan <17 tahun: wajah Kepala Keluarga yang terdaftar.",
+   "id": "e056",
+   "o": 55
+  },
+  {
+   "m": "jrn",
+   "k": "Detail",
+   "t": "Tampilan di Siebel: history unreg dan jumlah nomor terdaftar",
+   "b": "Cek history Pembatalan Registrasi di iCare Siebel: menu Notes > Shared Notes > pilih Note Type UNREG_NIK.\n\nCek jumlah nomor terdaftar di iCare Siebel: menu MSISDN Registration > input NIK yang dicek > pilih Filter Brand > Enter. Jumlah nomor terdaftar muncul pada Query Result.",
+   "id": "e057",
+   "o": 56
+  },
+  {
+   "m": "jrn",
+   "k": "Detail",
+   "t": "Flow Unreg pelanggan >17 tahun",
+   "b": "1. Akses registrasi.ioh.co.id, pilih menu Batalkan Registrasi (Unreg), input nomor yang dibatalkan, klik Lanjutkan.\n2. Klik Hapus Nomor.\n3. Ikuti petunjuk.\n4. Posisikan wajah pemilik NIK dalam bingkai oval, diam hingga bingkai terkunci dan foto diambil.\n5. Pastikan pencahayaan baik dan wajah jelas, tekan Kirim Foto.\n6. Tunggu validasi wajah, jangan tutup halaman.\n7. Muncul Memproses pembatalan registrasi, tunggu tanpa menutup halaman.\n8. Muncul pesan Pembatalan registrasi berhasil. Nomor terlepas dari NIK pemilik. Cek notifikasi unreg berhasil via SMS dari 4444.",
+   "id": "e058",
+   "o": 57
+  },
+  {
+   "m": "jrn",
+   "k": "Detail",
+   "t": "Flow Unreg pelanggan <17 tahun",
+   "b": "1. Akses registrasi.ioh.co.id, pilih Batalkan Registrasi (Unreg), input nomor, klik Lanjutkan.\n2. Klik Hapus Nomor.\n3. Masukkan NIK Kepala Keluarga, klik Lanjut.\n4. Pilih cara verifikasi:\n   a. Bagikan Link Kartu Restu: layar Tinggal satu restu dari Kepala Keluarga tampil dengan status Menunggu persetujuan Kepala Keluarga. Atau\n   b. Unduh dan Kirim QR Code: tekan Bagikan atau Unduh kartu. Jika Kepala Keluarga datang, tekan Mulai verifikasi di perangkat ini.\n5. Klik Lanjut.\n6. Konfirmasi data NIK dan nomor yang dihapus, tekan Lanjut, lalu Mulai Pengambilan Selfie.\n7. Posisikan wajah Kepala Keluarga (bukan anak) dalam bingkai oval, diam hingga foto diambil.\n8. Tinjau dan kirim, pastikan pencahayaan baik, tekan Kirim Foto.\n9. Tunggu validasi wajah, jangan tutup halaman.\n10. Muncul Pembatalan registrasi berhasil. Cek notifikasi unreg berhasil via SMS dari 4444.",
+   "id": "e059",
+   "o": 58
+  },
+  {
+   "m": "jrn",
+   "k": "Detail",
+   "t": "Flow Cek Nomor Terdaftar (>17 dan <17 tahun)",
+   "b": ">17 tahun:\n1. Akses registrasi.ioh.co.id, pilih Cek Nomor Terdaftar, input nomor dan NIK terdaftar, pilih Cek Nomor.\n2. Ikuti petunjuk.\n3. Posisikan wajah pemilik NIK dalam bingkai oval, diam hingga foto diambil.\n4. Tinjau dan kirim, pastikan pencahayaan baik, tekan Kirim Foto.\n5. Tunggu validasi wajah, jangan tutup halaman.\n6. Baca hasil pada halaman Hasil Pengecekan.\n\n<17 tahun:\n1. Sama seperti langkah 1 di atas.\n2. Masukkan NIK Kepala Keluarga dalam Kartu Keluarga yang sama, tekan Lanjut.\n3. Ikuti petunjuk.\n4. Posisikan wajah KEPALA KELUARGA (bukan anak) dalam bingkai oval.\n5. Tinjau dan kirim, tekan Kirim Foto.\n6. Tunggu validasi, jangan tutup halaman.\n7. Baca hasil pada halaman Hasil Pengecekan.",
+   "n": "Hasil cek nomor terdaftar di web maksimal menampilkan 3 nomor, meskipun pelanggan memiliki lebih dari 3 nomor terdaftar.",
+   "id": "e060",
+   "o": 59
+  },
+  {
+   "m": "jrn",
+   "k": "Penanganan",
+   "t": "Probing dan validasi data pelanggan",
+   "b": "a. Nama pelanggan\nb. Nomor yang dipakai untuk Unreg / Cek Nomor Terdaftar\nc. Detail kebutuhan / keluhan pelanggan\nd. Notifikasi yang muncul (jika ada)\ne. Masih memiliki akses ke nomor yang akan di-unreg atau tidak (jika dibutuhkan)\nf. Nomor alternatif (jika dibutuhkan eskalasi)\n\nLalu cek aplikasi dan data pendukung sesuai ketentuan.",
+   "id": "e061",
+   "o": 60
+  },
+  {
+   "m": "jrn",
+   "k": "Penanganan",
+   "t": "Kasus 1: Informasi unreg dan cek nomor terdaftar via website",
+   "b": "Informasikan ke pelanggan cara unreg dan cek nomor terdaftar melalui website dengan validasi biometrik sesuai kebutuhan.",
+   "id": "e062",
+   "o": 61
+  },
+  {
+   "m": "jrn",
+   "k": "Penanganan",
+   "t": "Kasus 2: Pelanggan kendala saat Unreg via website",
+   "b": "1. Pastikan cara, nomor, NIK dan pengambilan foto sudah sesuai, sarankan coba unreg kembali.\n2. Jika pelanggan masih bisa unreg mandiri, arahkan ke channel lain:\n   - UMB: dial *4444#, tekan Call, pilih Unreg.\n   - SMS: kirim SMS ke 4444 dengan mengetik UNREG#NIK KTP yang terdaftar#\n3. Jika tidak bisa unreg mandiri (nomor hilang/rusak) atau pelanggan bersikeras dibantu CS:\n   - Validasi data dan pastikan data registrasi sesuai.\n   - Jika sesuai, CS dapat membantu Unreg sesuai privilege yang berlaku.\n   - Jika NIK yang akan di-unreg tidak sesuai, sarankan mutasi kepemilikan sesuai prosedur.\n4. Jika sudah dicoba cara lain masih gagal: create trouble ticket ke L2, cantumkan detail masalah dan solusi yang sudah disampaikan L1, lampirkan bukti (capture error jika ada) dan nomor alternatif yang bisa dihubungi.",
+   "n": "Untuk stabilitas layanan, semua masalah unreg via website tetap dieskalasi lewat trouble ticket, meskipun pelanggan bersedia diarahkan ke channel lain. Di L2: eskalasi ke Enterprise Helpdesk dan PIC terkait (Artho Hasudungan, Artho.Hasudungan@ioh.co.id), close TT dan input note sesuai ketentuan (tidak perlu update ke pelanggan).",
+   "id": "e063",
+   "o": 62
+  },
+  {
+   "m": "jrn",
+   "k": "Penanganan",
+   "t": "Kasus 3: Pelanggan kendala saat cek nomor terdaftar via website",
+   "b": "1. Pastikan cara, nomor, NIK dan pengambilan foto sudah sesuai, sarankan coba kembali.\n2. Jika masih gagal: create trouble ticket ke L2, cantumkan detail masalah dan solusi yang sudah disampaikan L1, lampirkan bukti (capture error jika ada) dan nomor alternatif yang bisa dihubungi.",
+   "id": "e064",
+   "o": 63
+  },
+  {
+   "m": "jrn",
+   "k": "Penanganan",
+   "t": "Kasus 4: Pelanggan ingin cek seluruh nomor yang terdaftar dengan NIK miliknya",
+   "b": "1. Contact Center: arahkan pelanggan datang ke 3Store terdekat.\n2. 3Store: validasi data, pastikan data sesuai, dan informasikan nomor terdaftar sesuai kebutuhan pelanggan.",
+   "id": "e065",
+   "o": 64
+  },
+  {
+   "m": "jrn",
+   "k": "Penanganan",
+   "t": "Kasus 5: Masalah sistem lain (mis. unreg berhasil tapi Offer ID 4443 tidak muncul / status masih registered, data tidak sesuai)",
+   "b": "1. L1: create trouble ticket ke L2 melalui Service Request, cantumkan detail masalah dan solusi yang sudah disampaikan L1, lampirkan bukti (capture error jika ada) dan nomor alternatif.\n2. L2: eskalasi ke Enterprise Helpdesk dan PIC terkait (Artho Hasudungan, Artho.Hasudungan@ioh.co.id).",
+   "id": "e066",
+   "o": 65
+  },
+  {
+   "m": "jrn",
+   "k": "Pencatatan",
+   "t": "Pencatatan interaksi Unreg dan Cek NIK",
+   "b": "Activity code:\n- Inquiry: 2105170001 - prepaid reg/unreg info\n- Complaint: 2405180003 - prepaid unregistration issue\n\nL1 Comment:\n- #Unreg : informasi / keluhan terkait pembatalan registrasi (unreg)\n- #Cek_NIK : informasi / keluhan terkait cek NIK terdaftar",
+   "n": "Untuk keluhan Not Registered 4443 memakai kode berbeda (2405180001, hashtag #UNREG_4443). Lihat materi Not Registered 4443.",
+   "id": "e067",
+   "o": 66
+  },
+  {
+   "m": "sph",
+   "k": "Perubahan",
+   "t": "Penambahan channel SP Happy dan produk reaktivasi 3Store (mulai 8 Okt 2026)",
+   "b": "Mulai 8 Okt 2026:\n- SP Happy 5GB (14 hari) dan SP Happy 7GB (28 hari) ditambah channel Digital Distribution (eCommerce, Modern Retail, Perdana Online).\n- Ada produk baru SP Happy 10GB 30D khusus Reaktivasi di 3Store.",
+   "id": "e068",
+   "o": 67
+  },
+  {
+   "m": "sph",
+   "k": "Detail",
+   "t": "SP Happy pada channel Digital Distribution",
+   "b": "SP Happy 7GB 28D, Rp42.000:\n- Kuota Nasional 7GB, 28 hari\n- Ekstra nelpon ke sesama Tri & IM3 5000 menit, 28 hari\n- Ekstra nelpon ke semua operator 50 menit, 28 hari\n- Anti Spam Plus+ 90 hari\n- Bonus berlangganan Vidio Lite 30 hari\n- Bonus berlangganan Viu Premium 30 hari\n- Bonus akses Google Gemini 180 hari\n- Bonus akses Adobe Express 180 hari\n\nSP Happy 5GB 14D, Rp30.000:\n- Kuota Nasional 5GB, 14 hari\n- Ekstra nelpon ke sesama Tri & IM3 1000 menit, 14 hari\n- Ekstra nelpon ke semua operator 10 menit, 14 hari\n- Anti Spam Plus+ 90 hari\n- Bonus berlangganan Vidio Lite 30 hari\n- Bonus berlangganan Viu Premium 30 hari\n- Bonus akses Google Gemini 180 hari\n- Bonus akses Adobe Express 180 hari\n\nChannel (berlaku untuk kedua produk): 3Store, DVM, Perdana Online, Modern Channel Aggregator, Modern Channel Direct, Modern Channel (eSIM), 3ID Official Store eCommerce, 3ID Official Store (eSIM) eCommerce, Bank (eSIM).",
+   "id": "e069",
+   "o": 68
+  },
+  {
+   "m": "sph",
+   "k": "Detail",
+   "t": "Ketentuan SP Happy 7GB 28D dan 5GB 14D",
+   "b": "- Tidak ada perubahan benefit.\n- Tidak ada perubahan mekanisme penggunaan kuota (masih Regional).\n- Tidak ada perubahan tarif dasar, mengikuti tarif yang berlaku saat ini.\n- Tidak berlaku auto-renewal. Jika masa aktif habis, tidak ada perpanjangan otomatis.",
+   "id": "e070",
+   "o": 69
+  },
+  {
+   "m": "sph",
+   "k": "Detail",
+   "t": "SP Happy 10GB 30D khusus Reaktivasi di 3Store",
+   "b": "Harga Rp50.000, channel 3Store, berlaku auto-renewal.\nBenefit:\n- Kuota Nasional 10GB, 30 hari\n- Ekstra nelpon ke sesama Tri & IM3 5000 menit, 28 hari\n- Ekstra nelpon ke semua operator 50 menit, 28 hari\n- Anti Spam Plus+ / Adobe Express\n- Benefit OTT (Vidio Lite/VIU/WeTV/iQIYI)\n\nKetentuan: khusus reaktivasi di 3Store; mekanisme kuota Regional; tarif dasar mengikuti tarif yang berlaku.",
+   "n": "Di RENA ini masa berlaku ekstra nelpon tertulis 28 hari, sedangkan di materi Starterpack Reaktivasi tertulis 30 hari. Mohon konfirmasi ke pembuat materi.",
+   "id": "e071",
+   "o": 70
+  },
+  {
+   "m": "sph",
+   "k": "Detail",
+   "t": "Tanggal launch per channel",
+   "b": "- Trade dan 3Store: sudah live sejak migrasi DMP.\n- Perdana Online: 8 Okt 2026\n- eCommerce: 12 Okt 2026\n- Modern: 23 Okt 2026",
+   "id": "e072",
+   "o": 71
+  },
+  {
+   "m": "sph",
+   "k": "FAQ",
+   "t": "Apa yang baru dari Tri per 8 Oktober 2026?",
+   "b": "Produk baru SP 7GB 28D dan SP 5GB 14D untuk channel Digital Distribution, serta SP 10GB 30D untuk reaktivasi di channel 3Store.",
+   "id": "e073",
+   "o": 72
+  },
+  {
+   "m": "sph",
+   "k": "FAQ",
+   "t": "Apa bedanya SP 7GB 28D / 5GB 14D dengan SP 10GB 30D 3Store?",
+   "b": "SP 7GB 28D dan SP 5GB 14D adalah SP Regular. SP 10GB 30D adalah SP khusus reaktivasi.",
+   "id": "e074",
+   "o": 73
+  },
+  {
+   "m": "sph",
+   "k": "FAQ",
+   "t": "Apakah berlaku renewal untuk ketiga SP ini?",
+   "b": "SP 7GB 28D dan SP 5GB 14D tidak berlaku renewal. SP 10GB 30D berlaku renewal.",
+   "id": "e075",
+   "o": 74
+  },
+  {
+   "m": "sph",
+   "k": "FAQ",
+   "t": "Apa saja channel yang saat ini menjual SP 7GB 28D dan SP 5GB 14D?",
+   "b": "Channel Digital Distribution (3Store, Perdana Online, eCommerce, Modern Retail dan Trade).",
+   "id": "e076",
+   "o": 75
+  },
+  {
+   "m": "sph",
+   "k": "FAQ",
+   "t": "Apakah ada detail tanggal launch-nya?",
+   "b": "Trade dan 3Store sudah live sejak migrasi DMP. Perdana Online 8 Okt 2026, eCommerce 12 Okt 2026, Modern 23 Okt 2026.",
+   "id": "e077",
+   "o": 76
+  },
+  {
+   "m": "dar",
+   "k": "Perubahan",
+   "t": "Recovery STV naik dari maksimal 70% menjadi 100% (mulai 9 Okt 2026)",
+   "b": "Sebelum 9 Okt 2026: pelanggan yang masih punya hutang Pulsa Darurat (kondisi peminjaman sebelum implementasi penutupan) dan dalam 30 hari tidak top up pulsa, saat membeli paket recovery dihitung dari kuota (MB) yang dikonversikan ke Rupiah, dengan recovery maksimal 70% sesuai mekanisme Dual Recovery/STV.\nMulai 9 Okt 2026: mekanisme sama, recovery maksimal 100%.\n\nTidak berubah: deduction hutang non STV Recovery (tetap 100% dari nominal transaksi), channel layanan Loan Balance, dan tipe Loan Balance.",
+   "id": "e078",
+   "o": 77
+  },
+  {
+   "m": "dar",
+   "k": "Detail",
+   "t": "Latar belakang, channel, dan tipe Loan Balance",
+   "b": "Mulai 9 Okt 2026 seluruh skema pemotongan hutang kuota darurat diseragamkan menjadi 100% untuk konsistensi penerapan pada semua skema (sebelumnya ada perbedaan persentase, termasuk STV Recovery 70%).\n\nChannel Loan Balance (tidak berubah): USSD *805#, aplikasi bima+, Facebook, Instagram, SMS 805.\nTipe Loan Balance (tidak berubah): Kuota Darurat dan Flexi Darurat.\nSkema deduction dilakukan otomatis berdasarkan nilai transaksi yang memenuhi syarat (eligible).",
+   "id": "e079",
+   "o": 78
+  },
+  {
+   "m": "dar",
+   "k": "Detail",
+   "t": "Mekanisme pelunasan (recovery)",
+   "b": "a. Pelunasan dilakukan melalui pemotongan 100% dari nilai transaksi pengisian ulang pulsa atau pembelian kuota, dengan memperhatikan sisa pinjaman yang masih outstanding.\nb. Jika nilai transaksi tidak cukup melunasi seluruh sisa pinjaman, pemotongan sebesar nilai transaksi yang tersedia, dan sisa pinjaman dilanjutkan pada transaksi top up atau pembelian kuota berikutnya sampai lunas.",
+   "id": "e080",
+   "o": 79
+  },
+  {
+   "m": "dar",
+   "k": "Detail",
+   "t": "Matrix recovery pinjaman (semua 100%)",
+   "b": "1. Paket Darurat, Top Up Pulsa (IDR to IDR): recovery 100% dari nilai pulsa yang tersedia, sesuai jumlah pinjaman yang harus dibayar.\n2. Paket Darurat, Top Up Paket Data (MB to IDR): kuota yang dibeli dikonversikan ke Rupiah, dapat dipakai recovery hingga 100%.\n3. Flexi Darurat, Top Up Pulsa (IDR to IDR): recovery 100% dari nilai pulsa yang tersedia, sesuai jumlah loan.\n4. Flexi Darurat, Top Up Paket Data (MB to IDR): berasal dari pembelian paket/kuota, dapat dipakai recovery hingga 100%.",
+   "id": "e081",
+   "o": 80
+  },
+  {
+   "m": "dar",
+   "k": "Penanganan",
+   "t": "Kasus: kuota/pulsa berkurang setelah isi paket/pulsa dan menanyakan jumlah konversi kuota yang dipotong",
+   "b": "Probing:\na. Nama Pelanggan\nb. MSISDN\nc. Pastikan pelanggan memiliki pinjaman paket darurat\nd. Pastikan pelanggan mendapat notifikasi SMS deduction kuota karena pinjaman paket darurat\n\nPengecekan di iCare Siebel:\n1. Cek status dan jumlah paket darurat\n2. Cek jumlah kuota yang dideduct\n\nPenanganan:\n1. Hasil sudah sesuai: informasikan bahwa pemotongan kuota dilakukan untuk pembayaran pinjaman kuota darurat.\n2. Hasil tidak sesuai: edukasi pelanggan untuk menunggu karena akan ditindaklanjuti ke tim terkait.\n   - L1: create trouble ticket ke L2\n   - L2: validasi keluhan, eskalasi ke tim terkait memakai format eskalasi sesuai ketentuan, lampirkan bukti notifikasi kuota telah dideduct untuk pembayaran pinjaman kuota darurat.",
+   "id": "e082",
+   "o": 81
+  },
+  {
+   "m": "dar",
+   "k": "Pencatatan",
+   "t": "Pencatatan interaksi Paket Darurat",
+   "b": "Inquiry: 2121070002 - Paket Darurat Balance\nComplaint: 2421020001 - Paket Darurat Issue",
+   "id": "e083",
+   "o": 82
+  },
+  {
+   "m": "dar",
+   "k": "FAQ",
+   "t": "Berapa persen pemotongan hutang kuota/Flexi Darurat sekarang?",
+   "b": "100% dari nilai transaksi untuk seluruh skema, termasuk STV Recovery (sebelumnya maksimal 70%), mulai 9 Okt 2026.",
+   "id": "e084",
+   "o": 83
+  },
+  {
+   "m": "dar",
+   "k": "FAQ",
+   "t": "Bagaimana jika nilai transaksi tidak cukup melunasi seluruh pinjaman?",
+   "b": "Dipotong sebesar nilai transaksi yang tersedia. Sisa pinjaman dilanjutkan pada top up atau pembelian kuota berikutnya sampai lunas.",
+   "id": "e085",
+   "o": 84
+  },
+  {
+   "m": "vas",
+   "k": "Perubahan",
+   "t": "Penutupan layanan VAS Konten SMS Premium non-aplikasi",
+   "b": "Efektif 30 Sep 2026, Indosat menutup beberapa layanan VAS berupa Konten SMS Premium yang tidak berbasis aplikasi (hanya SMS/URL), sejalan dengan transformasi digital dan fokus pada layanan bisnis digital.\n\nDampak ke pelanggan:\na. Mulai 1 Okt 2026, layanan tersebut tidak lagi dapat diakses.\nb. Mulai 1 Okt 2026, pelanggan tidak lagi dikenakan biaya berlangganan layanan yang ditutup.\nc. VAS berbasis aplikasi seperti Vidio, Viu, Spotify tetap tersedia.",
+   "id": "e086",
+   "o": 85
+  },
+  {
+   "m": "vas",
+   "k": "Detail",
+   "t": "Notifikasi ke pelanggan",
+   "b": "SMS notifikasi sudah dikirim ke pelanggan terdampak dengan sender IM3Penting dan 3Penting.\n\nIsi SMS: “Pelanggan YTH, mulai 1 Okt 2026, Layanan Konten SMS Premium tidak lagi tersedia. Cek layanan yang aktif di nomormu di bima-3.co/useractivepacks, Info:132”",
+   "id": "e087",
+   "o": 86
+  },
+  {
+   "m": "vas",
+   "k": "Penanganan",
+   "t": "Probing dan pengecekan",
+   "b": "Probing:\na. Nama Pelanggan\nb. MSISDN\nc. Detail informasi yang dibutuhkan / kendala yang dikeluhkan\nd. Waktu kejadian\n\nPengecekan:\na. Periksa Call History, cari transaksi dengan waktu sesuai informasi pelanggan.\nb. Pastikan Traffic Type transaksi adalah VAS.\nc. Periksa PO ID dan pastikan ada nama vendor/partner pada transaksi.\nd. Cek di SDP Tool untuk status layanan VAS di nomor pelanggan (active/deactivate).\ne. Periksa list layanan VAS Konten SMS Premium yang ditutup.",
+   "id": "e088",
+   "o": 87
+  },
+  {
+   "m": "vas",
+   "k": "Penanganan",
+   "t": "Kasus: pelanggan menanyakan informasi penutupan layanan VAS",
+   "b": "Informasikan kepada pelanggan terkait penutupan layanan VAS yang berlaku.",
+   "id": "e089",
+   "o": 88
+  },
+  {
+   "m": "vas",
+   "k": "Penanganan",
+   "t": "Kasus: pelanggan gagal registrasi layanan VAS",
+   "b": "Edukasi pelanggan dengan standard jawaban di bawah.",
+   "id": "e090",
+   "o": 89
+  },
+  {
+   "m": "vas",
+   "k": "Script",
+   "t": "Standard jawaban: gagal registrasi layanan VAS yang sudah ditutup",
+   "b": "Bapak/Ibu/Kak [Nama Pelanggan], mohon maaf atas ketidaknyamanan yang dialami.\nLayanan VAS yang Bapak/Ibu/Kakak coba registrasikan merupakan layanan Konten SMS Premium yang sudah dihentikan efektif 1 Oktober 2026. Oleh karena itu, registrasi layanan tersebut sudah tidak dapat dilakukan.\nSebagai alternatif, Bapak/Ibu/Kakak masih dapat menikmati layanan VAS lainnya yang berbasis aplikasi. Terima kasih atas pengertian dan kepercayaan Bapak/Ibu/Kakak dalam menggunakan layanan Tri.",
+   "id": "e091",
+   "o": 90
+  },
+  {
+   "m": "vas",
+   "k": "Penanganan",
+   "t": "Kasus: pelanggan mengeluhkan pemotongan pulsa/dana dari VAS yang sudah ditutup dan minta refund",
+   "b": "- Tier 1 eskalasi ke Tier 2 untuk penanganan lebih lanjut.\n- Tier 2 eskalasi ke Tim VAS.\n  To: AllDivisiContent&VAS@ioh.co.id\n  CC: liya.aini@ioh.co.id",
+   "id": "e092",
+   "o": 91
+  },
+  {
+   "m": "vas",
+   "k": "Pencatatan",
+   "t": "Pencatatan interaksi VAS sunset",
+   "b": "Intent: Inquiry/Complaint\nActivity Code:\n- 2405350002 - VAS Registration Issue\n- 2105010001 - Vas Registration info\nHashtag: #VAS_SUNSET",
+   "id": "e093",
+   "o": 92
+  },
+  {
+   "m": "vas",
+   "k": "FAQ",
+   "t": "Layanan VAS apa yang ditutup dan sejak kapan?",
+   "b": "Layanan konten SMS premium yang tidak berbasis aplikasi, efektif 30 September 2026.",
+   "id": "e094",
+   "o": 93
+  },
+  {
+   "m": "vas",
+   "k": "FAQ",
+   "t": "Bagaimana benefit VAS yang sudah diregistrasi sebelum ditutup? Apakah masih dikenakan biaya?",
+   "b": "Pelanggan tidak dapat mengakses benefit setelah 30 September; sebelumnya masih bisa menikmati benefit. Pada 1 Oktober 2026 pelanggan tidak dikenakan biaya setelah layanan ditutup.",
+   "id": "e095",
+   "o": 94
+  },
+  {
+   "m": "vas",
+   "k": "FAQ",
+   "t": "Bagaimana cara mengetahui pelanggan masih berlangganan layanan konten?",
+   "b": "- Pelanggan IM3: myIM3, https://myim3.co/useractivepacks\n- Pelanggan Tri: bima+, bima-3.co/useractivepacks",
+   "id": "e096",
+   "o": 95
+  },
+  {
+   "m": "vas",
+   "k": "FAQ",
+   "t": "Pelanggan merasa tidak pernah registrasi VAS, apakah pulsa bisa dikembalikan?",
+   "b": "Bisa, dengan email ke AllDivisiContent&VAS@ioh.co.id.",
+   "id": "e097",
+   "o": 96
+  },
+  {
+   "m": "vas",
+   "k": "FAQ",
+   "t": "Apakah pelanggan masih bisa registrasi VAS dari IOH? Apakah penutupan berlaku untuk semua pelanggan?",
+   "b": "Masih tersedia untuk layanan VAS berbasis aplikasi. Penutupan hanya berlaku bagi pelanggan yang berlangganan layanan yang belum berbasis aplikasi.",
+   "id": "e098",
+   "o": 97
+  },
+  {
+   "m": "vas",
+   "k": "FAQ",
+   "t": "Apakah layanan konten bisa dibuka kembali? Bagaimana jika masih menerima SMS promosi?",
+   "b": "Untuk saat ini Indosat fokus pada layanan berbasis aplikasi. SMS promosi layanan konten tetap ada khusus untuk layanan berbasis aplikasi.",
+   "id": "e099",
+   "o": 98
+  },
+  {
+   "m": "vas",
+   "k": "FAQ",
+   "t": "Apakah aplikasi pengecekan CS tool masih bisa mengecek konten layanan?",
+   "b": "Ya, CS tool tetap dioperasikan untuk mengecek layanan kerja sama dari partner yang masih aktif.",
+   "id": "e100",
+   "o": 99
+  },
+  {
+   "m": "bic",
+   "k": "Perubahan",
+   "t": "Pengecekan B# Number wajib 2 kali (628xxx dan 08xxx)",
+   "b": "Update panduan: Agent wajib melakukan 2 kali pengecekan B# Number di menu BICP MOBO, memakai awalan 628xxx dan 08xxx, lalu membandingkan hasilnya untuk memastikan data valid sebelum disampaikan ke pelanggan.",
+   "id": "e101",
+   "o": 100
+  },
+  {
+   "m": "bic",
+   "k": "Detail",
+   "t": "Cara pengecekan di aplikasi MOBO",
+   "b": "1. Klik menu Reports di aplikasi MOBO.\n2. Klik tanda Search di menu Reports.\n3. Klik folder Sales and Operations, pilih folder Indosat.\n4. Klik menu Transaction Detail Report.\n5. Sistem menampilkan menu BICP, masukkan tanggal transaksi.\n6. Masukkan tanggal berakhir transaksi.\n7. Masukkan B# dengan awalan 628xxx. Setelah data muncul, wajib cek ulang dengan awalan 08xxx pada nomor yang sama.\n8. Sistem menampilkan data transaksi yang dilakukan outlet/modern channel ke B#.",
+   "id": "e102",
+   "o": 101
+  },
+  {
+   "m": "bic",
+   "k": "Penanganan",
+   "t": "Kasus: Outlet/Mitra butuh info hasil transaksi ke B# (berhasil atau tidak)",
+   "b": "Probing:\na. Nama Outlet\nb. Nomor transaksi A# dan B# number\nc. Layanan/transaksi yang dikeluhkan\nd. Tanggal transaksi\ne. Bukti transaksi\n\nPengecekan: cek dengan 628xxx lalu bandingkan dengan 08xxx untuk memastikan data valid.\n\nPenanganan:\na. Jika kedua format menemukan transaksi ke B# yang dikeluhkan: agent L1 beri penanganan sesuai ketentuan berlaku.\nb. Jika kedua format tidak menemukan transaksi: L1 eskalasi ke L2.\n   - L1: create trouble ticket ke L2 via Service Request, cantumkan detail masalah dan solusi yang sudah disampaikan. Lampirkan bukti transaksi Outlet/Mitra, hasil cek format 628xxx dan 08xxx, capture notifikasi error, serta nomor alternatif yang bisa dihubungi.\n   - L2: eskalasi ke PIC terkait: AllSALDOMOBOSupport@ioh.co.id; yusuf.hibaturrahman@ioh.co.id; M.Rasyad@ioh.co.id; mohamad.bawono@ioh.co.id; mihsaanramadhan@h-partners.com",
+   "id": "e103",
+   "o": 102
+  },
+  {
+   "m": "bic",
+   "k": "Pencatatan",
+   "t": "Pencatatan interaksi B# Number",
+   "b": "Catat interaksi menggunakan activity code sesuai ketentuan yang berlaku.",
+   "n": "RENA tidak menyebut activity code spesifik untuk materi ini.",
+   "id": "e104",
+   "o": 103
+  },
+  {
+   "m": "bic",
+   "k": "FAQ",
+   "t": "Mengapa pengecekan B# Number perlu dilakukan 2 kali?",
+   "b": "Karena ada perbedaan hasil pengecekan antara format nomor 628xxx dan 08xxx.",
+   "id": "e105",
+   "o": 104
+  },
+  {
+   "m": "bic",
+   "k": "FAQ",
+   "t": "Apa yang dilakukan setelah hasil dengan awalan 628xxx muncul?",
+   "b": "Cek ulang dengan awalan 08xxx pada nomor yang sama, lalu bandingkan hasilnya.",
+   "id": "e106",
+   "o": 105
+  },
+  {
+   "m": "bic",
+   "k": "FAQ",
+   "t": "Bagaimana jika hasil 628xxx dan 08xxx berbeda?",
+   "b": "a. Jika dari hasil pengecekan terdapat transaksi ke B# yang dikeluhkan: L1 beri penanganan sesuai ketentuan.\nb. Jika tidak terdapat transaksi: L1 eskalasi ke L2, lalu L2 eskalasi ke PIC terkait untuk ditindaklanjuti.",
+   "id": "e107",
+   "o": 106
+  },
+  {
+   "m": "bic",
+   "k": "FAQ",
+   "t": "Data mana yang disampaikan kepada pelanggan?",
+   "b": "Sampaikan berdasarkan hasil pengecekan di kedua format. Jika ditemukan, beri penanganan sesuai ketentuan. Jika tidak ditemukan di keduanya tetapi bukti transaksi valid, L1 eskalasi ke L2, lalu L2 ke PIC terkait.",
+   "id": "e108",
+   "o": 107
+  },
+  {
+   "m": "gnt",
+   "k": "Perubahan",
+   "t": "Biaya ganti kartu fisik prabayar naik dari Rp10.000 menjadi Rp20.000 (mulai 1 Okt 2026)",
+   "b": "Sebelumnya: Rp10.000 per transaksi.\nMulai 1 Okt 2026: Rp20.000 per transaksi.\n\nBerlaku untuk biaya ganti kartu fisik nomor prabayar yang dieksekusi di aplikasi IPOS / 3Flip / Siebel.",
+   "id": "e109",
+   "o": 108
+  },
+  {
+   "m": "gnt",
+   "k": "Detail",
+   "t": "Permintaan yang dikenakan biaya",
+   "b": "Seluruh permintaan ganti kartu fisik nomor prabayar di Gerai IM3 / 3Store, yaitu:\n1. Kartu rusak\n2. Kartu hilang\n3. Upgrade 4G (ke kartu fisik)\n4. eSIM ke SIM",
+   "id": "e110",
+   "o": 109
+  },
+  {
+   "m": "gnt",
+   "k": "Detail",
+   "t": "Permintaan yang tetap GRATIS",
+   "b": "Tidak dikenakan biaya untuk:\n1. SIM ke eSIM (ganti kartu fisik ke eSIM)\n2. eSIM ke eSIM (transfer eSIM ke eSIM)\n3. Seluruh permintaan ganti kartu pelanggan Postpaid\n4. Seluruh permintaan ganti kartu nomor Karyawan/Operasional",
+   "id": "e111",
+   "o": 110
+  },
+  {
+   "m": "gnt",
+   "k": "Detail",
+   "t": "Yang tidak berubah",
+   "b": "- Prosedur dan mekanisme layanan tetap sama.\n- Syarat dan ketentuan ganti kartu tetap mengacu pada prosedur yang berlaku.\n- Berlaku di: Gerai, 3Store, Gapura.",
+   "id": "e112",
+   "o": 111
+  },
+  {
+   "m": "gnt",
+   "k": "Penanganan",
+   "t": "Alur penanganan permintaan ganti kartu di Gerai IM3 / 3Store (secara umum)",
+   "b": "1. Terima permintaan: terima dan pahami kebutuhan pelanggan terkait ganti kartu.\n2. Identifikasi & validasi: lakukan identifikasi dan validasi data pelanggan.\n3. Cek syarat & dokumen: pastikan seluruh syarat dan dokumen persyaratan terpenuhi.\n4. Informasikan jenis ganti kartu & biaya: sampaikan jenis penggantian kartu dan informasikan biaya yang berlaku sesuai ketentuan.\n5. Eksekusi di iPOS / 3Flip / Siebel: lakukan eksekusi ganti kartu sesuai prosedur.\n6. Konfirmasi hasil: pastikan layanan berhasil dan nomor dapat digunakan.\n7. Pencatatan & penutup: buat pencatatan interaksi dan upload dokumen pendukung dengan lengkap.\n\nPENTING: informasikan kepada pelanggan terkait biaya & ketentuan ganti kartu serta pastikan pelanggan menyetujui sebelum eksekusi permintaan.",
+   "id": "e113",
+   "o": 112
+  },
+  {
+   "m": "gnt",
+   "k": "Do",
+   "t": "Yang harus dilakukan Agent",
+   "b": "1. Sampaikan informasi biaya ganti kartu, pastikan pelanggan memahami dan menyetujui.\n2. Pastikan seluruh validasi data dan dokumen persyaratan terpenuhi.\n3. Informasikan biaya sebelum melakukan eksekusi transaksi.\n4. Lakukan eksekusi sesuai prosedur dan pastikan layanan berhasil.\n5. Lakukan pencatatan interaksi dan upload dokumen dengan lengkap di sistem.",
+   "id": "e114",
+   "o": 113
+  },
+  {
+   "m": "gnt",
+   "k": "Dont",
+   "t": "Yang tidak boleh dilakukan Agent",
+   "b": "1. Jangan mengeksekusi permintaan ganti kartu sebelum informasi biaya dipahami dan disetujui pelanggan.\n2. Jangan memproses ganti kartu jika syarat atau validasi belum terpenuhi.\n3. Jangan memberikan informasi biaya yang tidak sesuai dengan ketentuan yang berlaku.\n4. Jangan menyalahgunakan kewenangan untuk memberikan gratis di luar ketentuan.\n5. Jangan lupa mencatat interaksi dan mengupload dokumen pendukung.",
+   "id": "e115",
+   "o": 114
+  },
+  {
+   "m": "gnt",
+   "k": "FAQ",
+   "t": "Berapa biaya ganti kartu fisik nomor prabayar sekarang?",
+   "b": "Rp20.000 per transaksi mulai 1 Oktober 2026 (sebelumnya Rp10.000).",
+   "id": "e116",
+   "o": 115
+  },
+  {
+   "m": "gnt",
+   "k": "FAQ",
+   "t": "Ganti kartu karena kartu rusak, hilang, atau upgrade 4G, apakah dikenakan biaya?",
+   "b": "Ya, Rp20.000 per transaksi. Biaya yang sama berlaku untuk permintaan eSIM ke SIM.",
+   "id": "e117",
+   "o": 116
+  },
+  {
+   "m": "gnt",
+   "k": "FAQ",
+   "t": "Ganti kartu dari SIM fisik ke eSIM atau dari eSIM ke eSIM, apakah dikenakan biaya?",
+   "b": "Tidak, tetap gratis.",
+   "id": "e118",
+   "o": 117
+  },
+  {
+   "m": "gnt",
+   "k": "FAQ",
+   "t": "Apakah pelanggan Postpaid dan nomor Karyawan/Operasional dikenakan biaya ganti kartu?",
+   "b": "Tidak. Seluruh permintaan ganti kartu pelanggan Postpaid dan nomor Karyawan/Operasional tetap gratis.",
+   "id": "e119",
+   "o": 118
+  },
+  {
+   "m": "gnt",
+   "k": "FAQ",
+   "t": "Apakah prosedur ganti kartu berubah?",
+   "b": "Tidak. Prosedur, mekanisme layanan, serta syarat dan ketentuan tetap sama. Yang berubah hanya biaya layanan.",
+   "id": "e120",
+   "o": 119
+  },
+  {
+   "m": "gnt",
+   "k": "Pencatatan",
+   "t": "Pencatatan interaksi ganti kartu",
+   "b": "Buat pencatatan interaksi dan upload dokumen pendukung dengan lengkap di sistem.\nReferensi: IOM No. 0171/PECD/SVC/26 - Implementation of SIM Replacement Service Fee Adjustment Across Retail Channels.",
+   "n": "Dokumen RENA tidak mencantumkan activity code khusus untuk materi ini.",
+   "id": "e121",
+   "o": 120
+  },
+  {
+   "m": "tlf",
+   "k": "Detail",
+   "t": "Definisi program",
+   "b": "Telco Loan + Free Screen Crack Protection adalah program penawaran khusus bagi pelanggan Indosat (IM3 dan Tri) yang mengambil paket pinjaman data (Flexy Loan) tertentu. Pelanggan otomatis mendapat manfaat perlindungan layar retak (Screen Crack Protection) secara gratis tanpa biaya tambahan.\n\nPO: Albert Wijaya <albert.wijaya@indosat.com>",
+   "id": "e122",
+   "o": 121
+  },
+  {
+   "m": "tlf",
+   "k": "Detail",
+   "t": "Ketentuan berlaku",
+   "b": "1. Periode program: mulai 1 Oktober 2026.\n2. Channel transaksi: seluruh channel, termasuk USSD *505# (IM3), *805# (Tri), aplikasi myIM3, dan aplikasi bima+.\n3. Manfaat asuransi gratis:\n   - Jenis perlindungan: Screen Crack Protection (perlindungan layar retak)\n   - Biaya: gratis (no extra cost)\n   - Masa pertanggungan: 3 hari (untuk paket Flexy 2GB)\n   - Uang pertanggungan (sum insured): maksimal Rp150.000\n4. Pengiriman polis: dikirim ke nomor ponsel pelanggan pada H+1 setelah pengambilan Flexy Loan.\n5. Customer journey: tidak ada perubahan alur/langganan pinjaman; tidak ada perubahan harga pinjaman (loan price) maupun cara/proses pengembalian (repayment).\n6. Klaim & operasional: seluruh alur asuransi dan proses klaim ditangani langsung oleh pihak Zurich.",
+   "id": "e123",
+   "o": 122
+  },
+  {
+   "m": "tlf",
+   "k": "Detail",
+   "t": "Jadwal peluncuran (rollout timeline)",
+   "b": "- 1 Okt 2026: rilis paket Flexy 2GB / 2048MB (perlindungan layar 3 hari, nilai pertanggungan Rp150.000).\n- 7 Okt 2026: pengiriman materi awareness / broadcast kepada target pelanggan higher loan non-takers.\n- 1 Nov 2026: rilis paket Flexy 4GB / 4096MB (perlindungan layar 5 hari, nilai pertanggungan Rp250.000).",
+   "id": "e124",
+   "o": 123
+  },
+  {
+   "m": "tlf",
+   "k": "Detail",
+   "t": "Loan journey USSD (*505# IM3 dan *805# Tri)",
+   "b": "1. Akses menu USSD: pelanggan membuka dialer dan memanggil *505# (IM3) atau *805# (Tri).\n2. Pilih produk pinjaman: pop-up menu USSD Pulsa/Kuota Darurat muncul, pelanggan memilih produk (misalnya nominal/paket Flexy).\n3. Proses layanan (provisioning): sistem memproses permintaan dan menampilkan notifikasi bahwa permintaan sedang diproses.\n4. Konfirmasi sukses via SMS: pelanggan menerima SMS dari IM3PAKET / 3PAKET yang mengonfirmasi kuota darurat aktif beserta rincian kuota dan biayanya.\n5. Penerimaan polis asuransi (H+1): pada H+1 setelah transaksi, pelanggan menerima SMS pengiriman polis asuransi gratis dari Zurich (proteksi layar).",
+   "n": "Pada dokumen RENA, judul loan journey tertulis \"*505# dan *805*\". Kode USSD Tri yang benar mengikuti ketentuan: *805#.",
+   "id": "e125",
+   "o": 124
+  },
+  {
+   "m": "tlf",
+   "k": "FAQ",
+   "t": "Apa itu program Telco Loan Flexi dan Free Screen Crack Protection?",
+   "b": "Program khusus bagi pelanggan IM3 dan Tri yang mengambil Flexy Loan tertentu. Pelanggan otomatis mendapat perlindungan layar retak gratis tanpa biaya tambahan.",
+   "id": "e126",
+   "o": 125
+  },
+  {
+   "m": "tlf",
+   "k": "FAQ",
+   "t": "Mulai kapan program ini berlaku?",
+   "b": "Mulai 1 Oktober 2026.",
+   "id": "e127",
+   "o": 126
+  },
+  {
+   "m": "tlf",
+   "k": "FAQ",
+   "t": "Apakah ada biaya tambahan untuk Screen Crack Protection?",
+   "b": "Tidak. Perlindungan diberikan gratis (no extra cost).",
+   "id": "e128",
+   "o": 127
+  },
+  {
+   "m": "tlf",
+   "k": "FAQ",
+   "t": "Berapa masa pertanggungan dan uang pertanggungan?",
+   "b": "Paket Flexy 2GB: masa pertanggungan 3 hari, uang pertanggungan maksimal Rp150.000. Paket Flexy 4GB (rilis 1 Nov 2026): perlindungan 5 hari, nilai pertanggungan Rp250.000.",
+   "id": "e129",
+   "o": 128
+  },
+  {
+   "m": "tlf",
+   "k": "FAQ",
+   "t": "Kapan polis asuransi diterima pelanggan?",
+   "b": "Pada H+1 setelah pengambilan Flexy Loan, dikirim via SMS ke nomor pelanggan.",
+   "id": "e130",
+   "o": 129
+  },
+  {
+   "m": "tlf",
+   "k": "FAQ",
+   "t": "Apakah harga pinjaman atau cara pengembalian berubah?",
+   "b": "Tidak. Tidak ada perubahan harga pinjaman (loan price) maupun proses pengembalian (repayment).",
+   "id": "e131",
+   "o": 130
+  },
+  {
+   "m": "tlf",
+   "k": "FAQ",
+   "t": "Di channel mana pelanggan bisa meminjam?",
+   "b": "Seluruh channel transaksi: USSD *505# (IM3), USSD *805# (Tri), aplikasi myIM3, dan aplikasi bima+.",
+   "id": "e132",
+   "o": 131
+  },
+  {
+   "m": "tlf",
+   "k": "FAQ",
+   "t": "Siapa yang menangani klaim asuransi?",
+   "b": "Seluruh alur asuransi dan proses klaim ditangani langsung oleh pihak Zurich.",
+   "id": "e133",
+   "o": 132
+  },
+  {
+   "m": "seg",
+   "k": "Perubahan",
+   "t": "Jadwal penyesuaian segmentasi 3ID diundur ke 12 Sep 2026",
+   "b": "Penyesuaian segmentasi baru pelanggan 3ID yang semula dijadwalkan 11 Sep 2026 diundur menjadi 12 Sep 2026.\nMulai 12 Sep 2026, segmentasi pelanggan 3ID mengacu pada ketentuan segmentasi yang saat ini berlaku di IM3, sehingga pengelompokan, pengelolaan, dan identifikasi segmentasi seragam di kedua brand.",
+   "id": "e134",
+   "o": 133
+  },
+  {
+   "m": "seg",
+   "k": "Perubahan",
+   "t": "Segmentasi lama (sebelum 12 Sep 2026) vs baru berdasarkan ARPU",
+   "b": "Sebelum 12 Sep 2026 (ARPU rata-rata penggunaan dalam 3 bulan):\n- Silver: < 50K\n- Gold: 51K - 124K\n- Platinum A: 125K - 249K\n- Platinum B: 250K - 499K\n- Premium A / Premium CRO: min 500K atau min 750K (rata-rata 3 bulan)\n\nEfektif 12 Sep 2026:\n- NVC: pelanggan baru < 3 bulan\n- LVC: < 30K\n- MVC: ≥ 30K s.d. < 90K\n- HVC: ≥ 90K dan bukan pengguna smartphone\n- HVC Istimewa: ≥ 90K dan pengguna smartphone\n(ARPU = rata-rata penggunaan dalam 3 bulan)",
+   "id": "e135",
+   "o": 134
+  },
+  {
+   "m": "seg",
+   "k": "Detail",
+   "t": "Penyesuaian segmentasi pelanggan existing",
+   "b": "Sebelum 12 Sep 2026 -> Efektif 12 Sep 2026:\n- Silver -> NVC atau LVC\n- Gold -> MVC\n- Platinum / Premium -> HVC atau HVC Istimewa",
+   "id": "e136",
+   "o": 135
+  },
+  {
+   "m": "seg",
+   "k": "Detail",
+   "t": "Catatan khusus pelanggan NVC dan SLA HVC Istimewa",
+   "b": "- Pelanggan NVC yang membeli Paket Add On: segmentasi NVC disesuaikan berdasarkan jumlah Paket Add On yang dibeli. Penyesuaian tidak langsung setelah pembelian, diperbarui sekitar 2 hari setelah pembelian Paket Add On.\n- SLA pelanggan HVC Istimewa: untuk sementara belum ada penyesuaian. SLA tetap mengacu pada ketentuan yang berlaku saat ini sampai ada pemberitahuan lebih lanjut.",
+   "id": "e137",
+   "o": 136
+  },
+  {
+   "m": "seg",
+   "k": "Penanganan",
+   "t": "Kasus: pelanggan menanyakan perubahan nama segmentasi di aplikasi bima+",
+   "b": "Probing:\n1. MSISDN pelanggan\n2. Nama pelanggan\n3. Informasi yang dibutuhkan atau layanan yang dikeluhkan\n\nPengecekan: melalui iCare, pastikan segmentasi pelanggan sudah disesuaikan seperti yang disampaikan pelanggan.\n\nPenanganan:\na. Segmentasi sudah disesuaikan mengikuti ketentuan terbaru: edukasi pelanggan dengan standard jawaban di bawah.\nb. Segmentasi belum diperbarui sehingga tidak sesuai antara informasi sistem dan yang disampaikan pelanggan:\n   - Tier 1 eskalasi ke Tier 2 untuk kendala ketidaksinkronan segmentasi pada bima+ dan iCare.\n   - Tier 2 eskalasi ke EHD agar dilakukan sinkronisasi segmentasi pada bima+ dan iCare.",
+   "id": "e138",
+   "o": 137
+  },
+  {
+   "m": "seg",
+   "k": "Script",
+   "t": "Standard jawaban: perubahan nama segmentasi di bima+",
+   "b": "Bapak/Ibu/Kak [Nama Pelanggan],\nTerkait informasi segmentasi pelanggan yang ditampilkan pada aplikasi bima+, saat ini telah dilakukan penyesuaian segmentasi sesuai dengan ketentuan terbaru yang berlaku.\nPerubahan nama atau kategori segmentasi yang Bapak/Ibu/Kakak lihat merupakan bagian dari penyesuaian tersebut. Dengan demikian, informasi segmentasi yang saat ini ditampilkan pada bima+ telah mengikuti ketentuan segmentasi pelanggan yang terbaru.\nDemikian informasi yang dapat kami sampaikan.\nTerima kasih atas pengertian dan kepercayaan Bapak/Ibu/Kakak kepada Layanan Tri.",
+   "id": "e139",
+   "o": 138
+  },
+  {
+   "m": "seg",
+   "k": "Pencatatan",
+   "t": "Pencatatan interaksi segmentasi baru 3ID",
+   "b": "Inquiry: 2121060004 - Other program/promo, Note: #NewSegment\nComplaint: 2405080001 - Profile Data Not Update, Note: #NewSegment",
+   "id": "e140",
+   "o": 139
+  },
+  {
+   "m": "seg",
+   "k": "FAQ",
+   "t": "Mulai kapan perubahan segmentasi pelanggan 3ID berlaku?",
+   "b": "Penyesuaian segmentasi pelanggan 3ID mulai berlaku 12 September 2026.",
+   "id": "e141",
+   "o": 140
+  },
+  {
+   "m": "seg",
+   "k": "FAQ",
+   "t": "Apakah semua pelanggan 3ID akan mengalami perubahan segmentasi?",
+   "b": "Ya, perubahan segmentasi berlaku ke seluruh pelanggan 3ID Prabayar.",
+   "id": "e142",
+   "o": 141
+  },
+  {
+   "m": "seg",
+   "k": "FAQ",
+   "t": "Apakah perubahan nama segmentasi di bima+ merupakan kesalahan sistem?",
+   "b": "Tidak. Apabila segmentasi pelanggan sudah diperbarui sesuai ketentuan terbaru, perubahan nama atau kategori segmentasi yang ditampilkan pada bima+ merupakan bagian dari penyesuaian segmentasi pelanggan.",
+   "id": "e143",
+   "o": 142
+  },
+  {
+   "m": "seg",
+   "k": "FAQ",
+   "t": "Kenapa segmentasi pelanggan berbeda dengan sebelumnya?",
+   "b": "Nama segmentasi pelanggan berubah karena terdapat penyesuaian segmentasi pelanggan 3ID sesuai dengan ketentuan terbaru yang berlaku.",
+   "id": "e144",
+   "o": 143
+  },
+  {
+   "m": "van",
+   "k": "Detail",
+   "t": "Latar belakang",
+   "b": "Ketentuan vanity number pada sistem lama tidak lagi dapat diterapkan pada sistem DMP. Karena itu ketentuan vanity number bagi pelanggan 3ID disesuaikan agar selaras dengan ketentuan dan mekanisme pada sistem DMP.",
+   "id": "e145",
+   "o": 144
+  },
+  {
+   "m": "van",
+   "k": "Perubahan",
+   "t": "Produk Vanity Number lama diganti produk baru",
+   "b": "Dua produk Vanity Number baru menggantikan dua produk sebelumnya. Keduanya dapat dipakai untuk akuisisi pelanggan baru maupun permintaan layanan reaktivasi nomor Tri.\n\nProduk lama (Closed):\n- Elite Gold, Rp125.000\n- Elite Platinum, Rp250.000\n\nProduk baru (New):\n- SP 7GB 28 Hari - Gold, Rp150.000\n- SP 7GB 28 Hari - Platinum, Rp250.000",
+   "id": "e146",
+   "o": 145
+  },
+  {
+   "m": "van",
+   "k": "Detail",
+   "t": "Detail produk Vanity Number baru",
+   "b": "SP 7GB 28 Hari - Gold (Rp150.000) dan SP 7GB 28 Hari - Platinum (Rp250.000), benefit sama:\n- Kuota internet 7GB\n- Nelpon on net 5000 menit\n- Nelpon off net 50 menit\n- Anti Spam Plus+ 90 hari\n- Vidio Lite 30 hari\n- VIU Premium 30 hari\n- Google Gemini 180 hari\n- Adobe Express 180 hari\n- Auto renewal: tidak (N)",
+   "id": "e147",
+   "o": 146
+  },
+  {
+   "m": "van",
+   "k": "Detail",
+   "t": "Informasi tarif dasar",
+   "b": "- Nelpon on net: Rp20/detik\n- Nelpon off net: Rp20/detik\n- SMS: Rp250/SMS\n- Data: Rp350/MB (maksimal Rp15.050/hari)",
+   "id": "e148",
+   "o": 147
+  },
+  {
+   "m": "van",
+   "k": "Perubahan",
+   "t": "Pilihan Add On untuk Vanity Number sebelum dan sesudah migrasi DMP",
+   "b": "Sebelum DMP migrasi (Closed, auto renewal Y):\n- Cinta Gold, Rp125.000\n- Cinta Platinum, Rp250.000\n\nPasca DMP migrasi (New, auto renewal Y):\n- Happy 80GB, Rp120.000\n- Happy 200GB, Rp200.000\n\nPelanggan vanity number dibebaskan memilih Add On sesuai kebutuhan dan tidak wajib memilih Add On Vanity yang baru. Ketentuan auto renewal di luar Paket Add On Vanity mengikuti ketentuan produk yang berlaku.",
+   "n": "Pada tabel pilihan Add On, RENA menulis \"Happy 120GB\" (Rp200.000), sedangkan tabel detail dan standard jawaban menulis \"Happy 200GB\". Di sini memakai Happy 200GB. Mohon konfirmasi ke pembuat materi.",
+   "id": "e149",
+   "o": 148
+  },
+  {
+   "m": "van",
+   "k": "Detail",
+   "t": "Detail Add On Happy 80GB dan Happy 200GB",
+   "b": "Happy 80GB, Rp120.000: Main Quota 80GB, Nelpon on net 5000 menit, Voice off net 70 menit.\nHappy 200GB, Rp200.000: Main Quota 200GB, Nelpon on net 5000 menit, Voice off net 70 menit.\n\nPelanggan non-vanity number juga dapat memakai Add On Happy 80GB atau Happy 200GB untuk mendapatkan benefit auto renewal.",
+   "id": "e150",
+   "o": 149
+  },
+  {
+   "m": "van",
+   "k": "Penanganan",
+   "t": "Probing dan pengecekan Vanity Number",
+   "b": "Probing:\na. Nama pelanggan\nb. MSISDN\nc. Layanan yang dikeluhkan / informasi yang dibutuhkan\nd. Nama paket yang dikeluhkan\n\nPengecekan:\na. Cek iCare untuk Call Plan yang digunakan.\nb. Cek iCare pada Subscribed Product untuk produk vanity yang digunakan.",
+   "id": "e151",
+   "o": 150
+  },
+  {
+   "m": "van",
+   "k": "Penanganan",
+   "t": "Kasus: Paket Elite Gold/Elite Platinum tidak auto renewal lagi",
+   "b": "Penanganan: edukasi pelanggan dengan standard jawaban di bawah.\nPencatatan: 2104180002 - Product tariff & benefit.",
+   "id": "e152",
+   "o": 151
+  },
+  {
+   "m": "van",
+   "k": "Script",
+   "t": "Standard jawaban: Elite Gold/Elite Platinum tidak auto renewal",
+   "b": "Bapak/Ibu/Kak [Nama Pelanggan], mohon maaf atas ketidaknyamanannya.\nSaat ini terdapat penyesuaian ketentuan pada Paket Elite Gold/Elite Platinum [disesuaikan dengan vanity number milik pelanggan], sehingga paket tersebut tidak lagi diperpanjang secara otomatis (Auto Renewal).\nApabila Bapak/Ibu/Kakak ingin kembali menggunakan paket yang dapat auto renewal, kami sarankan menggunakan paket baru yaitu Happy 80GB/Happy 200GB [disesuaikan dengan vanity number yang dimiliki pelanggan saat ini].",
+   "id": "e153",
+   "o": 152
+  },
+  {
+   "m": "van",
+   "k": "Penanganan",
+   "t": "Kasus: Paket Cinta Gold tidak mendapat kuota penuh (hanya 12GB dari seharusnya 50GB)",
+   "b": "- Tier 1 eskalasi ke Tier 2.\n- Tier 2 melakukan adjustment sesuai nominal kuota 12GB yang telah diterima pelanggan.\n\nPencatatan: 2405140002 - Package dispute.",
+   "id": "e154",
+   "o": 153
+  },
+  {
+   "m": "van",
+   "k": "Script",
+   "t": "Standard jawaban: Cinta Gold hanya menerima 12GB dari 50GB",
+   "b": "Bapak/Ibu/Kak [Nama Pelanggan], mohon maaf atas ketidaknyamanan yang dialami.\nSaat ini kami sedang melakukan optimalisasi sistem, sehingga terdapat beberapa produk yang mengalami kendala.\nSebagai tindak lanjut, kami akan membantu proses pengembalian dana sesuai dengan nominal kuota 12GB yang telah diterima oleh Bapak/Ibu/Kakak.",
+   "id": "e155",
+   "o": 154
+  },
+  {
+   "m": "van",
+   "k": "Penanganan",
+   "t": "Kasus: tidak mau memakai Add On Cinta Gold/Platinum lagi, bisa pakai Add On lain dan apakah auto renewal",
+   "b": "Penanganan: edukasi pelanggan dengan standard jawaban di bawah.\nPencatatan: 2104180002 - Product tariff & benefit.",
+   "id": "e156",
+   "o": 155
+  },
+  {
+   "m": "van",
+   "k": "Script",
+   "t": "Standard jawaban: Add On Cinta Gold/Platinum sudah tidak tersedia",
+   "b": "Bapak/Ibu/Kak [Nama Pelanggan], saat ini Paket Cinta Gold/Cinta Platinum sudah tidak tersedia di sistem kami.\nBapak/Ibu/Kakak dapat menggunakan paket lainnya yang tersedia, karena saat ini tidak terdapat ketentuan khusus mengenai paket yang dapat digunakan oleh pelanggan Vanity Number.\nApabila Bapak/Ibu/Kakak menginginkan paket dengan fitur Auto Renewal, kami menyarankan untuk menggunakan Paket Happy 80GB atau Happy 200GB.",
+   "id": "e157",
+   "o": 156
+  },
+  {
+   "m": "van",
+   "k": "Penanganan",
+   "t": "Kasus: apakah tetap bisa memakai paket add on yang auto renewal",
+   "b": "Penanganan: edukasi pelanggan dengan standard jawaban di bawah.\nPencatatan: 2104180002 - Product tariff & benefit.",
+   "id": "e158",
+   "o": 157
+  },
+  {
+   "m": "van",
+   "k": "Script",
+   "t": "Standard jawaban: tetap bisa auto renewal dengan Happy 80GB/200GB",
+   "b": "Bapak/Ibu/Kak [Nama Pelanggan] dapat menggunakan Paket Happy 80GB atau Happy 200GB agar paket tetap dapat diperpanjang secara otomatis (Auto Renewal).",
+   "id": "e159",
+   "o": 158
+  },
+  {
+   "m": "van",
+   "k": "Penanganan",
+   "t": "Kasus: reaktivasi nomor vanity Gold, apakah masih bisa memakai paket Elite Gold",
+   "b": "Penanganan: edukasi pelanggan dengan standard jawaban di bawah.\nPencatatan: 2104180002 - Product tariff & benefit.",
+   "id": "e160",
+   "o": 159
+  },
+  {
+   "m": "van",
+   "k": "Script",
+   "t": "Standard jawaban: reaktivasi nomor vanity Gold/Platinum",
+   "b": "Bapak/Ibu/Kak [Nama Pelanggan], saat ini Paket Berlangganan Elite Gold/Elite Platinum sudah tidak tersedia di sistem kami.\nKarena sebelumnya Bapak/Ibu/Kakak menggunakan Vanity Number, kami menyarankan untuk menggunakan Paket Berlangganan SP 7GB 28 Hari - Gold/SP 7GB 28 Hari - Platinum, sesuai dengan jenis Vanity Number yang digunakan sebelum nomor berstatus Quarantine.",
+   "id": "e161",
+   "o": 160
+  },
+  {
+   "m": "van",
+   "k": "Pencatatan",
+   "t": "Pencatatan interaksi Vanity Number",
+   "b": "- Edukasi produk, tarif, dan benefit (Elite tidak auto renewal, Add On pengganti, reaktivasi vanity): 2104180002 - Product tariff & benefit\n- Kuota tidak sesuai / pengembalian dana (Cinta Gold): 2405140002 - Package dispute",
+   "id": "e162",
+   "o": 161
+  },
+  {
+   "m": "van",
+   "k": "FAQ",
+   "t": "Produk apa yang menggantikan Elite Gold dan Elite Platinum?",
+   "b": "SP 7GB 28 Hari - Gold (Rp150.000) dan SP 7GB 28 Hari - Platinum (Rp250.000). Keduanya tidak berlaku auto renewal.",
+   "id": "e163",
+   "o": 162
+  },
+  {
+   "m": "van",
+   "k": "FAQ",
+   "t": "Apakah produk Vanity baru bisa dipakai untuk pelanggan baru dan reaktivasi?",
+   "b": "Ya. Keduanya dapat dipakai untuk akuisisi pelanggan baru maupun permintaan layanan reaktivasi nomor Tri.",
+   "id": "e164",
+   "o": 163
+  },
+  {
+   "m": "van",
+   "k": "FAQ",
+   "t": "Apakah pelanggan vanity wajib memakai Add On Vanity yang baru?",
+   "b": "Tidak. Pelanggan bebas memilih Add On sesuai kebutuhan. Auto renewal di luar Add On Vanity mengikuti ketentuan produk yang berlaku.",
+   "id": "e165",
+   "o": 164
+  },
+  {
+   "m": "van",
+   "k": "FAQ",
+   "t": "Apakah pelanggan non-vanity bisa memakai Happy 80GB atau Happy 200GB?",
+   "b": "Bisa, untuk mendapatkan benefit auto renewal.",
+   "id": "e166",
+   "o": 165
+  }
+ ],
+ "denom": [
+  [
+   5000,
+   30
+  ],
+  [
+   8000,
+   30
+  ],
+  [
+   10000,
+   30
+  ],
+  [
+   12000,
+   30
+  ],
+  [
+   15000,
+   30
+  ],
+  [
+   20000,
+   30
+  ],
+  [
+   25000,
+   30
+  ],
+  [
+   30000,
+   30
+  ],
+  [
+   35000,
+   35
+  ],
+  [
+   40000,
+   40
+  ],
+  [
+   45000,
+   45
+  ],
+  [
+   50000,
+   50
+  ],
+  [
+   55000,
+   55
+  ],
+  [
+   60000,
+   60
+  ],
+  [
+   65000,
+   65
+  ],
+  [
+   70000,
+   70
+  ],
+  [
+   75000,
+   75
+  ],
+  [
+   80000,
+   80
+  ],
+  [
+   85000,
+   85
+  ],
+  [
+   90000,
+   90
+  ],
+  [
+   100000,
+   100
+  ],
+  [
+   105000,
+   105
+  ],
+  [
+   125000,
+   125
+  ],
+  [
+   150000,
+   150
+  ],
+  [
+   200000,
+   200
+  ],
+  [
+   250000,
+   250
+  ],
+  [
+   300000,
+   300
+  ],
+  [
+   500000,
+   365
+  ]
+ ]
+}
