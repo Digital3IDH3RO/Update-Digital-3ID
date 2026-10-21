@@ -143,6 +143,28 @@
    "c": "#be185d",
    "ic": "⭐",
    "o": 12
+  },
+  {
+   "id": "aon",
+   "s": "Masa Aktif AON",
+   "t": "Informasi Perubahan Masa Aktif Paket AON Pasca Migrasi DMP",
+   "d": "Berlaku pasca migrasi DMP",
+   "sum": "Masa aktif Paket AON kini maksimal 365 hari dan tidak lagi mengikuti masa aktif kartu. Pelanggan dengan masa aktif kartu lebih dari 365 hari akan disesuaikan paket AON-nya menjadi maksimal 365 hari.",
+   "src": "RENA Informasi Perubahan Masa Aktif Paket AON Pasca Migrasi DMP",
+   "c": "#0f766e",
+   "ic": "♾️",
+   "o": 13
+  },
+  {
+   "id": "jgo",
+   "s": "Just Go Roaming",
+   "t": "Update Just Go: Tarif Retail Roaming Data Tanpa Paket Roaming",
+   "d": "Berlaku mulai 1 Okt 2026",
+   "sum": "Just Go adalah perlindungan roaming harian otomatis bagi pelanggan yang memakai data di luar negeri tanpa paket roaming. Tarif harian Rp200.000 (kuota 2GB) atau Rp800.000 (kuota 1GB, zona premium), layanan diblokir setelah kuota habis.",
+   "src": "RENA Update Just Go, 01 Okt 2026 (PO: Viky Premeita Mitayani)",
+   "c": "#0284c7",
+   "ic": "✈️",
+   "o": 14
   }
  ],
  "entri": [
@@ -1483,6 +1505,279 @@
    "b": "Bisa, untuk mendapatkan benefit auto renewal.",
    "id": "e166",
    "o": 165
+  },
+  {
+   "m": "aon",
+   "k": "Perubahan",
+   "t": "Masa aktif Paket AON kini maksimal 365 hari (tidak lagi mengikuti masa aktif kartu)",
+   "b": "Sebelumnya: masa aktif Paket AON mengikuti masa aktif kartu.\nSetelah migrasi DMP: masa aktif Paket AON maksimal 365 hari.\n\nBagi pelanggan yang masa aktif kartunya lebih dari 365 hari dan masih memiliki Paket AON aktif, masa aktif Paket AON disesuaikan menjadi maksimal 365 hari.",
+   "id": "e167",
+   "o": 166
+  },
+  {
+   "m": "aon",
+   "k": "Detail",
+   "t": "Matriks masa aktif Paket AON dan masa aktif kartu",
+   "b": "1. Masa aktif kartu > 365 hari, pelanggan sudah punya Paket AON: masa aktif AON disesuaikan menjadi maks. 365 hari; masa aktif kartu tidak berubah.\n2. Masa aktif kartu > 365 hari, pelanggan baru membeli Paket AON: masa aktif AON berlaku maks. 365 hari; masa aktif kartu tidak berubah.\n3. Masa aktif kartu < 365 hari, pelanggan sudah punya Paket AON: masa aktif AON berlaku maks. 365 hari; masa aktif kartu disesuaikan menjadi maks. 365 hari.\n4. Masa aktif kartu < 365 hari, pelanggan baru membeli Paket AON: masa aktif AON berlaku maks. 365 hari; masa aktif kartu disesuaikan menjadi maks. 365 hari.",
+   "id": "e168",
+   "o": 167
+  },
+  {
+   "m": "aon",
+   "k": "Detail",
+   "t": "Jenis Paket AON yang terdampak",
+   "b": "Seluruh jenis Paket AON yang tersedia, dibeli melalui channel pembelian yang tersedia seperti Outlet, 3Store, Bima+, Bank, e-Commerce, dan lain-lain.",
+   "id": "e169",
+   "o": 168
+  },
+  {
+   "m": "aon",
+   "k": "Detail",
+   "t": "Cara pengecekan masa aktif Paket AON",
+   "b": "Di iCare Siebel:\nAsset Information > Subscribed Products > Package Details > Package Period.\n\nDi aplikasi Bima+:\nMenu Kuota, lalu lihat masa berlaku / masa berakhir Paket AON yang tertera.",
+   "id": "e170",
+   "o": 169
+  },
+  {
+   "m": "aon",
+   "k": "Detail",
+   "t": "Contoh tampilan (lampiran RENA)",
+   "b": "1. Kartu < 365 hari lalu beli Paket AON: masa aktif paket berlaku maks. 365 hari, dan masa aktif kartu disesuaikan menjadi maks. 365 hari.\n2. Kartu > 365 hari dan sudah punya Paket AON: di Package Details, Package Period paket AON tampil 365 DAYS, sedangkan Expiry Date kartu tidak mengalami perubahan.",
+   "id": "e171",
+   "o": 170
+  },
+  {
+   "m": "aon",
+   "k": "Penanganan",
+   "t": "Kasus: masa aktif kartu masih lama (mis. s/d September 2037), kenapa masa aktif AON tidak mengikuti kartu?",
+   "b": "Penanganan: edukasi pelanggan dengan standard jawaban di bawah.\n\nPencatatan:\na. Inquiry: 2104180002 - product tariff & benefit\nb. L1 Comment (pilih sesuai tanggal migrasi pelanggan):\n- #DMPDR2: pelanggan yang dimigrasi 20 Agustus 2026\n- #DMPWAVE1: pelanggan yang dimigrasi 23 Agustus 2026\n- #DMPWAVE2: pelanggan yang dimigrasi 28 Agustus 2026",
+   "id": "e172",
+   "o": 171
+  },
+  {
+   "m": "aon",
+   "k": "Script",
+   "t": "Standard jawaban: masa aktif AON tidak mengikuti masa aktif kartu",
+   "b": "Bapak/Ibu/Kak [Nama Pelanggan], mohon maaf atas ketidaknyamanan yang terjadi.\nSaat ini terdapat penyesuaian ketentuan masa aktif Paket AON. Saat ini masa aktif Paket AON diberikan maksimal 365 hari. Apabila masa aktif kartu Bapak/Ibu/Kak masih lebih dari 365 hari, masa aktif Paket AON tidak lagi mengikuti masa aktif kartu dan berlaku maksimal 365 hari.\nKami memahami bahwa perubahan ini mungkin terasa kurang nyaman, terutama bagi Bapak/Ibu/Kak yang sebelumnya menikmati masa aktif Paket AON yang lebih panjang dan mengikuti masa aktif kartu. Terima kasih atas pengertian dan kepercayaan Bapak/Ibu/Kak untuk terus menggunakan layanan Tri.",
+   "id": "e173",
+   "o": 172
+  },
+  {
+   "m": "aon",
+   "k": "Penanganan",
+   "t": "Kasus: masa aktif kartu s/d Nov 2026, jika beli Paket AON hari ini apakah masa aktif kartu bertambah?",
+   "b": "Penanganan: edukasi pelanggan dengan standard jawaban di bawah.\n\nPencatatan:\na. Inquiry: 2104180002 - product tariff & benefit\nb. L1 Comment (pilih sesuai tanggal migrasi pelanggan):\n- #DMPDR2: pelanggan yang dimigrasi 20 Agustus 2026\n- #DMPWAVE1: pelanggan yang dimigrasi 23 Agustus 2026\n- #DMPWAVE2: pelanggan yang dimigrasi 28 Agustus 2026",
+   "id": "e174",
+   "o": 173
+  },
+  {
+   "m": "aon",
+   "k": "Script",
+   "t": "Standard jawaban: masa aktif kartu bertambah setelah beli Paket AON",
+   "b": "Iya, Bapak/Ibu/Kak. Setelah Paket AON diaktifkan, masa aktif kartu Bapak/Ibu/Kak akan mendapatkan tambahan masa aktif hingga maksimal 365 hari. Penambahan masa aktif tersebut mengikuti ketentuan yang berlaku untuk Paket AON.",
+   "id": "e175",
+   "o": 174
+  },
+  {
+   "m": "aon",
+   "k": "Pencatatan",
+   "t": "Pencatatan interaksi masa aktif Paket AON",
+   "b": "Inquiry: 2104180002 - product tariff & benefit\nL1 Comment sesuai tanggal migrasi pelanggan:\n- #DMPDR2: dimigrasi 20 Agustus 2026\n- #DMPWAVE1: dimigrasi 23 Agustus 2026\n- #DMPWAVE2: dimigrasi 28 Agustus 2026",
+   "id": "e176",
+   "o": 175
+  },
+  {
+   "m": "aon",
+   "k": "FAQ",
+   "t": "Berapa masa aktif Paket AON setelah migrasi DMP?",
+   "b": "Maksimal 365 hari, tidak lagi mengikuti masa aktif kartu.",
+   "id": "e177",
+   "o": 176
+  },
+  {
+   "m": "aon",
+   "k": "FAQ",
+   "t": "Masa aktif kartu saya lebih dari 365 hari, apakah masa aktif kartu ikut berubah?",
+   "b": "Tidak. Masa aktif kartu tidak berubah, hanya masa aktif Paket AON yang dibatasi maksimal 365 hari.",
+   "id": "e178",
+   "o": 177
+  },
+  {
+   "m": "aon",
+   "k": "FAQ",
+   "t": "Masa aktif kartu saya kurang dari 365 hari, apa yang terjadi jika membeli Paket AON?",
+   "b": "Masa aktif Paket AON berlaku maksimal 365 hari, dan masa aktif kartu disesuaikan menjadi maksimal 365 hari.",
+   "id": "e179",
+   "o": 178
+  },
+  {
+   "m": "aon",
+   "k": "FAQ",
+   "t": "Paket AON apa saja yang terkena perubahan ini?",
+   "b": "Seluruh jenis Paket AON yang tersedia, dibeli lewat Outlet, 3Store, Bima+, Bank, e-Commerce, dan channel lainnya.",
+   "id": "e180",
+   "o": 179
+  },
+  {
+   "m": "aon",
+   "k": "FAQ",
+   "t": "Bagaimana cara melihat masa berlaku Paket AON pelanggan?",
+   "b": "iCare Siebel: Asset Information > Subscribed Products > Package Details > Package Period. Pelanggan dapat melihatnya di Bima+ pada menu Kuota.",
+   "id": "e181",
+   "o": 180
+  },
+  {
+   "m": "jgo",
+   "k": "Detail",
+   "t": "Apa itu Just Go?",
+   "b": "Just Go adalah tarif retail yang berlaku di luar negeri jika pelanggan mengakses data internet tanpa memiliki paket internet roaming di negara tujuan.\n\nBerlaku untuk semua pelanggan 3ID mulai 1 Oktober 2026. Tidak ada perbedaan Just Go di IM3 dan 3ID.",
+   "id": "e182",
+   "o": 181
+  },
+  {
+   "m": "jgo",
+   "k": "Detail",
+   "t": "Mekanisme Just Go",
+   "b": "Just Go berlaku saat pelanggan memakai internet ketika roaming tanpa paket roaming aktif. Pulsa pelanggan terpotong sesuai tarif berdasarkan negara atau zona tujuan, dan pelanggan mendapat benefit kuota data harian secara otomatis, berlanjut setiap hari selama memenuhi ketentuan Just Go.\n\nTidak perlu registrasi manual. Layanan aktif otomatis setelah pelanggan tiba di negara tujuan dan mulai memakai data roaming. Biaya dikenakan setelah pemakaian data melebihi 1MB.",
+   "id": "e183",
+   "o": 182
+  },
+  {
+   "m": "jgo",
+   "k": "Detail",
+   "t": "Tarif harian dan benefit data per zona",
+   "b": "- Zona Asia: Rp200.000, 2 GB/hari\n- Zona Eropa: Rp200.000, 2 GB/hari\n- Zona Timur Tengah: Rp200.000, 2 GB/hari\n- Amerika & Australia: Rp200.000, 2 GB/hari\n- Zona Afrika: Rp200.000, 2 GB/hari\n- Zona Premium/Eksotis: Rp800.000, 1 GB/hari\n\nKebijakan sistem: layanan otomatis diblokir setelah kuota habis.\nTarif dapat dilihat di https://tri.co.id/tri-tariff (Tariff Just Go 2.0).",
+   "id": "e184",
+   "o": 183
+  },
+  {
+   "m": "jgo",
+   "k": "Detail",
+   "t": "Catatan batas tarif harian dan pindah zona",
+   "b": "- Batas tarif harian berlaku hingga 23:59 WIB di hari yang sama.\n- Setelah benefit habis, layanan pelanggan diblokir.\n- Batas tarif harian di-reset otomatis setiap pukul 00:00 WIB.\n- Benefit tetap berlaku selama pelanggan berada di zona yang sama meskipun pindah negara, hingga pukul 23:59 WIB.\n- Jika pelanggan pindah zona, dikenakan tarif sesuai zona terbaru tanpa menghilangkan benefit di zona sebelumnya hingga pukul 00:00 WIB.",
+   "n": "Pada FAQ no. 8 RENA menyebut kuota Just Go zona sebelumnya tidak berlaku saat pindah zona, sedangkan catatan di atas menyebut benefit zona sebelumnya tidak hilang sampai 00:00 WIB. Mohon konfirmasi ke PO.",
+   "id": "e185",
+   "o": 184
+  },
+  {
+   "m": "jgo",
+   "k": "Detail",
+   "t": "Notifikasi yang diterima pelanggan",
+   "b": "1. Sebelum keberangkatan: pelanggan diarahkan ke Tri WhatsApp untuk membeli paket internet roaming.\n2. Setibanya di negara tujuan: pesan sambutan dari Tri WhatsApp dan SMS berisi arahan membeli paket internet roaming, jika pelanggan terdeteksi tidak punya paket roaming.\n3. Saat Just Go aktif dipakai: SMS konfirmasi aktivasi bahwa Just Go telah aktif (contoh: pulsa dipotong Rp200rb untuk aktivasi kuota roaming harian 2GB, berlaku s/d 23:59 WIB hari itu, cek pemakaian di bima+).",
+   "id": "e186",
+   "o": 185
+  },
+  {
+   "m": "jgo",
+   "k": "Detail",
+   "t": "Hierarki penggunaan data roaming",
+   "b": "1. Benefit Just Go\n2. Paket roaming yang sudah ada (existing roaming packages)\n3. Free 100MB roaming data",
+   "id": "e187",
+   "o": 186
+  },
+  {
+   "m": "jgo",
+   "k": "Detail",
+   "t": "Tampilan di Siebel jika pelanggan punya benefit Just Go",
+   "b": "Region / Zone / DAID / DA Value per hari:\n- Asia: Bonus Roaming Zone 1, DAID 325, 2147483648 byte (2GB)\n- Middle East: Bonus Roaming Zone 2, DAID 326, 2147483648 byte (2GB)\n- Europe: Bonus Roaming Zone 3, DAID 327, 2147483648 byte (2GB)\n- Americas & Australia: Bonus Roaming Zone 4, DAID 328, 2147483648 byte (2GB)\n- Africa: Bonus Roaming Zone 5, DAID 329, 2147483648 byte (2GB)\n- Premium: Bonus Roaming Zone 6, DAID 330, 1073741824 byte (1GB)",
+   "id": "e188",
+   "o": 187
+  },
+  {
+   "m": "jgo",
+   "k": "Pencatatan",
+   "t": "Pencatatan interaksi Just Go",
+   "b": "Inquiry: 2105230001 - internet roaming",
+   "id": "e189",
+   "o": 188
+  },
+  {
+   "m": "jgo",
+   "k": "FAQ",
+   "t": "Apa itu program Just Go?",
+   "b": "Skema perlindungan roaming harian otomatis di 3ID, dirancang agar roaming sederhana dan bebas khawatir dengan perlindungan otomatis dari biaya tak terduga (bill-shock).",
+   "id": "e190",
+   "o": 189
+  },
+  {
+   "m": "jgo",
+   "k": "FAQ",
+   "t": "Siapa yang bisa menggunakan Just Go dan kapan berlaku?",
+   "b": "Semua pelanggan 3ID, mulai 1 Oktober 2026.",
+   "id": "e191",
+   "o": 190
+  },
+  {
+   "m": "jgo",
+   "k": "FAQ",
+   "t": "Bagaimana cara mengaktifkan Just Go?",
+   "b": "Tidak perlu registrasi manual. Aktif otomatis setelah pelanggan tiba di negara tujuan dan mulai memakai data roaming. Biaya dikenakan setelah pemakaian data melebihi 1MB.",
+   "id": "e192",
+   "o": 191
+  },
+  {
+   "m": "jgo",
+   "k": "FAQ",
+   "t": "Berapa tarif harian dan kuota data yang didapat?",
+   "b": "Asia, Eropa, Timur Tengah, Afrika, serta Amerika & Australia: Rp200.000 untuk kuota 2 GB/hari. Premium/Exotic Zone: Rp800.000 untuk kuota 1 GB/hari.",
+   "id": "e193",
+   "o": 192
+  },
+  {
+   "m": "jgo",
+   "k": "FAQ",
+   "t": "Apa yang terjadi jika kuota harian habis?",
+   "b": "Akses internet diblokir otomatis untuk melindungi pelanggan dari biaya berlebih.",
+   "id": "e194",
+   "o": 193
+  },
+  {
+   "m": "jgo",
+   "k": "FAQ",
+   "t": "Kapan batas harian (Daily Cap) di-reset?",
+   "b": "Batas harian berlaku sampai 23:59 WIB di hari yang sama dan di-reset otomatis pukul 00:00 WIB.",
+   "id": "e195",
+   "o": 194
+  },
+  {
+   "m": "jgo",
+   "k": "FAQ",
+   "t": "Apakah kuota hangus jika pelanggan pindah negara?",
+   "b": "Jika pindah ke negara lain di zona yang sama (mis. Singapura ke Malaysia di Zona Asia), sisa kuota tetap dapat dipakai. Jika pindah ke zona berbeda (mis. Asia ke Eropa), kuota Just Go Zona Asia tidak berlaku dan pelanggan dikenakan tarif Just Go Zona Eropa.",
+   "id": "e196",
+   "o": 195
+  },
+  {
+   "m": "jgo",
+   "k": "FAQ",
+   "t": "Apakah ada perbedaan Just Go di IM3 dan 3ID?",
+   "b": "Tidak ada perbedaan.",
+   "id": "e197",
+   "o": 196
+  },
+  {
+   "m": "jgo",
+   "k": "FAQ",
+   "t": "Di mana pelanggan bisa melihat tarif Just Go?",
+   "b": "Tariff Just Go 2.0 dapat diakses di https://tri.co.id/tri-tariff.",
+   "id": "e198",
+   "o": 197
+  },
+  {
+   "m": "jgo",
+   "k": "FAQ",
+   "t": "Bagaimana hierarki penggunaan benefit Just Go?",
+   "b": "1) Benefit Just Go, 2) paket roaming yang sudah ada, 3) Free 100MB roaming data.",
+   "id": "e199",
+   "o": 198
+  },
+  {
+   "m": "jgo",
+   "k": "FAQ",
+   "t": "Apa yang terlihat di Siebel jika pelanggan punya benefit Just Go?",
+   "b": "Bonus Roaming Zone 1 sampai 6 dengan DAID 325 sampai 330. Zone 1 s.d. 5 bernilai 2147483648 byte per hari (2GB), Zone 6 Premium bernilai 1073741824 byte per hari (1GB).",
+   "id": "e200",
+   "o": 199
   }
  ],
  "denom": [

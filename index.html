@@ -75,7 +75,7 @@ const KLBL={Do:'Do (Yang harus dilakukan)',Dont:'Don\u2019ts (Yang tidak perlu)'
 const $=id=>document.getElementById(id);
 const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const tok=s=>s.toLowerCase().replace(/[^a-z0-9\s]/g,' ').split(/\s+/).filter(x=>x.length>1);
-let M=[],E=[],DEN=[],mf='',n=0;
+let M=[],E=[],DEN=[],S=[],SI={},mf='',n=0;
 const col=m=>m.c||'#6d28d9', ico=m=>m.ic||'📄';
 const mOf=id=>M.find(m=>m.id===id)||{s:'?',t:'?',id:''};
 function entry(e){
@@ -94,11 +94,20 @@ function doCalc(){const s=Math.max(0,Math.min(365,+$('sisa').value||0)),v=+$('de
   $('res').textContent=a===0?'Masa aktif tidak bertambah, sudah mencapai batas 365 hari.':`Bertambah ${a} hari, masa aktif menjadi ${s+a} hari.`+(a<v?` (validity ${v} hari dibatasi maksimal 365 hari)`:'')}
 function tools(){
   $('stats').innerHTML=[[M.length,'Materi'],[E.length,'Entri'],[E.filter(e=>e.k==='FAQ').length,'FAQ'],[E.filter(e=>e.k==='Script').length,'Standard jawaban']].map(x=>`<div class="stat"><b>${x[0]}</b><span>${x[1]}</span></div>`).join('');
-  $('chips').innerHTML=[{id:'',s:'Semua'}].concat(M).map(m=>`<button class="chip${m.id===mf?' on':''}" data-m="${esc(m.id)}">${esc(m.s)}</button>`).join('');
+  $('chips').innerHTML=[{id:'',s:'Semua'}].concat(M,[{id:'gerai',s:'📍 Lokasi Gerai'}]).map(m=>`<button class="chip${m.id===mf?' on':''}" data-m="${esc(m.id)}">${esc(m.s)}</button>`).join('');
+}
+function stores(q){
+  const qt=tok(q);
+  const l=!qt.length?S:S.filter(s=>{const t=tok([s.nama,s.alamat,s.kota,s.wilayah].join(' '));return qt.every(x=>t.some(y=>y.includes(x)))});
+  $('stat').textContent=S.length?l.length+' dari '+S.length+' gerai':'';
+  let h=`<div class="card" style="border-top:6px solid #0891b2"><span class="badge">📍 Lokasi & Jam Operasional</span><div class="mt">Lokasi dan Jam Operasional 3Store</div><div class="path">Ketik nama gerai, kota, atau wilayah pada kolom pencarian di atas.</div>${SI.layanan?`<div class="path" style="margin-top:6px">Layanan: ${esc(SI.layanan)}</div>`:''}${SI.kontak?`<div class="path">${esc(SI.kontak)}</div>`:''}</div>`;
+  if(!S.length)return h+'<div class="card">Data gerai belum tersedia (stores.json masih kosong).</div>';
+  if(!l.length)return h+'<div class="card">Tidak ada gerai yang cocok. Coba kata kunci lain.</div>';
+  return h+l.slice(0,60).map(s=>`<div class="en" style="--ac:#0891b2"><h4><span>🏬 ${esc(s.nama)}</span>${s.maps?`<a class="small" href="${esc(s.maps)}" target="_blank" rel="noopener">Peta</a>`:''}</h4><div>${esc(s.alamat)}</div><div class="path">${esc([s.kota,s.wilayah].filter(Boolean).join(', '))}</div>${s.jam?`<div style="margin-top:4px">🕒 <pre style="display:inline">${esc(s.jam)}</pre></div>`:''}</div>`).join('')+(l.length>60?`<div class="path">Menampilkan 60 gerai pertama. Persempit pencarian untuk hasil lain.</div>`:'');
 }
 function run(){
   const q=$('q').value.trim();n=0;tools();let h='';
-  if(q){
+  if(mf==='gerai'){h=stores(q)}else if(q){
     const qt=tok(q);
     const res=E.filter(e=>!mf||e.m===mf).map(e=>{const t=tok(e.t+' '+mOf(e.m).t),b=tok(e.b);let sc=0;qt.forEach(x=>{t.forEach(y=>{if(y.includes(x))sc+=3});b.forEach(y=>{if(y.includes(x))sc+=1})});return{e,sc}}).filter(r=>r.sc>0).sort((a,b)=>b.sc-a.sc).slice(0,12);
     $('stat').textContent=res.length+' hasil ditemukan';
@@ -123,9 +132,10 @@ document.addEventListener('click',e=>{
   if(c=g('[data-open]')){mf=c.dataset.open;history.replaceState(null,'','#'+mf);run();window.scrollTo({top:0,behavior:'smooth'})}
 });
 $('q').addEventListener('input',run);
+fetch('stores.json?v='+Date.now()).then(r=>r.ok?r.json():{stores:[]}).then(d=>{SI=d;S=d.stores||[];if(mf==='gerai')run()}).catch(()=>{});
 fetch('data.json?v='+Date.now()).then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{
   M=d.materi;E=d.entri;DEN=d.denom||[];
-  const hs=location.hash.slice(1);if(M.find(m=>m.id===hs))mf=hs;
+  const hs=location.hash.slice(1);if(M.find(m=>m.id===hs)||hs==='gerai')mf=hs;
   if(d.updated)$('upd').textContent='Terakhir diperbarui: '+new Date(d.updated).toLocaleDateString('id-ID',{day:'numeric',month:'long',year:'numeric'})+'.';
   run();
 }).catch(()=>{$('out').innerHTML='<div class="card">Data materi gagal dimuat. Pastikan file <b>data.json</b> berada satu folder dengan index.html dan halaman dibuka lewat GitHub Pages (bukan langsung dari file).</div>'});

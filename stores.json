@@ -1,0 +1,679 @@
+{
+ "updated": "2026-10-21",
+ "kontak": "Call Center 132 / (0896) 44000 123, email 3Care@tri.co.id",
+ "layanan": "Aktivasi, Ganti Kartu, Top Up, Pembayaran",
+ "stores": [
+  {
+   "nama": "3Store Banda Aceh",
+   "wilayah": "North Sumatera",
+   "kota": "Kota Banda Aceh",
+   "alamat": "Lippo Plaza Aceh, Jl. T. Hasan Dek, Gampong Beurawe Lantai Dasar (Lantai Dasar) No. 49 Kecamatan Kuta Alam Banda Aceh",
+   "jam": "Senin - Minggu, 10:00 - 22:00 WIB",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Banda%20Aceh%20Lippo%20Plaza%20Aceh%2C%20Jl.%20T.%20Hasan%20Dek%2C%20Gampong%20Beurawe%20Lantai%20Dasar%20%28Lantai%20Dasar%29%20No.%2049%20Kecamatan%20Kuta%20Alam%20Banda%20Aceh"
+  },
+  {
+   "nama": "3Store Medan",
+   "wilayah": "North Sumatera",
+   "kota": "Kota Medan",
+   "alamat": "Cambridge City Square - Jl. S. Parman No. 217 Medan - 20152 ( Lantai LG, No.BO-4)",
+   "jam": "Senin - Sabtu : 10:00 - 20:00 WIB\nMinggu & Libur Nasional : 10:00-15:00 WIB",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Medan%20Cambridge%20City%20Square%20-%20Jl.%20S.%20Parman%20No.%20217%20Medan%20-%2020152%20%28%20Lantai%20LG%2C%20No.BO-4%29"
+  },
+  {
+   "nama": "3Store Batam",
+   "wilayah": "Central Sumatera",
+   "kota": "Kota Batam",
+   "alamat": "Komplek Nagoya Hill Blok J No.23A, Batam - Kepri",
+   "jam": "Senin - Sabtu: 08:00 -19:00 WIB, Minggu & Hari Libur Nasional: Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Batam%20Komplek%20Nagoya%20Hill%20Blok%20J%20No.23A%2C%20Batam%20-%20Kepri"
+  },
+  {
+   "nama": "3Store Padang",
+   "wilayah": "Central Sumatera",
+   "kota": "Kota Padang",
+   "alamat": "Gedung G-Sport Center, Jl. Gajah Mada No.105 B Gunung Pangilun, Padang - Sumatera Barat 25137",
+   "jam": "Senin - Sabtu: 08:00 -19:00 WIB\nMinggu & Hari Libur Nasional: Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Padang%20Gedung%20G-Sport%20Center%2C%20Jl.%20Gajah%20Mada%20No.105%20B%20Gunung%20Pangilun%2C%20Padang%20-%20Sumatera%20Barat%2025137"
+  },
+  {
+   "nama": "3Store Pekanbaru",
+   "wilayah": "Central Sumatera",
+   "kota": "Kota Pekanbaru",
+   "alamat": "Mal Ciputra Seraya Lt. 3 Unit 10A, Jl. Riau No.58 Pekanbaru - Riau",
+   "jam": "Senin - Minggu, 10:00 - 21:00 WIB",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Pekanbaru%20Mal%20Ciputra%20Seraya%20Lt.%203%20Unit%2010A%2C%20Jl.%20Riau%20No.58%20Pekanbaru%20-%20Riau"
+  },
+  {
+   "nama": "3Store Bengkulu",
+   "wilayah": "South Sumatera",
+   "kota": "Kota Bengkulu",
+   "alamat": "Jl. S. Parman No.55, Penurunan, Kec. Ratu Samban, Kota Bengkulu, Bengkulu 38222",
+   "jam": "Senin - Sabtu: 08.00 WIB - 19.00 WIB. \nMinggu & Hari Libur Nasional: Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Bengkulu%20Jl.%20S.%20Parman%20No.55%2C%20Penurunan%2C%20Kec.%20Ratu%20Samban%2C%20Kota%20Bengkulu%2C%20Bengkulu%2038222"
+  },
+  {
+   "nama": "3Store Jambi",
+   "wilayah": "Central Sumatera",
+   "kota": "Kota Jambi",
+   "alamat": "Jl. Kolonel Abunjani kelurahan selamat, Kecamatan Telanaipura, Jambi",
+   "jam": "Senin - Sabtu: 08:00-19:00 WIB\nMinggu & Hari Libur Nasional: Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Jambi%20Jl.%20Kolonel%20Abunjani%20kelurahan%20selamat%2C%20Kecamatan%20Telanaipura%2C%20Jambi"
+  },
+  {
+   "nama": "3Store Palembang",
+   "wilayah": "South Sumatera",
+   "kota": "Kota Palembang",
+   "alamat": "Jl. Angkatan 45 No.222, Demang Lebar Daun, Kec. Ilir Bar. I, Kota Palembang, Sumatera Selatan 30316",
+   "jam": "Senin - Sabtu: 08:00 -19:00 WIB\n Minggu & Hari Libur Nasional: Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Palembang%20Jl.%20Angkatan%2045%20No.222%2C%20Demang%20Lebar%20Daun%2C%20Kec.%20Ilir%20Bar.%20I%2C%20Kota%20Palembang%2C%20Sumatera%20Selatan%2030316"
+  },
+  {
+   "nama": "3Store Lampung",
+   "wilayah": "South Sumatera",
+   "kota": "Kota Bandar lampung",
+   "alamat": "Jl. Wolter Monginsidi No.100, Sumur Batu, Kec. Teluk. Betung Utara, Kota Bandar Lampung, Lampung 35116",
+   "jam": "Senin - Sabtu: 08:00 - 19:00 WIB\nMinggu: Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Lampung%20Jl.%20Wolter%20Monginsidi%20No.100%2C%20Sumur%20Batu%2C%20Kec.%20Teluk.%20Betung%20Utara%2C%20Kota%20Bandar%20Lampung%2C%20Lampung%2035116"
+  },
+  {
+   "nama": "3Store Balikpapan",
+   "wilayah": "Eastern Kalimantan",
+   "kota": "Kota Balikpapan",
+   "alamat": "Gedung Indosat Balikpapan, Jl. MT. Haryono No.69RT. 60, Gan. Bahagia, Balikpapan Selatan, Kota Balikpapan, Kalimantan Timur 76124",
+   "jam": "Senin - Sabtu: 08:00 - 19:00 WITA\nMinggu: Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Balikpapan%20Gedung%20Indosat%20Balikpapan%2C%20Jl.%20MT.%20Haryono%20No.69RT.%2060%2C%20Gan.%20Bahagia%2C%20Balikpapan%20Selatan%2C%20Kota%20Balikpapan%2C%20Kalimantan%20Timur%2076124"
+  },
+  {
+   "nama": "3Store Samarinda",
+   "wilayah": "Eastern Kalimantan",
+   "kota": "Kota Samarinda",
+   "alamat": "Jl. Siradj Salman Kel. Teluk lerong Kec. Samarinda Ulu Kaltim Samarinda 75128",
+   "jam": "Senin – Jumat : 09.00 – 17.00 WITA\nSabtu : 09.00 – 15.00 WITA\nMinggu & Libur Nasional : Libur",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Samarinda%20Jl.%20Siradj%20Salman%20Kel.%20Teluk%20lerong%20Kec.%20Samarinda%20Ulu%20Kaltim%20Samarinda%2075128"
+  },
+  {
+   "nama": "3Store Banjarmasin",
+   "wilayah": "Eastern Kalimantan",
+   "kota": "Kota Banjarmasin",
+   "alamat": "Duta Mall Banjarmasin Lt. Dasar Unit F021 Jl. A. Yani KM 2 - Kel. Melayu Banjarmasin Tengah, Kota Banjarmasin Kalimantan Selatan 70232.",
+   "jam": "Senin-Minggu : 09:00 - 21:00 WITA",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Banjarmasin%20Duta%20Mall%20Banjarmasin%20Lt.%20Dasar%20Unit%20F021%20Jl.%20A.%20Yani%20KM%202%20-%20Kel.%20Melayu%20Banjarmasin%20Tengah%2C%20Kota%20Banjarmasin%20Kalimantan%20Selatan%2070232."
+  },
+  {
+   "nama": "3Store Pontianak",
+   "wilayah": "Western Kalimantan",
+   "kota": "Kota Pontianak",
+   "alamat": "Gedung Indosat Pontianak, Jl. Ahmad Yani no 214 Kelurahan Benua Melayu Darat Pontianak Kalimantan Barat",
+   "jam": "Senin - Sabtu: 08:00 - 19:00 WITA\nMinggu: Tutup",
+   "maps": "https://www.google.com/maps?q=-0.051028,109.346389"
+  },
+  {
+   "nama": "3Store Bogor",
+   "wilayah": "Outer Jakarta",
+   "kota": "Kota Bogor",
+   "alamat": "Jl Jendral Sudirman No.58 RT/RW 001/03 Kel. Sempur, Kec. Bogor Tengah Kota Bogor 16121",
+   "jam": "Senin - Sabtu: 09:00 - 19:00 WIB, Minggu & Hari Libur Nasional: Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Bogor%20Jl%20Jendral%20Sudirman%20No.58%20RT/RW%20001/03%20Kel.%20Sempur%2C%20Kec.%20Bogor%20Tengah%20Kota%20Bogor%2016121"
+  },
+  {
+   "nama": "3Store Bekasi",
+   "wilayah": "Inner Jakarta",
+   "kota": "Kota Bekasi",
+   "alamat": "Mega Bekasi Hypermall Lt. 2 Kios C12-C13 Jl.Jendral A Yani Bekasi 17141",
+   "jam": "Senin - Minggu, 10:00 - 21:00 WIB",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Bekasi%20Mega%20Bekasi%20Hypermall%20Lt.%202%20Kios%20C12-C13%20Jl.Jendral%20A%20Yani%20Bekasi%2017141"
+  },
+  {
+   "nama": "3Store Ambassador",
+   "wilayah": "Inner Jakarta",
+   "kota": "Kota Jakarta Selatan",
+   "alamat": "Mall Ambassador, Lt. 1 No.30 Jl. Prof. Dr. Satrio Karet Kuningan Jakarta Selatan",
+   "jam": "Senin - Minggu, 10:00 - 20:00 WIB",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Ambassador%20Mall%20Ambassador%2C%20Lt.%201%20No.30%20Jl.%20Prof.%20Dr.%20Satrio%20Karet%20Kuningan%20Jakarta%20Selatan"
+  },
+  {
+   "nama": "3Store Artha Gading",
+   "wilayah": "Inner Jakarta",
+   "kota": "Kota Jakarta Utara",
+   "alamat": "Mall Artha Gading, GF/A.5/003 & 005 Jln. Artha Gading Selatan No 1 Jakarta Utara 14240",
+   "jam": "Senin - Minggu, 10:00 - 22:00 WIB",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Artha%20Gading%20Mall%20Artha%20Gading%2C%20GF/A.5/003%20%26%20005%20Jln.%20Artha%20Gading%20Selatan%20No%201%20Jakarta%20Utara%2014240"
+  },
+  {
+   "nama": "3Store Depok",
+   "wilayah": "Inner Jakarta",
+   "kota": "Kota Depok",
+   "alamat": "Ruko ITC Depok 3A ( Lantai 2 ) Jl. Margonda Raya No. 59 Depok, Kecamatan Pancoran Mas Kota Depok Jawa Barat",
+   "jam": "Senin – Jumat : 08.00 – 17.00\nSabtu – Minggu : 09.00 – 17.00",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Depok%20Ruko%20ITC%20Depok%203A%20%28%20Lantai%202%20%29%20Jl.%20Margonda%20Raya%20No.%2059%20Depok%2C%20Kecamatan%20Pancoran%20Mas%20Kota%20Depok%20Jawa%20Barat"
+  },
+  {
+   "nama": "3Store Bintaro",
+   "wilayah": "Outer Jakarta",
+   "kota": "Kota Tangerang Selatan",
+   "alamat": "Plaza Bintaro Jaya, LT.3/T.07 Jalan Bintaro Utama Sektor 3A Kel. Pd. Karya, Kec. Pd. Aren Kota Tangerang Selatan - Banten",
+   "jam": "Senin - Minggu & Hari Libur Nasional, 10:00 - 22.00 WIB",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Bintaro%20Plaza%20Bintaro%20Jaya%2C%20LT.3/T.07%20Jalan%20Bintaro%20Utama%20Sektor%203A%20Kel.%20Pd.%20Karya%2C%20Kec.%20Pd.%20Aren%20Kota%20Tangerang%20Selatan%20-%20Banten"
+  },
+  {
+   "nama": "3Store Ciputra",
+   "wilayah": "Inner Jakarta",
+   "kota": "Kota Jakarta Barat",
+   "alamat": "Mal Ciputra Lantai 3 No.23 Jl Arteri S. Parman Grogol, Jakarta",
+   "jam": "Senin - Minggu & Hari Libur Nasional, 10:00 - 22.00 WIB",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Ciputra%20Mal%20Ciputra%20Lantai%203%20No.23%20Jl%20Arteri%20S.%20Parman%20Grogol%2C%20Jakarta"
+  },
+  {
+   "nama": "3Store Tangerang City",
+   "wilayah": "Outer Jakarta",
+   "kota": "Kota Tangerang",
+   "alamat": "TangCity Mall Lower Ground B 0037-S Jalan Jend. Sudirman No. 1 Cikokol, RT.001/RW.005 Babakan, Kec. Tangerang Kota Tangerang, Banten",
+   "jam": "Senin - Minggu: 10:00 - 22.00 WIB",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Tangerang%20City%20TangCity%20Mall%20Lower%20Ground%20B%200037-S%20Jalan%20Jend.%20Sudirman%20No.%201%20Cikokol%2C%20RT.001/RW.005%20Babakan%2C%20Kec.%20Tangerang%20Kota%20Tangerang%2C%20Banten"
+  },
+  {
+   "nama": "3Store Serang",
+   "wilayah": "Outer Jakarta",
+   "kota": "Kota Jakarta Selatan",
+   "alamat": "Komp Serang City Square Jl. Raya Serang Cilegon KM 06 Serang ( Depan RS Fatimah )",
+   "jam": "Senin - Sabtu: 09:00 - 19.00 WIB, Minggu & Hari Libur Nasional: Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Serang%20Komp%20Serang%20City%20Square%20Jl.%20Raya%20Serang%20Cilegon%20KM%2006%20Serang%20%28%20Depan%20RS%20Fatimah%20%29"
+  },
+  {
+   "nama": "3Store Capital Place",
+   "wilayah": "Inner Jakarta",
+   "kota": "Kota Jakarta Selatan",
+   "alamat": "Gedung Capital Place, Lantai Dasar - Area Lobby. Jl. Jend Gatot Subroto Kav.18 Kuningan Barat, Mampang Prapatan Jakarta Selatan",
+   "jam": "Senin - Jumat, 09:00 - 18:00 WIB\n Sabtu – Minggu & Hari Libur Nasional : Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Capital%20Place%20Gedung%20Capital%20Place%2C%20Lantai%20Dasar%20-%20Area%20Lobby.%20Jl.%20Jend%20Gatot%20Subroto%20Kav.18%20Kuningan%20Barat%2C%20Mampang%20Prapatan%20Jakarta%20Selatan"
+  },
+  {
+   "nama": "3Store Bandung",
+   "wilayah": "West Java",
+   "kota": "Kota Bandung",
+   "alamat": "Bandung Electronic Center, Lantai 3 No. A-15 Jl. Punawarman No.13-15 Bandung.",
+   "jam": "Senin - Minggu, 10:00 - 21:00 WIB",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Bandung%20Bandung%20Electronic%20Center%2C%20Lantai%203%20No.%20A-15%20Jl.%20Punawarman%20No.13-15%20Bandung."
+  },
+  {
+   "nama": "3Store Sukabumi",
+   "wilayah": "Outer Jakarta",
+   "kota": "Kota Sukabumi",
+   "alamat": "Gedung Indosat Sukabumi Jl. Surya Kencana No.36, Selabatu, Kec. Cikole, Sukabumi",
+   "jam": "Senin – Jumat: 08.00 – 17.00 WIB \nSabtu: 08.00 – 16.00 WIB \nMinggu & Hari Libur Nasional: Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Sukabumi%20Gedung%20Indosat%20Sukabumi%20Jl.%20Surya%20Kencana%20No.36%2C%20Selabatu%2C%20Kec.%20Cikole%2C%20Sukabumi"
+  },
+  {
+   "nama": "3Store Karawang",
+   "wilayah": "Inner Jakarta",
+   "kota": "Kab. Karawang",
+   "alamat": "Ruko Mediterania, Blok 1-A No. 53 Galuh Mas Karawang Barat",
+   "jam": "Senin - Sabtu: 09:00 -19:00 WIB, Minggu & Hari Libur Nasional: Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Karawang%20Ruko%20Mediterania%2C%20Blok%201-A%20No.%2053%20Galuh%20Mas%20Karawang%20Barat"
+  },
+  {
+   "nama": "3Store Tasikmalaya",
+   "wilayah": "West Java",
+   "kota": "Kota Tasikmalaya",
+   "alamat": "Komplek Mall Asia Plaza Blok A8 Jl. HZ. Mustofa No.326, RT/RW. 001/005, Kelurahan Tugujaya, Kecamatan Cihideung, Kota Tasikmalaya",
+   "jam": "Senin - Sabtu: 09:00 - 19.00 WIB, Minggu & Hari Libur Nasional: Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Tasikmalaya%20Komplek%20Mall%20Asia%20Plaza%20Blok%20A8%20Jl.%20HZ.%20Mustofa%20No.326%2C%20RT/RW.%20001/005%2C%20Kelurahan%20Tugujaya%2C%20Kecamatan%20Cihideung%2C%20Kota%20Tasikmalaya"
+  },
+  {
+   "nama": "3Store Cirebon",
+   "wilayah": "West Java",
+   "kota": "Kota Cirebon",
+   "alamat": "Jl Cipto Mangunkusumo No 71 Cirebon",
+   "jam": "Senin - Sabtu, 09:00 - 19:00 WIB, Minggu & Hari Libur Nasional: Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Cirebon%20Jl%20Cipto%20Mangunkusumo%20No%2071%20Cirebon"
+  },
+  {
+   "nama": "3Store Tegal",
+   "wilayah": "Central Java",
+   "kota": "Kota Tegal",
+   "alamat": "Jl. RA Kartini No. 46 RT 09 RW 02, Mangkukusuman, Tegal Timur, Kota Tegal, Jawa Tengah 52123",
+   "jam": "Senin - Sabtu: 08:00 - 17.00 WIB, Minggu & Hari Libur Nasional: Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Tegal%20Jl.%20RA%20Kartini%20No.%2046%20RT%2009%20RW%2002%2C%20Mangkukusuman%2C%20Tegal%20Timur%2C%20Kota%20Tegal%2C%20Jawa%20Tengah%2052123"
+  },
+  {
+   "nama": "3Store Purwokerto",
+   "wilayah": "Central Java",
+   "kota": "Kab. Banyumas",
+   "alamat": "Jl. Dr. Angka No. 76C Purwokerto (Timur Ayam Penyet Suroboyo)",
+   "jam": "Senin - Sabtu: 08:00 -18:00 WIB, Minggu & Hari Libur Nasional: Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Purwokerto%20Jl.%20Dr.%20Angka%20No.%2076C%20Purwokerto%20%28Timur%20Ayam%20Penyet%20Suroboyo%29"
+  },
+  {
+   "nama": "3Store Semarang",
+   "wilayah": "Central Java",
+   "kota": "Kota Semarang",
+   "alamat": "Gedung Indosat, Jl. Pandanaran No. 131 Mugassari, Semarang Selatan, Kota Semarang, Jawa Tengah 50243.",
+   "jam": "Senin - Jumat 08:00 - 18:00, Sabtu 08:00 - 17:00, Minggu Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Semarang%20Gedung%20Indosat%2C%20Jl.%20Pandanaran%20No.%20131%20Mugassari%2C%20Semarang%20Selatan%2C%20Kota%20Semarang%2C%20Jawa%20Tengah%2050243."
+  },
+  {
+   "nama": "3Store Solo",
+   "wilayah": "Central Java",
+   "kota": "Kota Solo",
+   "alamat": "JL. Slamet Riyadi 241, Solo",
+   "jam": "Senin - Sabtu: 08:00 -17:00 WIB, Minggu & Hari Libur Nasional: Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Solo%20JL.%20Slamet%20Riyadi%20241%2C%20Solo"
+  },
+  {
+   "nama": "3Store Yogyakarta",
+   "wilayah": "Central Java",
+   "kota": "Kota Yogyakarta",
+   "alamat": "Jalan C. Simanjuntak 41 Terban, Gondokusuman Yogyakarta",
+   "jam": "Senin - Sabtu: 08:00 -17:00 WIB, Minggu & Hari Libur Nasional: Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Yogyakarta%20Jalan%20C.%20Simanjuntak%2041%20Terban%2C%20Gondokusuman%20Yogyakarta"
+  },
+  {
+   "nama": "3Store Gorontalo",
+   "wilayah": "Sulawesi",
+   "kota": "Kota Gorontalo",
+   "alamat": "Jl. Jend. Sudirman, Wumialo, Kec. Kota tengah, Kota Gorontalo, Gorontalo 96138, No 23 Gorontalo - Sulawesi Utara 96135",
+   "jam": "Senin - Sabtu: 08:00 - 19:00\nMinggu: Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Gorontalo%20Jl.%20Jend.%20Sudirman%2C%20Wumialo%2C%20Kec.%20Kota%20tengah%2C%20Kota%20Gorontalo%2C%20Gorontalo%2096138%2C%20No%2023%20Gorontalo%20-%20Sulawesi%20Utara%2096135"
+  },
+  {
+   "nama": "3Store Makassar",
+   "wilayah": "Sulawesi",
+   "kota": "Kota Makassar",
+   "alamat": "Gedung Indosat Makassar Jl. Slamet Riyadi No.4 Makassar, Kelurahan Bulogading, Kecamatan Ujung Pandang Kota Makassar, Sulawesi Selatan 90111",
+   "jam": "Senin - Sabtu: 08:00 - 19:00 WITA, Minggu & Hari Libur Nasional: Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Makassar%20Gedung%20Indosat%20Makassar%20Jl.%20Slamet%20Riyadi%20No.4%20Makassar%2C%20Kelurahan%20Bulogading%2C%20Kecamatan%20Ujung%20Pandang%20Kota%20Makassar%2C%20Sulawesi%20Selatan%2090111"
+  },
+  {
+   "nama": "3Store Manado",
+   "wilayah": "Mapa",
+   "kota": "Kota Manado",
+   "alamat": "Kawasan Mega Mas Blok 1 D1 no 7, Jl Piere Tendean Manado",
+   "jam": "Senin - Sabtu: 08:00 -19:00 WITA, Minggu & Hari Libur Nasional: Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Manado%20Kawasan%20Mega%20Mas%20Blok%201%20D1%20no%207%2C%20Jl%20Piere%20Tendean%20Manado"
+  },
+  {
+   "nama": "3Store Jatim Expo",
+   "wilayah": "East Java",
+   "kota": "Kota Surabaya",
+   "alamat": "Jl. Ahmad Yani No.99, Margorejo, Kec. Wonocolo, Surabaya, Jawa Timur 60237",
+   "jam": "Senin - Sabtu 08.00 - 19.00 WIB\nMinggu & Hari Libur Nasional : Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Jatim%20Expo%20Jl.%20Ahmad%20Yani%20No.99%2C%20Margorejo%2C%20Kec.%20Wonocolo%2C%20Surabaya%2C%20Jawa%20Timur%2060237"
+  },
+  {
+   "nama": "3Store Kayoon Surabaya",
+   "wilayah": "East Java",
+   "kota": "Kota Surabaya",
+   "alamat": "Gedung Indosat Kayoon, Jln Kayoon 72, Embong Kaliasin, Genteng, Surabaya, East Java 60271",
+   "jam": "Senin - Jumat: 08:00 - 17:00 WIB\nSabtu: 09:00 - 16:00 WIB\nMinggu & Hari Libur Nasional: Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Kayoon%20Surabaya%20Gedung%20Indosat%20Kayoon%2C%20Jln%20Kayoon%2072%2C%20Embong%20Kaliasin%2C%20Genteng%2C%20Surabaya%2C%20East%20Java%2060271"
+  },
+  {
+   "nama": "3Store Malang",
+   "wilayah": "East Java",
+   "kota": "Kota Malang",
+   "alamat": "Jl. Jaksa Agung Suprapto No.47, Samaan, Kec. Klojen, Kota Malang, Jawa Timur 65111",
+   "jam": "Senin-Jumat, 08.00-17.00 WIB. \nSabtu, 09.00 - 16.00 WIB. \nMinggu & Hari Libur Nasional: Tutup.",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Malang%20Jl.%20Jaksa%20Agung%20Suprapto%20No.47%2C%20Samaan%2C%20Kec.%20Klojen%2C%20Kota%20Malang%2C%20Jawa%20Timur%2065111"
+  },
+  {
+   "nama": "3Store Mojokerto",
+   "wilayah": "East Java",
+   "kota": "Kab. Mojokerto",
+   "alamat": "Sunrise Mall Lt 2 SF-19B Jl. Benteng Pancasila No. 09 Mojokerto",
+   "jam": "Senin - Minggu: 10:00 - 22:00 WIB",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Mojokerto%20Sunrise%20Mall%20Lt%202%20SF-19B%20Jl.%20Benteng%20Pancasila%20No.%2009%20Mojokerto"
+  },
+  {
+   "nama": "3Store Kediri",
+   "wilayah": "East Java",
+   "kota": "Kota Kediri",
+   "alamat": "Gedung Indosat, Jl. Erlangga No.8, Ngadirejo, Kec. Kota, Kota Kediri, Jawa Timur 64122",
+   "jam": "Senin - Jumat: 08:00 - 17:00 WIB\nSabtu: 09:00 - 16:00 WIB\nMinggu & Hari Libur Nasional: Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Kediri%20Gedung%20Indosat%2C%20Jl.%20Erlangga%20No.8%2C%20Ngadirejo%2C%20Kec.%20Kota%2C%20Kota%20Kediri%2C%20Jawa%20Timur%2064122"
+  },
+  {
+   "nama": "3Store Jember",
+   "wilayah": "East Java",
+   "kota": "Kab. Jember",
+   "alamat": "Sebelah BCA, Jl. Gajah Mada No.20, Kaliwates, Kec. Kaliwates, Kabupaten Jember, Jawa Timur 68131",
+   "jam": "Senin - Jumat: 08:00 - 17:000\nSabtu: 09:00 - 16:00\nMinggu & Hari Libur Nasional: Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Jember%20Sebelah%20BCA%2C%20Jl.%20Gajah%20Mada%20No.20%2C%20Kaliwates%2C%20Kec.%20Kaliwates%2C%20Kabupaten%20Jember%2C%20Jawa%20Timur%2068131"
+  },
+  {
+   "nama": "3Store Denpasar",
+   "wilayah": "Bali Nusra",
+   "kota": "Kota Denpasar",
+   "alamat": "Jl. Gatot Subroto Barat No.401, Padangsambian Kaja, Kec. Denpasar Bar., Kota Denpasar, Bali 80111",
+   "jam": "Senin - Sabtu: 09:00 -18:00 WITA, Minggu & Hari Libur Nasional: Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Denpasar%20Jl.%20Gatot%20Subroto%20Barat%20No.401%2C%20Padangsambian%20Kaja%2C%20Kec.%20Denpasar%20Bar.%2C%20Kota%20Denpasar%2C%20Bali%2080111"
+  },
+  {
+   "nama": "3Store Mataram",
+   "wilayah": "Bali Nusra",
+   "kota": "Kota Mataram",
+   "alamat": "Jln. Majapahit No. 1 Simpang Tanah Haji Pagesangan, Mataram",
+   "jam": "Senin - Sabtu: 09:00 -18:00 WITA, Minggu & Hari Libur Nasional: Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Mataram%20Jln.%20Majapahit%20No.%201%20Simpang%20Tanah%20Haji%20Pagesangan%2C%20Mataram"
+  },
+  {
+   "nama": "3Store KPPTI",
+   "wilayah": "Inner Jakarta",
+   "kota": "Kota Jakarta Pusat",
+   "alamat": "Podium Belakang Lt. Dasar Jl. Medan Merdeka Barat no.21, Jakarta Pusat",
+   "jam": "Senin - Jumat : 08.00 - 19.00 wib \n Sabtu : 08.00 - 17.00 wib \n Minggu : tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20KPPTI%20Podium%20Belakang%20Lt.%20Dasar%20Jl.%20Medan%20Merdeka%20Barat%20no.21%2C%20Jakarta%20Pusat"
+  },
+  {
+   "nama": "3Store Perintis Medan",
+   "wilayah": "North Sumatera",
+   "kota": "Medan",
+   "alamat": "Gedung Indosat, No.39 Lt 1, Jl. Perintis Kemerdekaan, Sidorame Barat I, Medan Perjuangan, Medan City, North Sumatra 20233",
+   "jam": "Senin - Jumat: 08:00 - 19:00 WIB\nSabtu : 08:00-17:00 WIB\nMinggu: Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Perintis%20Medan%20Gedung%20Indosat%2C%20No.39%20Lt%201%2C%20Jl.%20Perintis%20Kemerdekaan%2C%20Sidorame%20Barat%20I%2C%20Medan%20Perjuangan%2C%20Medan%20City%2C%20North%20Sumatra%2020233"
+  },
+  {
+   "nama": "3Store Cipayung",
+   "wilayah": "Inner Jakarta",
+   "kota": "Jakarta Timur",
+   "alamat": "Ruko Infinity Minisoccer, Jl. Raya Cilangkap No.10, RT.2/RW.1, Cilangkap, Kec. Cipayung, Kota Jakarta Timur Kodepos 13870",
+   "jam": "Senin – Minggu 09:00 – 17:00 WIB",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Cipayung%20Ruko%20Infinity%20Minisoccer%2C%20Jl.%20Raya%20Cilangkap%20No.10%2C%20RT.2/RW.1%2C%20Cilangkap%2C%20Kec.%20Cipayung%2C%20Kota%20Jakarta%20Timur%20Kodepos%2013870"
+  },
+  {
+   "nama": "3Store Kuta",
+   "wilayah": "Bali Nusra",
+   "kota": "Kab. Badung",
+   "alamat": "Jl. Bypass Ngurah Rai No.88, Tuban, Kec. Kuta, Kabupaten Badung, Bali 80361",
+   "jam": "Senin - Sabtu: 09:00 – 18:00 WITA\nMinggu & Hari Libur Nasional : Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Kuta%20Jl.%20Bypass%20Ngurah%20Rai%20No.88%2C%20Tuban%2C%20Kec.%20Kuta%2C%20Kabupaten%20Badung%2C%20Bali%2080361"
+  },
+  {
+   "nama": "3Store Garut",
+   "wilayah": "West Java",
+   "kota": "Kab. Garut",
+   "alamat": "Jl. Cimanuk No.155, Jayaraga, Kec. Tarogong Kidul, Kabupaten Garut, Jawa Barat 4415",
+   "jam": "Senin – Sabtu: 08:00 – 17:00 WIB",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Garut%20Jl.%20Cimanuk%20No.155%2C%20Jayaraga%2C%20Kec.%20Tarogong%20Kidul%2C%20Kabupaten%20Garut%2C%20Jawa%20Barat%204415"
+  },
+  {
+   "nama": "3Store Nias",
+   "wilayah": "North Sumatera",
+   "kota": "Gunung Sitoli",
+   "alamat": "Jl. Sirao No.17, Nias",
+   "jam": "Senin - Sabtu : 10:00 - 19:00 WIB\nMinggu: Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Nias%20Jl.%20Sirao%20No.17%2C%20Nias"
+  },
+  {
+   "nama": "3Store Cibanteng",
+   "wilayah": "Outer Jakarta",
+   "kota": "Bogor",
+   "alamat": "Jl. Raya Cibanteng, Cihideung Ilir, Kec. Ciampea, Kabupaten Bogor, Jawa Barat",
+   "jam": "Senin – Jumat : 09:00 – 17:00 WIB\nSabtu : 09.00 – 15.00\nMinggu : Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Cibanteng%20Jl.%20Raya%20Cibanteng%2C%20Cihideung%20Ilir%2C%20Kec.%20Ciampea%2C%20Kabupaten%20Bogor%2C%20Jawa%20Barat"
+  },
+  {
+   "nama": "3Store Cikampek",
+   "wilayah": "Inner Jakarta",
+   "kota": "Cikampek",
+   "alamat": "Jln. Stasiun Kerajan remaja RT 2 RW 4 Cikampek Kota",
+   "jam": "Senin – Jumat : 10:00 – 18:00 WIB\nSabtu : 10.00 – 16.00\nMinggu : Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Cikampek%20Jln.%20Stasiun%20Kerajan%20remaja%20RT%202%20RW%204%20Cikampek%20Kota"
+  },
+  {
+   "nama": "3Store Kopo",
+   "wilayah": "West Java",
+   "kota": "Bandung",
+   "alamat": "Jl. Kopo Sayati No.168, Sayati, Kec. Margahayu, Kota Bandung, Jawa Barat 40228, Sayati, Kec. Margahayu, Kota Bandung,Jawa Barat 40288",
+   "jam": "Senin - Sabtu : 08:00 – 17:00 WIB\nMinggu : Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Kopo%20Jl.%20Kopo%20Sayati%20No.168%2C%20Sayati%2C%20Kec.%20Margahayu%2C%20Kota%20Bandung%2C%20Jawa%20Barat%2040228%2C%20Sayati%2C%20Kec.%20Margahayu%2C%20Kota%20Bandung%2CJawa%20Barat%2040288"
+  },
+  {
+   "nama": "3Store Pamulang",
+   "wilayah": "Outer Jakarta",
+   "kota": "Tangerang Selatan",
+   "alamat": "Jl. Benda Permai Raya Blok B 6 no. 9. RT 004, RW 011. Kel. Pondok Benda, Kec.Pamulang.Tangerang Selatan.",
+   "jam": "Senin - Jumat : 09:00 – 17:00 WIB\nSabtu : 09:00 – 15.00\nMinggu : Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Pamulang%20Jl.%20Benda%20Permai%20Raya%20Blok%20B%206%20no.%209.%20RT%20004%2C%20RW%20011.%20Kel.%20Pondok%20Benda%2C%20Kec.Pamulang.Tangerang%20Selatan."
+  },
+  {
+   "nama": "3Store Ujung Berung",
+   "wilayah": "West Java",
+   "kota": "Bandung",
+   "alamat": "Jl. AH. Nasution No.94, Pakemitan, Kec. Cinambo, Kota Bandung, Jawa Barat 40294",
+   "jam": "Senin - Sabtu : 08:00 – 17:00 WIB\nMinggu : Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Ujung%20Berung%20Jl.%20AH.%20Nasution%20No.94%2C%20Pakemitan%2C%20Kec.%20Cinambo%2C%20Kota%20Bandung%2C%20Jawa%20Barat%2040294"
+  },
+  {
+   "nama": "3Store Cileungsi",
+   "wilayah": "Outer Jakarta",
+   "kota": "Bogor",
+   "alamat": "Jl. Pasar Lama No.9a, Kp. Parung Jambu, Cileungsi, Kec. Cileungsi, Kabupaten Bogor, Jawa Barat 16820",
+   "jam": "Senin - Jumat : 09:00 – 17:00 WIB \nSabtu : 09:00 – 15.00\nMinggu : Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Cileungsi%20Jl.%20Pasar%20Lama%20No.9a%2C%20Kp.%20Parung%20Jambu%2C%20Cileungsi%2C%20Kec.%20Cileungsi%2C%20Kabupaten%20Bogor%2C%20Jawa%20Barat%2016820"
+  },
+  {
+   "nama": "3Store Terbanggi",
+   "wilayah": "South Sumatera",
+   "kota": "Lampung Tengah",
+   "alamat": "Jl. Proklamator Raya (Samping Kedai Kopi Jaya) Terbanggi Besar - Gn. Sugih, Yukum Jaya Kec. Terbanggi Besar, Kabupaten Lampung Tengah Lampung 34163",
+   "jam": "Senin - Jumat : 09:00 – 17:00 WIB \nSabtu : 09:00 – 15.00\nMinggu : Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Terbanggi%20Jl.%20Proklamator%20Raya%20%28Samping%20Kedai%20Kopi%20Jaya%29%20Terbanggi%20Besar%20-%20Gn.%20Sugih%2C%20Yukum%20Jaya%20Kec.%20Terbanggi%20Besar%2C%20Kabupaten%20Lampung%20Tengah%20Lampung%2034163"
+  },
+  {
+   "nama": "3Store Bangkinang",
+   "wilayah": "Central Sumatera",
+   "kota": "Kampar",
+   "alamat": "Jl. Jenderal Sudirman No. 41, Langgini, Kec. Bangkinang, Kabupaten Kampar, Riau 28463",
+   "jam": "Senin - Jumat : 09:00 – 17:00 WIB \nSabtu : 09:00 – 15.00\nMinggu : Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Bangkinang%20Jl.%20Jenderal%20Sudirman%20No.%2041%2C%20Langgini%2C%20Kec.%20Bangkinang%2C%20Kabupaten%20Kampar%2C%20Riau%2028463"
+  },
+  {
+   "nama": "3Store Cikupa",
+   "wilayah": "Outer Jakarta",
+   "kota": "Tangerang",
+   "alamat": "Citra square 2, Jl Citra Raya Cikupa Blok B05B No 3, Cikupa, Kec. Cikupa, Kabupaten Tangerang, Banten 15710",
+   "jam": "Senin - Jumat : 09:00 – 17:00 WIB \nSabtu : 09:00 – 15.00\nMinggu : Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Cikupa%20Citra%20square%202%2C%20Jl%20Citra%20Raya%20Cikupa%20Blok%20B05B%20No%203%2C%20Cikupa%2C%20Kec.%20Cikupa%2C%20Kabupaten%20Tangerang%2C%20Banten%2015710"
+  },
+  {
+   "nama": "3Store Belitang",
+   "wilayah": "South Sumatera",
+   "kota": "Ogan Komering Ulu Timur",
+   "alamat": "Jl. Jenderal Sudirman Komp. Belitang Mas Center Blok B No.4, Desa Gumawang, Kecamatan Belitang, Oku Timur",
+   "jam": "Senin - Jumat : 09:00 – 17:00 WIB \nSabtu : 09:00 – 15.00\nMinggu : Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Belitang%20Jl.%20Jenderal%20Sudirman%20Komp.%20Belitang%20Mas%20Center%20Blok%20B%20No.4%2C%20Desa%20Gumawang%2C%20Kecamatan%20Belitang%2C%20Oku%20Timur"
+  },
+  {
+   "nama": "3Store Bangka",
+   "wilayah": "South Sumatera",
+   "kota": "Pangkal Pinang",
+   "alamat": "Jl. Jenderal Sudirman No.65 Gedung Nasional Taman Sari, Kota Pangkal Pinang, Kepulauan Bangka 33211",
+   "jam": "Senin - Jumat : 09:00 – 17:00 WIB \nSabtu : 09:00 – 15.00\nMinggu : Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Bangka%20Jl.%20Jenderal%20Sudirman%20No.65%20Gedung%20Nasional%20Taman%20Sari%2C%20Kota%20Pangkal%20Pinang%2C%20Kepulauan%20Bangka%2033211"
+  },
+  {
+   "nama": "3Store Dumai",
+   "wilayah": "Central Sumatera",
+   "kota": "Dumai",
+   "alamat": "Jl. Wah Dahlan Ibrahim No.23, Sukajadi, Kec. Dumai Kota, Kota Dumai, Riau 28812",
+   "jam": "Senin - Jumat : 09:00 – 17:00 WIB \nSabtu : 09:00 – 15.00\nMinggu : Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Dumai%20Jl.%20Wah%20Dahlan%20Ibrahim%20No.23%2C%20Sukajadi%2C%20Kec.%20Dumai%20Kota%2C%20Kota%20Dumai%2C%20Riau%2028812"
+  },
+  {
+   "nama": "3Store Mulyosari Surabaya",
+   "wilayah": "East Java",
+   "kota": "Surabaya",
+   "alamat": "Jl. Raya Mulyosari No.141, Kalisari, Kec. Mulyorejo, Surabaya, Jawa Timur 60112",
+   "jam": "Senin - Jumat : 09:00 – 17:00 WIB \nSabtu : 09:00 – 15.00\nMinggu : Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Mulyosari%20Surabaya%20Jl.%20Raya%20Mulyosari%20No.141%2C%20Kalisari%2C%20Kec.%20Mulyorejo%2C%20Surabaya%2C%20Jawa%20Timur%2060112"
+  },
+  {
+   "nama": "3Store Sukoharjo Solo",
+   "wilayah": "Central Java",
+   "kota": "Sukoharjo",
+   "alamat": "Jl. Slamet Riyadi No 4 Balesari RT 001/005 Gayam Kec. Sukoharjo Kab. Sukoharjo, Jateng (Samping BRI)",
+   "jam": "Senin – Jumat : 08:00 – 16:00 WIB\nSabtu : 08:00 – 14:00 WIB\n Minggu: Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Sukoharjo%20Solo%20Jl.%20Slamet%20Riyadi%20No%204%20Balesari%20RT%20001/005%20Gayam%20Kec.%20Sukoharjo%20Kab.%20Sukoharjo%2C%20Jateng%20%28Samping%20BRI%29"
+  },
+  {
+   "nama": "3Store Kuningan",
+   "wilayah": "West Java",
+   "kota": "Kuningan",
+   "alamat": "Jl. Ir. H. Juanda No.113, Purwawinangun, Kec. Kuningan, Kabupaten Kuningan, Jawa Barat 45512",
+   "jam": "Senin - Jumat : 09:00 – 17:00 WIB\nSabtu : 09:00 – 15:00 WIB\nMinggu : Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Kuningan%20Jl.%20Ir.%20H.%20Juanda%20No.113%2C%20Purwawinangun%2C%20Kec.%20Kuningan%2C%20Kabupaten%20Kuningan%2C%20Jawa%20Barat%2045512"
+  },
+  {
+   "nama": "3Store Kendari",
+   "wilayah": "Sulawesi",
+   "kota": "Kendari",
+   "alamat": "Jl. Sorumba No 19, Kec. Kadia, Kota Kendari, Sulawesi Tenggara 93117",
+   "jam": "Senin - Jumat : 09:00 – 17:00 WIB\nSabtu : 09:00 – 15:00 WIB\nMinggu : Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Kendari%20Jl.%20Sorumba%20No%2019%2C%20Kec.%20Kadia%2C%20Kota%20Kendari%2C%20Sulawesi%20Tenggara%2093117"
+  },
+  {
+   "nama": "3Store Tomohon",
+   "wilayah": "Mapa",
+   "kota": "Tomohon",
+   "alamat": "Tomohon Jl. Raya Tomohon, Talete Satu Tomohon Tengah Kota Tomohon Sulawesi Utara",
+   "jam": "Senin - Jumat : 09:00 – 17:00 WIB\nSabtu : 09:00 – 15:00 WIB\nMinggu : Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Tomohon%20Tomohon%20Jl.%20Raya%20Tomohon%2C%20Talete%20Satu%20Tomohon%20Tengah%20Kota%20Tomohon%20Sulawesi%20Utara"
+  },
+  {
+   "nama": "3Store Darmo Indah Surabaya",
+   "wilayah": "East Java",
+   "kota": "Surabaya",
+   "alamat": "Jl. Raya Darmo Indah Timur SS/4 RT. 004/RW. 03 Tandes Kidul Surabaya",
+   "jam": "Senin - Jumat : 09:00 – 17:00 WIB\nSabtu : 09:00 – 15:00 WIB\nMinggu : Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Darmo%20Indah%20Surabaya%20Jl.%20Raya%20Darmo%20Indah%20Timur%20SS/4%20RT.%20004/RW.%2003%20Tandes%20Kidul%20Surabaya"
+  },
+  {
+   "nama": "3Store Muara Bungo",
+   "wilayah": "Central Sumatera",
+   "kota": "Bungo",
+   "alamat": "Jl. Teuku Umar, Pasir Putih, Kec. Rimbo Tengah, Kab. Bungo, Jambi 37221",
+   "jam": "Senin - Jumat : 09:00 – 17:00 WIB\nSabtu : 09:00 – 15:00 WIB\nMinggu : Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Muara%20Bungo%20Jl.%20Teuku%20Umar%2C%20Pasir%20Putih%2C%20Kec.%20Rimbo%20Tengah%2C%20Kab.%20Bungo%2C%20Jambi%2037221"
+  },
+  {
+   "nama": "3Store Mranggen",
+   "wilayah": "Central Java",
+   "kota": "Demak",
+   "alamat": "Jl. Raya Bandungrejo No.60 Mranggen,Demak.",
+   "jam": "Senin - Jumat: 08:00 – 16.00 WIB\nSabtu: 08:00 - 14:00 WIB\n Minggu: Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Mranggen%20Jl.%20Raya%20Bandungrejo%20No.60%20Mranggen%2CDemak."
+  },
+  {
+   "nama": "3Store Teuku Umar Denpasar",
+   "wilayah": "Bali Nusra",
+   "kota": "Denpasar",
+   "alamat": "Jl. Teuku Umar No.174C, Dauh Puri Kauh, Kec. Denpasar Bar., Kota Denpasar, Bali 80114",
+   "jam": "Senin - Jumat: 08:00 – 16.00 WIB\nSabtu: 08:00 - 14:00 WIB\n Minggu: Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Teuku%20Umar%20Denpasar%20Jl.%20Teuku%20Umar%20No.174C%2C%20Dauh%20Puri%20Kauh%2C%20Kec.%20Denpasar%20Bar.%2C%20Kota%20Denpasar%2C%20Bali%2080114"
+  },
+  {
+   "nama": "3Store Palu",
+   "wilayah": "Sulawesi",
+   "kota": "Palu",
+   "alamat": "Dr Abdurahman Saleh, Arah bandara ( depan hotel Sultan Raja ) Palu Sulawesi Tengah 94111",
+   "jam": "Senin – Jumat : 09.00 – 17.00 WITA\nSabtu : 09.00 – 15.00 WITA\nMinggu & Libur Nasional : Libur",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Palu%20Dr%20Abdurahman%20Saleh%2C%20Arah%20bandara%20%28%20depan%20hotel%20Sultan%20Raja%20%29%20Palu%20Sulawesi%20Tengah%2094111"
+  },
+  {
+   "nama": "3Store Morowali",
+   "wilayah": "Sulawesi",
+   "kota": "Kabupaten Morowali",
+   "alamat": "Jl. Trans Sulawesi Kecamatan Keurea, Kabupaten Morowali, Sulawesi Tengah",
+   "jam": "Senin – Jumat : 09.00 – 17.00 WITA\nSabtu : 09.00 – 15.00 WITA\nMinggu & Libur Nasional : Libur",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Morowali%20Jl.%20Trans%20Sulawesi%20Kecamatan%20Keurea%2C%20Kabupaten%20Morowali%2C%20Sulawesi%20Tengah"
+  },
+  {
+   "nama": "3Store Cinere",
+   "wilayah": "Inner Jakarta",
+   "kota": "Depok",
+   "alamat": "Ruko Griya Cinere II, Blok 49/55, Jln Raya Limo Cinere, Depok",
+   "jam": "Senin - Jumat : 09:00 – 17:00 WIB\nSabtu : 09:00 – 15:00 WIB\nMinggu : Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Cinere%20Ruko%20Griya%20Cinere%20II%2C%20Blok%2049/55%2C%20Jln%20Raya%20Limo%20Cinere%2C%20Depok"
+  },
+  {
+   "nama": "3Store Dinoyo Malang",
+   "wilayah": "East Java",
+   "kota": "Malang",
+   "alamat": "Jl. MT. Haryono129A, Dinoyo, Kec. Lowokwaru, Kota Malang (Sebelah Polsek Lowokwaru)",
+   "jam": "Senin - Jumat : 09:00 – 17:00 WIB\nSabtu : 09:00 – 15:00 WIB\nMinggu : Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Dinoyo%20Malang%20Jl.%20MT.%20Haryono129A%2C%20Dinoyo%2C%20Kec.%20Lowokwaru%2C%20Kota%20Malang%20%28Sebelah%20Polsek%20Lowokwaru%29"
+  },
+  {
+   "nama": "3Store Bumiayu",
+   "wilayah": "Central Java",
+   "kota": "Brebes",
+   "alamat": "Jl. P. Diponegoro No 195, Dukuh Bandung, Kel. Bumiayu, Kec. Bumiayu, Kab. Brebes, Jawa Tengah 52273",
+   "jam": "Senin – Jumat: 08.00 – 17.00 WIB\nSabtu: 08.00 – 15.00 WIB\nMinggu/Libur national : Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Bumiayu%20Jl.%20P.%20Diponegoro%20No%20195%2C%20Dukuh%20Bandung%2C%20Kel.%20Bumiayu%2C%20Kec.%20Bumiayu%2C%20Kab.%20Brebes%2C%20Jawa%20Tengah%2052273"
+  },
+  {
+   "nama": "3Store LHOKSEUMAWE",
+   "wilayah": "North Sumatera",
+   "kota": "Kota Subulussalam",
+   "alamat": "Jl. Iskandar Muda, Kel. Rimo Kec. Gn Meriah Aceh Singkil",
+   "jam": "Senin - Jumat : 09:00 – 17:00 WIB\nSabtu : 09:00 – 15:00 WIB\nMinggu : Tutup",
+   "maps": "https://www.google.com/maps?q=2.393028,97.96326"
+  },
+  {
+   "nama": "3Store Padang Sidempuan",
+   "wilayah": "North Sumatera",
+   "kota": "Kota Padangsidimpuan",
+   "alamat": "Jl. Patrice Lumumba, Kel. Wek III Kec. Padangsidimpuan Utara",
+   "jam": "Senin - Jumat : 09:00 – 17:00 WIB\nSabtu : 09:00 – 15:00 WIB\nMinggu : Tutup",
+   "maps": "https://www.google.com/maps?q=1.375948,99.269027"
+  },
+  {
+   "nama": "3Store TANJUNG MORAWA",
+   "wilayah": "North Sumatera",
+   "kota": "Kabupaten Deli Serdang",
+   "alamat": "Jl. Tuan Syech HM Arsyad Thalib Lubis/Jl. Bakaran Batu Kel. Paluh Kemiri Kec. Lubuk Pakam Kab. Deli Serdang",
+   "jam": "Senin - Jumat : 09:00 – 17:00 WIB\nSabtu : 09:00 – 15:00 WIB\nMinggu : Tutup",
+   "maps": "https://www.google.com/maps?q=3.571537,98.869683"
+  },
+  {
+   "nama": "3Store Kotamobagu",
+   "wilayah": "Mapa",
+   "kota": "Kota Kotamobagu",
+   "alamat": "Jl. Datoe Binangkang (Depan dealer hasjrat) Kota Kotamobagu, Sulawesi utara",
+   "jam": "Senin - Jumat : 09:00 – 17:00 WIB\nSabtu : 09:00 – 15:00 WIB\nMinggu : Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Kotamobagu%20Jl.%20Datoe%20Binangkang%20%28Depan%20dealer%20hasjrat%29%20Kota%20Kotamobagu%2C%20Sulawesi%20utara"
+  },
+  {
+   "nama": "3Store Bitung",
+   "wilayah": "Mapa",
+   "kota": "Kota Bitung",
+   "alamat": "Jl. Stadion 2 Saudara. Manembo nembo Tengah, Kec. Girian, Kota Bitung Sulawesi Utara 95545",
+   "jam": "Senin - Jumat : 09:00 – 17:00 WIB\nSabtu : 09:00 – 15:00 WIB\nMinggu : Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Bitung%20Jl.%20Stadion%202%20Saudara.%20Manembo%20nembo%20Tengah%2C%20Kec.%20Girian%2C%20Kota%20Bitung%20Sulawesi%20Utara%2095545"
+  },
+  {
+   "nama": "3Store Palangkaraya",
+   "wilayah": "Western Kalimantan",
+   "kota": "Kota Palangkaraya",
+   "alamat": "Jl G Obos Induk Km 3,5 RT 013/ RW VI ( sebelah apotek K24) Kel Menteng Kec Jekan Raya Kota Palangkaraya Kalimantan Tengah 73111",
+   "jam": "Senin - Jumat : 09:00 – 17:00 WIB\nSabtu : 09:00 – 15:00 WIB\nMinggu : Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Palangkaraya%20Jl%20G%20Obos%20Induk%20Km%203%2C5%20RT%20013/%20RW%20VI%20%28%20sebelah%20apotek%20K24%29%20Kel%20Menteng%20Kec%20Jekan%20Raya%20Kota%20Palangkaraya%20Kalimantan%20Tengah%2073111"
+  },
+  {
+   "nama": "3Store Banjarbaru",
+   "wilayah": "Eastern Kalimantan",
+   "kota": "Kota Banjarbaru",
+   "alamat": "Samping La Tare Joglo, Jl. Trikora Ruko No. 6, Guntungmanggis, Landasan Ulin, Banjarbaru City, South Kalimantan 70731",
+   "jam": "Senin - Jumat : 09:00 – 17:00 WIB\nSabtu : 09:00 – 15:00 WIB\nMinggu : Tutup",
+   "maps": "https://www.google.com/maps/search/?api=1&query=3Store%20Banjarbaru%20Samping%20La%20Tare%20Joglo%2C%20Jl.%20Trikora%20Ruko%20No.%206%2C%20Guntungmanggis%2C%20Landasan%20Ulin%2C%20Banjarbaru%20City%2C%20South%20Kalimantan%2070731"
+  },
+  {
+   "nama": "3Store Mijen",
+   "wilayah": "Central Java",
+   "kota": "Kota Semarang",
+   "alamat": "Ruko Permai B-16 Jatisari Mijen Semarang",
+   "jam": "Senin – Jumat: 08.00 – 17.00 WIB\nSabtu: 08.00 – 15.00 WIB\nMinggu/Libur national : Tutup",
+   "maps": "https://www.google.com/maps?q=-7.07366,110.30996"
+  }
+ ]
+}
